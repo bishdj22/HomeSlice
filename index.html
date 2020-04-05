@@ -54,9 +54,12 @@ extra_css: "jumbotron.css"
         <div class="jumbotron">
             <h1 class="display-3">Welcome to Homeslice.</h1>
             <p>Unlock your home equity today, simply enter your address below!</p>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-3" id="mainsearchbox" type="text" placeholder="Address" aria-label="Search">
-              <button type="button" href="/scrape" class="btn btn-outline-info">Search</button>
+            <form action="/action_page.php" method="post" target="_blank">
+              <label for="fname">Address:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Zip Code:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <input type="submit" value="Submit">
             </form>
           </div>
     </div>
