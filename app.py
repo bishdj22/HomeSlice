@@ -17,6 +17,31 @@ engine = create_engine(f'postgresql://{connection_string}')
 api = zillow.ValuationApi()
 key = "X1-ZWz17fdl35adqj_3bebs"
 
+<<<<<<< HEAD
+@app.route('/',methods = ['GET', 'POST'])
+def zillow():
+    if request.method == "POST":
+         address = request.form['address']
+         postal = request.form['zipcode']
+         print(address)
+         print(postal)
+         #Function to call data from Zillow and return dataframe
+
+         def address_search(address, postal_code):
+             request_data = api.GetSearchResults(key, address, postal_code)
+             result = request_data.get_dict()
+             address = result['full_address']
+    
+             zestimate = result['zestimate']
+             comb_dict = dict(zestimate)
+             comb_dict.update(address)
+             combined_df = pd.DataFrame.from_dict(comb_dict, orient='index')
+             combined_df['risk_adj_value'] = (combined_df['amount']*.85) #Risk adjusting home by 15%, reducing home val by 15%
+             combined_df['max_cash_limit'] = combined_df['risk_adj_value']*.30 #Cannot buy more than 30% of someones home equity, bc then youre pushing majority ownership
+             combined_df.to_sql(name='zillow', con=engine, if_exists='append', index=False)
+    
+             return(combined_df)
+=======
 def address_search(address, postal_code):
     request_data = api.GetSearchResults(key, address, postal_code)
     result = request_data.get_dict()
@@ -33,6 +58,7 @@ def address_search(address, postal_code):
     # zestimate_amount = combined_df["amount"]
     # max_cash_offer = combined_df["max_cash_limit"]
     # html_table = combined_df.to_html()
+>>>>>>> origin
 
     
     return(combined_df)
