@@ -30,6 +30,10 @@ def address_search(address, postal_code):
     combined_df['risk_adj_value'] = (combined_df['amount']*.85) #Risk adjusting home by 15%, reducing home val by 15%
     combined_df['max_cash_limit'] = combined_df['risk_adj_value']*.30 #Cannot buy more than 30% of someones home equity, bc then youre pushing majority ownership
     combined_df.to_sql(name='zillow', con=engine, if_exists='append', index=False)
+    # zestimate_amount = combined_df["amount"]
+    # max_cash_offer = combined_df["max_cash_limit"]
+    # html_table = combined_df.to_html()
+
     
     return(combined_df)
             
@@ -39,12 +43,11 @@ def zillow():
     if request.method == "POST":
         address = request.form['address']
         postal_code = request.form['zipcode']
-        # address1 = (f'{address}')
-        # postal_code1 = (f'{postal_code}')
         print(address)
         print(postal_code)
+        #Function to call data from Zillow, return dataframe and append to master DB table
         address_search(address,postal_code)
-        #Function to call data from Zillow and return dataframe
+        
 
     return render_template('index.html')
 
