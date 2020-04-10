@@ -7,21 +7,23 @@ from sqlalchemy import create_engine
 from flask import Flask, jsonify, render_template,request
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, redirect
+from config import zillow_key, database_key
 
 #Database and API connections
 
-connection_string = "postgres:apartment@homeslice.cjnrjw08kldx.us-east-2.rds.amazonaws.com:5432/HomeSliceDB"
+# connection_string = "postgres:apartment@homeslice.cjnrjw08kldx.us-east-2.rds.amazonaws.com:5432/HomeSliceDB"
+connection_string = database_key
 engine = create_engine(f'postgresql://{connection_string}')
 api = zillow.ValuationApi()
-key = "X1-ZWz17fdl35adqj_3bebs"
+key = zillow_key
 
 #Function to call Zillow API and return address and Zestimate, convert results to dataframe and append to database
 
 def address_search(address, postal_code):
-    connection_string = "postgres:apartment@homeslice.cjnrjw08kldx.us-east-2.rds.amazonaws.com:5432/HomeSliceDB"
+    connection_string = database_key
     engine = create_engine(f'postgresql://{connection_string}')
     api = zillow.ValuationApi()
-    key = "X1-ZWz17fdl35adqj_3bebs"
+    key = zillow_key
 
     #API call and results returned
     try:
