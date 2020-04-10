@@ -31,13 +31,28 @@ def address_search(address, postal_code):
 
     combined_df['risk_adj_value'] = (combined_df['amount']*.85) #Risk adjusting home by 15%, reducing home val by 15%
     combined_df['max_cash_limit'] = combined_df['risk_adj_value']*.30 #Cannot buy more than 30% of someones home equity, bc then youre pushing majority ownership
+    # combined_df["min_cash_limit"] = combined_df['risk_adj_value']*.10  #Cannot buy more than 10% of someones home equity, bc then youre pushing majority ownership
     combined_df.to_sql(name='zillow', con=engine, if_exists='append', index=False)
-
-    zip_for_model = combined_df['zipcode']
+    print("connecting to db")
+    def result_getter(postal_code):
+        connection = engine.connect()
+        query = "select sp.equity_risk from sales_price sp where sp.zip_code = " + postal_code + ";"
+        result = connection.execute(query)
+        for i in result:
+            results = i
+        return results
+    results = result_getter(postal_code)
+    print("query finished")
+    print(results[0])
+    print("success")
+    # zip_for_model = combined_df['zipcode']
     
     # Call ML model
-        # if x == true then 15-30% else 0-15%
-
+    if results[0] == True:
+        offer = combined_df['max_cash_limit']
+        # if x == true then 15-30% else 0-10%
+    else:
+        offer = combined_df['risk_adj_value']*.10
     #
     
-    return(combined_df)
+    return (combined_df['amount'], offer)
