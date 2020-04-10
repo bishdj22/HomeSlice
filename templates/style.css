@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  background: rgb(255, 255, 255);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+}
+
+.container-fluid{
+  width: 85%;
+  margin: 0 auto;
+}
+
+header{
+  background: rgba(3, 25, 224, 0.63);
+}
+
+h1{
+  font-weight: 300px;
+  font-size: 100px;
+  padding-bottom: 0px;
+}
+
+p{
+  font-weight: 300px;
+  font-size: 30px;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo{
+  float: left;
+  width:150px;
+  height:60px;
+  padding-top: 10px
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: 20px;
+
+  position: relative;
+}
+
+a.button{
+  color:white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+a.sign-in{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+a.sign-in:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  }
+
+@media all and (max-width:30em){
+  a.sign-in {
+  display: block;
+  margin: 0.4em auto;
+  }
+}
+
+a.button:hover{
+  color: rgb(255, 255, 255);
+}
+
+a.button::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+
+}
+
+a.button:hover::before{
+  width: 100%;
+}
