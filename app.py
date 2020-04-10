@@ -21,7 +21,8 @@ key = "X1-ZWz17fdl35adqj_3bebs"
             
 
 @app.route('/',methods = ['GET', 'POST'])
-def zillow():
+def zillow_call():
+    results = ('435,000', '17,000')
     if request.method == "POST":
         address = request.form['address']
         postal_code = request.form['zipcode']
@@ -29,10 +30,10 @@ def zillow():
         # postal_code1 = (f'{postal_code}')
         print(address)
         print(postal_code)
-        address_search(address,postal_code)
+        results = address_search(address,postal_code)
         #Function to call data from Zillow and return dataframe
 
-    return render_template('index.html')
+    return render_template('index.html', data=results)
 
 
 if __name__ == "__main__":
