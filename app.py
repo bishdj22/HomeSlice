@@ -16,9 +16,6 @@ from flask_bootstrap import Bootstrap
 from sqlalchemy.ext.automap import automap_base
 
 
-
-
-
 # Create an instance of Flask
 app = Flask(__name__)
 
@@ -29,7 +26,7 @@ conn=engine.connect()
 
 print(conn.execute("select count(*) from zillow"))
 api = zillow.ValuationApi()
-# key = "X1-ZWz17fdl35adqj_3bebs"
+key = "X1-ZWz17fdl35adqj_3bebs"
 key = zillow_key
 app.config['SECRET_KEY'] = 'awssecreykey123'
 db = SQLAlchemy(app)
@@ -54,6 +51,7 @@ def zillow_call():
         
 
     return render_template('index.html', data=results)
+
 ########Signup Froms 
 class RegisterForm(FlaskForm):
     name = StringField('name', validators=[InputRequired(), Length(max=50)])
@@ -68,9 +66,11 @@ class RegisterForm(FlaskForm):
 def signup():
     form = RegisterForm()
     if request.method == 'POST': 
-        new_user = User(name=form.name.data, address=form.address.data,socialsecurity=form.socialsecurity.data,email=form.email.data,phonenumber=form.phonenumber.data,gender=form.gender.data)
-        db.session.add(new_user)
-        db.session.commit()
+        # new_user = User(name=form.name.data, address=form.address.data,socialsecurity=form.socialsecurity.data,email=form.email.data,phonenumber=form.phonenumber.data,gender=form.gender.data)
+        user_dict = {'name':form.name.data, 'address': form.address.data,'socialsecurity': form.socialsecurity.data, 'email': form.email.data, 'phonenumber': form.phonenumber.data, 'gender': form.gender.data}
+        user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
+        user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
+
     return render_template('signup.html', form=form)
 
 
