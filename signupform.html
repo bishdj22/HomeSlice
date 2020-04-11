@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>HomeSlice</title>
+  
+    <!-- Bootstrap CDN -->    
+    <link rel="stylesheet" type="text/css" href="templates/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <script src="templates/dynamic.js"></script>
+    <script src="templates/typed.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
+
+  </head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+   <div id="preloader">
+      <div id="load"></div>
+    </div>  
+   <header>
+      <div class="container-fluid">
+         <div class="row no-gutters">
+            <img src="images/img.png" alt="logo" class="logo" href="#home">
+            <nav>
+               <ul>
+                  <li><a href="#" class="button">Home</a></li>
+                  <li><a href="#" class="button">About</a></li>
+                  <li><a href="#" class="button">Contact</a></li>
+                  <li><a href="#" class="sign-in">Sign Up</a></li>
+                  <li><a href="#" class="sign-in">Login</a></li>
+               </ul>
+            </nav>
+         </div>        
+      </div>
+    </header>
+
+    <section id="intro" class="intro">
+       <div class="slogan">
+         <div class="container-fluid">
+            <div class="jumbotron">
+               <div id="typed-string">
+                  <h1>Welcome to HomeSlice.<span id="typed"></span></h1>
+                  <h2>Unlock your home equity today.</h2>
+                  <br>
+                  <div class = "row">
+                        <div class="col-md-12">
+                           <form action="/" method="post" class="submissions">
+                              <label for="name">Name: </label>
+                              <input type="text" id="name" name=name>
+                              <br>
+                              <label for="gname">Gender:</label>
+                              <select id="gname" name="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                              </select>
+                              <br>
+                              <label for="fname">Address:</label>
+                              <input type="text" id="fname" name="address">
+                              <br>
+                              <label for="lname">Zip Code:</label>
+                              <input type="text" id="lname" name="zipcode">
+                              <br>
+                              <label for="sname">Social Security:</label>
+                              <input type="text" id="lname" name="socialsecurity1" size="5" maxlength="3">
+                              <input type="text" id="lname" name="socialsecurity2" size="5" maxlength="3">
+                              <input type="text" id="lname" name="socialsecurity3" size="5" maxlength="4">
+                              <br>
+                              <label for="ename">Email:</label>
+                              <input type="text" id="lname" name="email">
+                              <br>
+                              <label for="pname">Phone Number:</label>
+                              <input type="text" id="lname" name="phone-number">
+                              <br>
+                              <input type="submit" value="Submit">
+                           </form>
+                        </div>                             
+               </div>
+            </div>
+         </div>
+       </div>
+       <div class="page-scroll">
+         <a href="#service" class="btn btn-circle">
+           <i class="fa fa-angle-double-down animated"></i>
+         </a>
+       </div>
+   </section>
+
+   <section id="equity-value" class="home-section text-center">
+      <div class="container-fluid">
+         <div class="row">
+            
+         </div>
+      </div>
+      
+   </section>
+</body>
+
+
+</html>
+

@@ -1,44 +1,56 @@
 body{
   margin: 0;
-  background: rgb(255, 255, 255);
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
+  background: rgba(15, 14, 14, 0.89);
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700;
 }
 
 .container-fluid{
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
 }
 
 header{
-  background: rgba(0, 0, 0, 0.836);
+  background: rgb(0, 0, 0);
 }
 
 .jumbotron{
   /* background-image: url(../images/interior.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+  padding-left: 10px;
 }
 
 .jumbotron h1{
-  font-weight: 300px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
   font-size: 100px;
   padding-top: 10px;
   line-height: 35px;
+  color: white;
+  -webkit-text-fill-color: rgba(19, 18, 18, 0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .jumbotron h2{
-  font-weight: 300px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
   font-size: 20px;
   line-height: 35px;  
+  color: white;
 }
 
 .submissions{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
   display: inline-block;
   position: relative;
-  font-size: 30px;
-  font-weight: bolder;
-  padding-inline-start: 190px;
+  font-size: 20px;
+  font-weight: normal;
+  padding-inline-start: center;
+  color: white;
 }
 
 header::after{
@@ -68,7 +80,6 @@ nav li{
   display: inline-block;
   margin-left: 25px;
   padding-top: 20px;
-
   position: relative;
 }
 
