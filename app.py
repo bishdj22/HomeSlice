@@ -55,15 +55,6 @@ def zillow_call():
 
     return render_template('index.html', data=results)
 ########Signup Froms 
-Base = automap_base()
-
-Base.prepare(engine, reflect=True)
-User = Base.classes.user_data    
-
-
-  
-
-
 class RegisterForm(FlaskForm):
     name = StringField('name', validators=[InputRequired(), Length(max=50)])
     address = StringField('address', validators=[InputRequired(), Length(min=1, max=8)])
