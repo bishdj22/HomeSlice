@@ -15,7 +15,10 @@
 
   </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+   <div id="preloader">
+      <div id="load"></div>
+    </div>  
    <header>
       <div class="container-fluid">
          <div class="row no-gutters">
@@ -33,14 +36,43 @@
       </div>
     </header>
 
-    <div class="container-fluid">
-      <div class="jumbotron">
-         <div id="typed-string">
-            <h1>Welcome to HomeSlice.<span id="typed"></span></h1>
-            <p>Unlock your home equity today.</p>
+    <section id="intro" class="intro">
+       <div class="slogan">
+         <div class="container-fluid">
+            <div class="jumbotron">
+               <div id="typed-string">
+                  <h1>Welcome to HomeSlice.<span id="typed"></span></h1>
+                  <h2>Unlock your home equity today.</h2>
+                  <br>
+                  <div class = "row">
+                        <div class="col-md-12">
+                           <form action="/" method="post" class="submissions">
+                              <label for="fname">Address:</label>
+                              <input type="text" id="fname" name="address">
+                              <label for="lname">Zip Code:</label>
+                              <input type="text" id="lname" name="zipcode">
+                              <input type="submit" value="Submit">
+                           </form>
+                        </div>                             
+               </div>
+            </div>
          </div>
        </div>
-    </div>
+       <div class="page-scroll">
+         <a href="#service" class="btn btn-circle">
+           <i class="fa fa-angle-double-down animated"></i>
+         </a>
+       </div>
+   </section>
+
+   <section id="equity-value" class="home-section text-center">
+      <div class="container-fluid">
+         <div class="row">
+            
+         </div>
+      </div>
+      
+   </section>
 </body>
 
 

@@ -11,18 +11,34 @@ body{
 }
 
 header{
-  background: rgba(3, 25, 224, 0.63);
+  background: rgba(0, 0, 0, 0.836);
 }
 
-h1{
+.jumbotron{
+  /* background-image: url(../images/interior.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron h1{
   font-weight: 300px;
   font-size: 100px;
-  padding-bottom: 0px;
+  padding-top: 10px;
+  line-height: 35px;
 }
 
-p{
+.jumbotron h2{
   font-weight: 300px;
+  font-size: 20px;
+  line-height: 35px;  
+}
+
+.submissions{
+  display: inline-block;
+  position: relative;
   font-size: 30px;
+  font-weight: bolder;
+  padding-inline-start: 190px;
 }
 
 header::after{
