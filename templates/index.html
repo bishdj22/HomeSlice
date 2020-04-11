@@ -1,115 +1,127 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>HomeSlice_Project2020</title>
-  
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="../jumbotron.css"> -->
 
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-    <script src="../static/dynamic.js"></script>
-    <script src="../static/typed.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>HomeSlice_Project2020</title>
 
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-  </head>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="../jumbotron.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+  <script src="../static/dynamic.js"></script>
+  <script src="../static/typed.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+</head>
 
 <!-- ---
 layout: examples
 title: Jumbotron Template
 extra_css: "jumbotron.css"
 --- -->
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
   <div id="preloader">
-     <div id="load"></div>
-   </div>  
+    <div id="load"></div>
+  </div>
   <header>
-     <div class="container-fluid">
-        <div class="row no-gutters">
-           <img src="../static/images/img.png" alt="logo" class="logo" href="#home">
-           <nav>
-              <ul>
-                 <li><a href="#" class="button">Home</a></li>
-                 <li><a href="#" class="button">About</a></li>
-                 <li><a href="#" class="button">Contact</a></li>
-                 <li><a href="#" class="sign-in">Sign Up</a></li>
-                 <li><a href="#" class="sign-in">Login</a></li>
-              </ul>
-           </nav>
-        </div>        
-     </div>
-   </header>
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <img src="../static/images/img.png" alt="logo" class="logo" href="#home">
+        <nav>
+          <ul>
+            <li><a href="#" class="button">Home</a></li>
+            <li><a href="#" class="button">About</a></li>
+            <li><a href="#" class="button">Contact</a></li>
+            <li><a href="#" class="sign-in">Sign Up</a></li>
+            <li><a href="#" class="sign-in">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-   <section id="intro" class="intro">
-      <div class="slogan">
-  <div class="container-fluid">
-   
-    <main role="main">
-    
-      <!-- Main jumbotron for a primary marketing message or call to action -->
+  <section id="intro" class="intro">
+    <div class="slogan">
       <div class="container-fluid">
-        <div class="jumbotron">
-            <h1 class="display-3">Welcome to Homeslice.</h1>
-            <p>Unlock your home equity today, simply enter your address below!</p>
-            <div class = "row">
-              <div class="col-md-4">
-                <form action="/" method="post">
-                  <label for="fname">Address:</label>
-                  <input type="text" id="fname" name="address"><br><br>
-    
-                  <label for="lname">Zip Code:</label>
-                  <input type="text" id="lname" name="zipcode"><br><br>
-                  <input type="submit" value="Submit">
-                </form>
 
+        <main role="main">
+
+          <!-- Main jumbotron for a primary marketing message or call to action -->
+          <div class="container-fluid">
+            <div class="jumbotron">
+              <div id="typed-string">
+                <h1>Welcome to HomeSlice.<span id="typed"></span></h1>
+                <h2>Unlock your home equity today.</h2>
+                <br>
+                <div class="row">
+                  <div class="col-md-12">
+                    <form action="/" method="post" class="submissions">
+                      <label for="fname">Address:</label>
+                      <input type="text" id="fname" name="address">
+                      <label for="lname">Zip Code:</label>
+                      <input type="text" id="lname" name="zipcode">
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-4">
-                <p>Return Values here</p>
+              <div dlass="row">
+              <div class="col-md-12">
+                <!-- <p>Return Values here</p> -->
                 <p>Home Value: {{data[0]}} </p>
                 <p>Cash Avail Today: {{data[1]}} </p>
-                <table></table>
+                <!-- <table></table> -->
               </div>
-              
             </div>
-            
+
+
+
+            </div>
           </div>
-    </div>
-      
-    
-      <div class="container-fluid">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-    
-        <hr>
-    
-      </div> <!-- /container -->
-    
-    </main>
-    
-    <footer class="container-fluid">
-    </footer>
-    
-  </div>
+
+
+          <div class="container-fluid">
+            <!-- Example row of columns -->
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                  mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                  mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
+                  mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
+                  mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              </div>
+              <div class="col-md-4">
+                <h2>Heading</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+                  porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                  ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+              </div>
+            </div>
+
+            <hr>
+
+          </div> <!-- /container -->
+
+        </main>
+
+        <footer class="container-fluid">
+        </footer>
+
+      </div>
 </body>
 
 
 </html>
-
