@@ -172,7 +172,7 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type=reset] {
   background-color: rgba(230, 223, 223, 0);
   border-color: rgb(230, 223, 223);
   transition: all ease-in-out 250ms;
@@ -183,9 +183,133 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type=reset]:hover {
   background-color: rgba(230, 223, 223, 0.98);
   color: black;
 }
 
+.result-values { 
+  display: none;
+  height: 100%;
+}
 
+.about h1{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  font-size: 75px;
+  padding-top: 10px;
+  padding-left: 25px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-fill-color: rgba(19, 18, 18, 0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 136, 0);
+}
+
+.about p{
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  font-size: 35px;
+  line-height: 35px;  
+  color:  rgba(230, 223, 223, 0.89);
+
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

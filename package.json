@@ -1,0 +1,19 @@
+{
+  "name": "homeslice",
+  "version": "1.0.0",
+  "description": "home equity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishdj22/HomeSlice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bishdj22/HomeSlice/issues"
+  },
+  "homepage": "https://github.com/bishdj22/HomeSlice#readme"
+}
