@@ -4,67 +4,8 @@ body{
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700;
 }
-
-.container-fluid{
-  width: 100%;
-  margin: 0 auto;
-}
-
 header{
   background: rgb(0, 0, 0);
-}
-
-.jumbotron{
-  /* background-image: url(../images/interior.jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.intro h1{
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 700px;
-  font-size: 115px;
-  padding-top: 10px;
-  padding-left: 25px;
-  line-height: 90px;
-  color: white;
-  -webkit-text-fill-color: rgba(19, 18, 18, 0); /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 136, 0);
-}
-
-.intro h2{
-  padding-top: 30px;
-  padding-left: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 700px;
-  font-size: 40px;
-  line-height: 35px;  
-  color:  rgba(230, 223, 223, 0.89);
-}
-
-.result-values h2{
-  padding-top: 30px;
-  padding-left: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 700px;
-  font-size: 20px;
-  line-height: 35px;  
-  color:  rgba(230, 223, 223, 0.89);
-
-}
-
-.submissions{
-  padding-left: 30px;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 700px;
-  display: inline-block;
-  position: relative;
-  font-size: 20px;
-  font-weight: normal;
-  padding-inline-start: center;
-  color:  rgba(230, 223, 223, 0.98);
 }
 
 header::after{
@@ -73,15 +14,15 @@ header::after{
   clear: both;
 }
 
+nav{
+  float: right;
+}
+
 .logo{
   float: left;
   width:150px;
   height:60px;
   padding-top: 10px
-}
-
-nav{
-  float: right;
 }
 
 nav ul{
@@ -155,3 +96,96 @@ a.button::before{
 a.button:hover::before{
   width: 100%;
 }
+
+.container-fluid{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.jumbotron{
+  /* background-image: url(../images/interior.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro{
+  height: 100%;
+}
+
+.intro h1{
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  font-size: 115px;
+  padding-top: 10px;
+  padding-left: 25px;
+  line-height: 90px;
+  color: white;
+  -webkit-text-fill-color: rgba(19, 18, 18, 0); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 136, 0);
+}
+
+.intro h2{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  font-size: 35px;
+  line-height: 35px;  
+  color:  rgba(230, 223, 223, 0.89);
+}
+
+.result-values h2{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 35px;  
+  color:  rgba(230, 223, 223, 0.89);
+
+}
+
+.submissions{
+  /* padding-left: 30px; */
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  /* display: inline-block; */
+  /* position: relative; */
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: normal;
+  padding-inline-start: center;
+  color:  rgba(230, 223, 223, 0.98);
+}
+
+input[type=text], select, textarea {
+  width: 30%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /*Make sure that padding and width stays in place
+  margin-top: 3px; /* Add a top margin */
+  margin-bottom: 10px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgba(230, 223, 223, 0);
+  border-color: rgb(230, 223, 223);
+  transition: all ease-in-out 250ms;
+  color: white;
+  padding: 12px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgba(230, 223, 223, 0.98);
+  color: black;
+}
+
+
