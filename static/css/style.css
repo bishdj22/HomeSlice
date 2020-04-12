@@ -21,7 +21,7 @@ header{
   height: 100%;
 }
 
-.jumbotron h1{
+.intro h1{
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700px;
   font-size: 115px;
@@ -34,7 +34,7 @@ header{
   -webkit-text-stroke-color: rgb(255, 136, 0);
 }
 
-.jumbotron h2{
+.intro h2{
   padding-top: 30px;
   padding-left: 30px;
   font-family: 'Nanum Myeongjo', serif;
@@ -42,6 +42,17 @@ header{
   font-size: 40px;
   line-height: 35px;  
   color:  rgba(230, 223, 223, 0.89);
+}
+
+.result-values h2{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 35px;  
+  color:  rgba(230, 223, 223, 0.89);
+
 }
 
 .submissions{
