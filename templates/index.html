@@ -7,17 +7,14 @@
     <!-- Bootstrap CDN -->    
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
-    <script src="../static/dynamic.js"></script>
-   <script src="../static/typed.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- <script src="../static/typed.js"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
 
 <body>
-   <!-- <div id="preloader">
-      <div id="load"></div>
-    </div>   -->
    <section class="navbar">
       <header>
          <div class="container-fluid">
@@ -37,49 +34,51 @@
       </header>
    </section>
 
-    <!-- <section id="intro" class="intro">
-       <div class="slogan"> -->
    <section class="intro">
       <div class="container-fluid">
          <div class="jumbotron">
-            <div id="typed-string">
-               <h1>Welcome to HomeSlice.<span id="typed"></span></h1>
-               <h2>Unlock your home equity today.</h2>
-               <br>
-               <div class = "row">
-                     <div class="col-md-12">
-                        <form action="#" method="post" class="submissions">
-                           <label for="fname">Address:</label>
-                           <input type="text" id="fname" name="address">
-                           <label for="lname">Zip Code:</label>
-                           <input type="text" id="lname" name="zipcode">
-                           <input type="submit" value="Submit" class="submit" onClick="jumpScroll()">
-                        </form>
-                     </div>                             
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="typed-string">
+                     <h1>Welcome to HomeSlice.<span id="typed"></span></h1>
+                     <h2>Unlock your home equity today.</h2>
+                  </div>
                </div>
+            </div>
+            <br>
+            <div class = "row">
+                  <div class="col-md-12">
+                     <form id="location" class="submissions">
+                        <label for="fname">Address:</label>
+                        <input type="text" id="fname" name="address" placeholder="Your address..">
+                        <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;Zip Code:</label>
+                        <input type="text" id="lname" name="zipcode" placeholder="Your zip code..">
+                        <input type="submit" value="Submit" class="address-submit">
+                     </form>
+                     <div id="result"></div>
+                  </div>                             
+            </div>
          </div>
-      </div>
       </div>
    </section>
 
    <section class="result-values">
-      <div class="container-fluid">
+      <div class="container-fluid" id="content">
          <div class="jumbotron">
-            <div class="equity-value">
             <div class="row">
                <div class="col-md-12">
-                  <!-- <p>Return Values here</p> -->
                   <h2>Home Value: {{data[0]}} </h2>
                   <h2>Cash Avail Today: {{data[1]}} </h2>
-
-                  <!-- <table></table> -->
-               </div>
                </div>
             </div>
          </div>
       </div>
    </section>
+
+   <script src="../static/dynamic.js"></script>
 </body>
+
+
 
 
 </html>
