@@ -2,41 +2,82 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>HomeSlice</title>
+    <title>About</title>
   
     <!-- Bootstrap CDN -->    
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-    <script src="templates/dynamic.js"></script>
-    <script src="templates/typed.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
 
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-
-
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="../static/submission-form.js"></script> -->
   </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-   <div id="preloader">
-      <div id="load"></div>
-    </div>  
-   <header>
+<body>
+   <section class="navbar">
+      <header>
+         <div class="container-fluid">
+            <div class="row no-gutters">
+               <img src="../static/images/img.png" alt="logo" class="logo" href="#home">
+               <nav>
+                  <ul>
+                     <li><a href="/index.html" class="button">Home</a></li>
+                     <li><a href="/about.html" class="button">About</a></li>
+                     <li><a href="/contact.html" class="button">Contact</a></li>
+                     <li><a href="/signup.html" class="sign-in">Sign Up</a></li>
+                     <li><a  class="sign-in" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
+                     <div id="id01" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                          <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>                          </div>
+                      
+                          <div class="container">
+                            <label for="uname"><b>Username</b></label>
+                            <input type="text" placeholder="Enter Username" name="uname" required>
+                      
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required>
+                              
+                            <button type="submit">Login</button>
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> Remember me
+                            </label>
+                          </div>
+                          <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <span class="psw">Forgot <a href="#">password?</a></span>
+                          </div>
+                        </form>
+                      </div>
+                      <script>
+                        // Get the modal
+                        var modal = document.getElementById('id01');
+                        
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                                modal.style.display = "none";
+                            }
+                        }
+                     </script>
+                  </ul>
+               </nav>
+            </div>        
+         </div>
+      </header>
+   </section>
+
+   <section class="about">
       <div class="container-fluid">
-         <div class="row no-gutters">
-            <img src="static/images/img.png" alt="logo" class="logo" href="#home">
-            <nav>
-               <ul>
-                  <li><a href="/index1.html" class="button">Home</a></li>
-                  <li><a href="/about.html" class="button">About</a></li>
-                  <li><a href="/contact.html" class="button">Contact</a></li>
-                  <li><a href="/signupform.html" class="sign-in">Sign Up</a></li>
-                  <li><a href="/login.html" class="sign-in">Login</a></li>
-               </ul>
-            </nav>
-         </div>        
+         <div class="row">
+            <h1>About Us</h1>
+            <p>This will be the body of the paragraph which Dan can insert later</p>
+         </div>
       </div>
-    </header>
+   </section>
+
+
 </body>
-
-
 </html>
 

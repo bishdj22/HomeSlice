@@ -7,11 +7,11 @@
     <!-- Bootstrap CDN -->    
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <!-- <script src="../static/typed.js"></script> -->
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="../static/submission-form.js"></script> -->
   </head>
 
 <body>
@@ -25,7 +25,7 @@
                      <li><a href="/index.html" class="button">Home</a></li>
                      <li><a href="/about.html" class="button">About</a></li>
                      <li><a href="/contact.html" class="button">Contact</a></li>
-                     <li><a href="/signupform.html" class="sign-in">Sign Up</a></li>
+                     <li><a href="/signup.html" class="sign-in">Sign Up</a></li>
                      <li><a href="/login.html" class="sign-in">Login</a></li>
                   </ul>
                </nav>
@@ -48,12 +48,14 @@
             <br>
             <div class = "row">
                   <div class="col-md-12">
-                     <form id="location" class="submissions">
+                     <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+                     <form action="#" target="dummyframe" id="location" class="submissions" method="POST" name="myForm">
                         <label for="fname">Address:</label>
-                        <input type="text" id="fname" name="address" placeholder="Your address..">
+                        <input type="text" id="fname" name="address" placeholder="Your address.." form="address" class="inputs">
                         <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;Zip Code:</label>
-                        <input type="text" id="lname" name="zipcode" placeholder="Your zip code..">
-                        <input type="submit" value="Submit" class="address-submit">
+                        <input type="text" id="lname" name="zipcode" placeholder="Your zip code.." form="zipcode" class="inputs">
+                        <input type="reset" value="Submit"> <!-- onclick='document.forms["myForm"].submit();' class="address-submit" onclick="submitform(); return false;" -->
                      </form>
                      <div id="result"></div>
                   </div>                             
@@ -67,19 +69,17 @@
          <div class="jumbotron">
             <div class="row">
                <div class="col-md-12">
-                  <h2>Home Value: {{data[0]}} </h2>
-                  <h2>Cash Avail Today: {{data[1]}} </h2>
+                  <h2>Home Value: {{ data[0] }} </h2>
+                  <h2>Cash Avail Today: {{ data[1] }} </h2>
                </div>
             </div>
          </div>
       </div>
    </section>
-
    <script src="../static/dynamic.js"></script>
+   <!-- <script src="../static/typed.js"></script> -->
+
 </body>
-
-
-
 
 </html>
 

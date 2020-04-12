@@ -1,16 +1,3 @@
-// import {Typed} from 'typed.js';
-
-// function jumpScroll() {
-// 	window.scroll(0,150); // horizontal and vertical scroll targets
-// }
-
-// var typed = new Typed('#typed',{
-// 	stringsElement: '#typed-strings',
-// 	backSpeed: 40,
-// 	typeSpeed: 40
-// });
-
-/* Attach a submit handler to the form */
 $("#location").submit(function(event) {
     var ajaxRequest;
 
@@ -50,9 +37,3 @@ $("#location").submit(function(event) {
         $("#result").html('There is error while submit');
 	});
 });
-
-document.querySelector(".address-submit").addEventListener("click", function(){
-	var elmnt = document.getElementById("content");
-	elmnt.scrollIntoView();
-
-})
