@@ -1,81 +1,353 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>About</title>
-  
-    <!-- Bootstrap CDN -->    
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- <script src="../static/submission-form.js"></script> -->
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+    <title>Landkit</title>
   </head>
+  <body>
 
-<body>
-   <section class="navbar">
-      <header>
-         <div class="container-fluid">
-            <div class="row no-gutters">
-               <img src="../static/images/img.png" alt="logo" class="logo" href="#home">
-               <nav>
-                  <ul>
-                     <li><a href="/" class="button">Home</a></li>
-                     <li><a href="/about" class="button">About</a></li>
-                     <li><a href="/dashboard" class="button">Dashboard</a></li>
-                     <li><a href="/signup" class="sign-in">Sign Up</a></li>
-                     <li><a  class="sign-in" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
-                     <div id="id01" class="modal">
-                        <form class="modal-content animate" action="/action_page.php" method="post">
-                          <div class="imgcontainer">
-                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                          </div>
-                          <div class="container">
-                            <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>                      
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>                              
-                            <button type="submit">Login</button>
-                            <label>
-                              <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                          </div>
-                          <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                          </div>
-                        </form>
-                      </div>
-                      <script>
-                        // Get the modal
-                        var modal = document.getElementById('id01');
-                        
-                        // When the user clicks anywhere outside of the modal, close it
-                        window.onclick = function(event) {
-                            if (event.target == modal) {
-                                modal.style.display = "none";
-                            }
-                        }
-                     </script>
-                  </ul>
-               </nav>
-            </div>        
-         </div>
-      </header>
-   </section>
+   <section class="navigation">
+      <!-- NAVBAR
+      ==================================================
+      -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
 
-   <section class="about">
-      <div class="container-fluid">
-         <div class="row">
-            <h1>About Us</h1>
-            <p>This will be the body of the paragraph which Dan can insert later</p>
-         </div>
+          <!-- Brand -->
+          <a class="navbar-brand" href="./index.html">
+          <img src="../static/images/dark-logo.png" class="navbar-brand-img" alt="...">
+          </a>
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="./about.html" aria-haspopup="true" aria-expanded="false">
+                  About
+              </a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="./contact-us.html" aria-haspopup="true" aria-expanded="false">
+                  Contact
+              </a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarAccount" data-toggle="dropdown" href="./dashboard.html" aria-haspopup="true" aria-expanded="false">
+                  Dashboard
+              </a>
+              </li> 
+          <!-- Button -->
+          <a class="navbar-btn btn btn-sm lift ml-auto" href="./signup" target="_blank">
+              Sign Up
+          </a>
+          <a class="navbar-btn btn btn-sm lift ml-auto" href="./login.html" target="_blank">
+              Login
+          </a>
+          </div>
       </div>
-   </section>
+      </nav>
+  </section>
+  <!-- WELCOME
+    ================================================== -->
+    <section data-jarallax data-speed=".8" class="pt-10 pt-md-14 pb-12 pb-md-15 overlay overlay-dark overlay-80 jarallax" style="background-image: url(assets/img/covers/cover-6.jpg);">
 
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            
+            <!-- Heading -->
+            <h1 class="display-1 font-weight-bold text-white mb-6 mt-n3">
+              Unlock your equity within minutes
+            </h1>
 
-</body>
+            <!-- Button -->
+            <a href="#" class="btn btn-pill btn-white shadow lift">
+              <i class="fe fe-eye mr-2"></i>
+              Watch us work
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+      <!-- Shape -->
+      <div class="position-absolute right-0 bottom-0 left-0">
+
+        <!-- Shape -->
+        <div class="position-relative shape shape-bottom shape-fluid-x svg-shim text-white">
+          <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 125L2160 0h720v250H0V125h720z" fill="currentColor"/></svg>
+        </div>
+
+        <!-- Button -->
+        <div class="position-absolute center">
+          <a class="btn btn-light btn-rounded-circle lift" data-toggle="smooth-scroll" href="#payItDown">
+            <i class="fe fe-arrow-down"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- PAY IT DOWN
+    ================================================== -->
+    <section class="pt-8 pt-md-11" id="payItDown">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Badge -->
+            <span class="badge badge-pill badge-primary-soft mb-3">
+              <span class="h6 text-uppercase">Pay it down</span>
+            </span>
+
+            <!-- Heading -->
+            <h1>
+              Some title for earning your share <span class="text-primary">idk something catchy</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-gray-700 mb-7 mb-md-9">
+              some kinda bio we'll let dan decide 
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 col-lg-7">
+            
+            <!-- Screenshot -->
+            <div class="mb-8 mb-md-0">
+
+              <!-- Image -->
+              <img src="assets/img/screenshots/desktop/rental.jpg" alt="..." class="screenshot img-fluid mw-md-110 float-right mr-md-6 mb-6 mb-md-0">
+              
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-5">
+            
+            <!-- List -->
+            <div class="d-flex">
+                
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle badge-primary-soft mt-1">
+                <span>1</span>
+              </div>
+              
+              <!-- Body -->
+              <div class="ml-5">
+                
+                <!-- Heading -->
+                <h3>
+                  Sign up 
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-6">
+                  It takes a few minutes to add your information.
+                </p>
+
+              </div>
+
+            </div>
+            <div class="d-flex">
+                
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle badge-primary-soft mt-1">
+                <span>2</span>
+              </div>
+              
+              <!-- Body -->
+              <div class="ml-5">
+                
+                <!-- Heading -->
+                <h3>
+                  List your homes
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-6">
+                  Let us know where your home is located.
+                </p>
+
+              </div>
+
+            </div>
+            <div class="d-flex">
+                
+              <!-- Badge -->
+              <div class="badge badge-lg badge-rounded-circle badge-primary-soft mt-1">
+                <span>3</span>
+              </div>
+              
+              <!-- Body -->
+              <div class="ml-5">
+                
+                <!-- Heading -->
+                <h3>
+                  Start earning cash now!
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-0">
+                  idk again something catchy
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    
+    <!-- PRICING
+    ================================================== -->
+    <section class="py-8 py-md-12">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+
+            <!-- Badge -->
+            <span class="badge badge-pill badge-primary-soft mb-3">
+              <span class="h6 text-uppercase">Pricing</span>
+            </span>
+
+            <!-- Heading -->
+            <h2>
+              Don't worry about pricing. <br>
+              <span class="text-primary">We maximize your earnings</span>.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-6">
+              We use top tier machine learning to get you the best value for your home.
+            </p>
+
+            <!-- List -->
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle badge-primary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  
+                  <p class="mb-lg-0">
+                    No wasted time
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="col-12 col-lg-6">
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <span class="badge badge-rounded-circle badge-primary-soft mt-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </span>
+                  
+                  <!-- Text -->
+                  <p>
+                    Engineering backed
+                  </p>
+
+                </div>
+
+                <!-- Item -->
+                <div class="d-flex">
+
+                  <!-- Check -->
+                  <div class="badge badge-rounded-circle badge-primary-soft mr-1 mr-4">
+                    <i class="fe fe-check"></i>
+                  </div>
+                  
+                  <!-- Text -->
+                  <p class="mb-0">
+                    Data driven
+                  </p>
+
+                </div>
+
+              </div>
+            </div> <!-- / .row -->
+            
+          </div>
+          <div class="col-12 col-md-6">
+            
+            <!-- Image -->
+            <img src="assets/img/illustrations/illustration-3.png" alt="..." class="img-fluid mw-md-130">
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+
+      
+  </body>
 </html>
-
