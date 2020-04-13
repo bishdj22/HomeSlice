@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: rgba(15, 14, 14, 0.993);
+  background: rgba(0, 0, 0, 0.89);
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700;
 }
@@ -116,14 +116,14 @@ a.button:hover::before{
 .intro h1{
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 700px;
-  font-size: 115px;
+  font-size: 100px;
   padding-top: 10px;
   padding-left: 25px;
   line-height: 90px;
   color: white;
   -webkit-text-fill-color: rgba(19, 18, 18, 0); /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 136, 0);
+  -webkit-text-stroke-color: rgb(148, 198, 218);
 }
 
 .intro h2{
@@ -224,23 +224,14 @@ input[type=reset]:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  background-color: #dcebf1;
+  border-radius: 25px;
 }
 
 .container {
   padding: 16px;
+  background-color:#33506ba9;
+  border-radius: 10px;
 }
 
 span.psw {
@@ -258,33 +249,18 @@ span.psw {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  /* background-color: rgb(0,0,0); Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   padding-top: 60px;
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #33506bda;
+  border-radius: 10px;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
+  /* border: 1px solid #888; */
   width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
 }
 
 /* Add Zoom Animation */

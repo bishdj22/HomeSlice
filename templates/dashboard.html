@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>HomeSlice</title>
+    <title>About</title>
   
     <!-- Bootstrap CDN -->    
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
@@ -29,6 +29,9 @@
                      <li><a  class="sign-in" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
                      <div id="id01" class="modal">
                         <form class="modal-content animate" action="/action_page.php" method="post">
+                          <div class="imgcontainer">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                          </div>
                           <div class="container">
                             <label for="uname"><b>Username</b></label>
                             <input type="text" placeholder="Enter Username" name="uname" required>                      
@@ -39,7 +42,7 @@
                               <input type="checkbox" checked="checked" name="remember"> Remember me
                             </label>
                           </div>
-                          <div class="container" >
+                          <div class="container" style="background-color:#f1f1f1">
                             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                             <span class="psw">Forgot <a href="#">password?</a></span>
                           </div>
@@ -63,49 +66,8 @@
       </header>
    </section>
 
-   <section class="intro">
-      <div class="container-fluid">
-         <div class="jumbotron">
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="typed-string">
-                     <h1>Welcome to HomeSlice...<span id="typed"></span></h1>
-                     <h2>Unlock your home equity today.</h2>
-                  </div>
-               </div>
-            </div>
-            <br>
-            <div class = "row">
-                  <div class="col-md-12">
 
-                     <form action="/" method="post" class="submissions">
-                        <label for="fname">Address:</label>
-                        <input type="text" id="fname" name="address" placeholder="Street, City, State">
-                        <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;Zip Code:</label>
-                        <input type="text" id="lname" name="zipcode" placeholder="Zip Code">
-                        <input type="reset" value="Submit">
-                      </form>
-                  </div>                             
-            </div>
-         </div>
-      </div>
-   </section>
 
-   <section class="result-values">
-      <div class="container-fluid" id="content">
-         <div class="jumbotron">
-            <div class="row">
-               <div class="col-md-12">
-                  <h2>Home Value: {{ data[0] }} </h2>
-                  <h2>Cash Available Today: {{ data[1] }} </h2>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <script src="../static/dynamic.js"></script>
-   <!-- <script src="../static/typed.js"></script> -->
 </body>
-
 </html>
 
