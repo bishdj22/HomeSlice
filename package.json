@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bishdj22/HomeSlice/issues"
   },
-  "homepage": "https://github.com/bishdj22/HomeSlice#readme"
+  "homepage": "https://github.com/bishdj22/HomeSlice#readme",
+  "dependencies": {
+    "build": "^0.1.4",
+    "gulp": "^4.0.2"
+  }
 }
