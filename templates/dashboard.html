@@ -1,73 +1,152 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>About</title>
-  
-    <!-- Bootstrap CDN -->    
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+<!doctype html>
+<html lang="en">
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- <script src="../static/submission-form.js"></script> -->
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
+  <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
+  <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
+  <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
+  <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
+  <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
+  <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+
+  <!-- Map -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+  <!-- Theme CSS -->
+  <link rel="stylesheet" href="./assets/css/theme.min.css">
+
+  <title>Landkit</title>
+</head>
 
 <body>
-   <section class="navbar">
-      <header>
-         <div class="container-fluid">
-            <div class="row no-gutters">
-               <img src="../static/images/img.png" alt="logo" class="logo" href="#home">
-               <nav>
-                  <ul>
-                     <li><a href="/" class="button">Home</a></li>
-                     <li><a href="/about" class="button">About</a></li>
-                     <li><a href="/dashboard" class="button">Dashboard</a></li>
-                     <li><a href="/signup" class="sign-in">Sign Up</a></li>
-                     <li><a  class="sign-in" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
-                     <div id="id01" class="modal">
-                        <form class="modal-content animate" action="/action_page.php" method="post">
-                          <div class="imgcontainer">
-                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                          </div>
-                          <div class="container">
-                            <label for="uname"><b>Username</b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required>                      
-                            <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required>                              
-                            <button type="submit">Login</button>
-                            <label>
-                              <input type="checkbox" checked="checked" name="remember"> Remember me
-                            </label>
-                          </div>
-                          <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                            <span class="psw">Forgot <a href="#">password?</a></span>
-                          </div>
-                        </form>
-                      </div>
-                      <script>
-                        // Get the modal
-                        var modal = document.getElementById('id01');
-                        
-                        // When the user clicks anywhere outside of the modal, close it
-                        window.onclick = function(event) {
-                            if (event.target == modal) {
-                                modal.style.display = "none";
-                            }
-                        }
-                     </script>
-                  </ul>
-               </nav>
-            </div>        
-         </div>
-      </header>
-   </section>
 
+  <section class="navigation">
+    <!-- NAVBAR
+      ==================================================
+      -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="../static/images/dark-logo.png" class="navbar-brand-img" alt="...">
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fe fe-x"></i>
+          </button>
+
+          <!-- Navigation -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="./about.html"
+                aria-haspopup="true" aria-expanded="false">
+                About
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="./contact-us.html"
+                aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarAccount" data-toggle="dropdown" href="./dashboard.html"
+                aria-haspopup="true" aria-expanded="false">
+                Dashboard
+              </a>
+            </li>
+            <!-- Button -->
+            <a class="navbar-btn btn btn-sm lift ml-auto" href="./signup" target="_blank">
+              Sign Up
+            </a>
+            <a class="navbar-btn btn btn-sm lift ml-auto" href="./login.html" target="_blank">
+              Login
+            </a>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section class="dashboard">
+    <div class='tableauPlaceholder' id='viz1586829551660' style='position: relative'><noscript><a href='#'><img alt=' '
+            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HomeSlice_master_Dash&#47;ProspectDash&#47;1_rss.png'
+            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='HomeSlice_master_Dash&#47;ProspectDash' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image'
+          value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ho&#47;HomeSlice_master_Dash&#47;ProspectDash&#47;1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='filter' value='publish=yes' /></object></div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1586829551660');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800){
+           vizElement.style.width = '1366px';
+           vizElement.style.height = '795px';
+          } else if (divElement.offsetWidth > 500){
+            vizElement.style.width = '1366px';
+            vizElement.style.height = '795px'; 
+          } else{
+            vizElement.style.width = '100%';
+            vizElement.style.height = '1427px';
+          } var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+  </section>
+
+  <!-- JAVASCRIPT
+    ================================================== -->
+  <!-- Libs JS -->
+  <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+  <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+  <script src="./assets/libs/aos/dist/aos.js"></script>
+  <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+  <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+  <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+  <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+  <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+  <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+  <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+  <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+  <script src="./assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+  <script src="./assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+
+  <!-- Map -->
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+  <!-- Theme JS -->
+  <script src="./assets/js/theme.min.js"></script>
 
 
 </body>
-</html>
 
+</html>
