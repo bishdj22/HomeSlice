@@ -94,10 +94,15 @@ def zillow_call1():
 
     return render_template('test.html', data=results)
 
-@app.route('/about')
+@app.route("/about")
 def about():
     print('Under Construction')
     return render_template('about.html')
+
+@app.route("/dash")
+def dashboard():
+    print('Under Construction')
+    return render_template('dashboard.html')
 
 
 if __name__ == "__main__":
