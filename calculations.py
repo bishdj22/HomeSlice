@@ -40,6 +40,7 @@ def address_search(address, postal_code):
         #Add Risk Adjustment calculations columns to the data frame
         combined_df['risk_adj_value'] = (combined_df['amount']*.85) #Risk adjusting home by 15%, reducing home val by 15%
         combined_df['max_cash_limit'] = combined_df['risk_adj_value']*.30 #Not to buy more than 30% of someones home equity, to avoid controlling interest
+        combined_df['time_stamp'] = pd.Timestamp.now()
         
         #Log the data frame to the database using SQL
         combined_df.to_sql(name='zillow', con=engine, if_exists='append', index=False)
@@ -63,13 +64,14 @@ def address_search(address, postal_code):
         
         # Decision tree - if True, allowable investment 30% of risk adj home value. If False, 10% of risk adj home value
         if results[0] == True:
-            offer = combined_df['max_cash_limit']
+            offer = str(combined_df[['risk_adj_value']]*.30)
+            print(offer.split("risk_adj_value 0"))
             
         else:
-            offer = combined_df['risk_adj_value']*.10
+            offer = str(combined_df[['risk_adj_value']]*.10)
+            print(offer.split("risk_adj_value 0"))
         
-        
-        return (combined_df['amount'], offer)
+        return (zestimate['amount'], offer)
 
     except:
-        return("Bad Address")
+        return("Bad", "Address")
