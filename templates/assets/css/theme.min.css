@@ -183,8 +183,10 @@ figure {
 }
 
 img {
-    vertical-align: middle;
-    border-style: none
+    padding: 0px;
+    /* vertical-align: middle; */
+    border-style: none;
+    height: 100px;
 }
 
 svg {
@@ -4363,7 +4365,7 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    padding: 1.25rem 0
+    padding: .8rem 0
 }
 
 .navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
@@ -4378,12 +4380,12 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 
 .navbar-brand {
     display: inline-block;
-    padding-top: .15rem;
-    padding-bottom: .15rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     margin-right: 0;
     font-size: 1.5rem;
     line-height: inherit;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -13831,7 +13833,9 @@ a.card-body:hover, a.card-footer:hover, a.card-meta:hover, a.card:hover {
 }
 
 .navbar-brand-img {
-    max-height: 2.4rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 3rem;
     width: auto
 }
 
