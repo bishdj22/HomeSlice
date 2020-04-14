@@ -21,7 +21,7 @@
   <!-- Theme CSS -->
   <link rel="stylesheet" href="./assets/css/theme.min.css">
 
-  <title>Sign In</title>
+  <title>Sign Up</title>
 </head>
 
 <body>
@@ -84,69 +84,98 @@
       </div>
     </nav>
   </section>
-  <section class="login-form">
-     <!-- CONTENT
+  <!-- CONTENT
     ================================================== -->
-      <div class="container d-flex flex-column">
-        <div class="row align-items-center justify-content-center no-gutters min-vh-100">
-          <div class="col-12 col-md-6 col-lg-4 py-8 py-md-11">
-            
-            <!-- Heading -->
-            <h1 class="mb-0 font-weight-bold">
-              Sign in
-            </h1>
+    <section class="section-border border-primary">
+        <div class="container d-flex flex-column">
+          <div class="row align-items-center justify-content-center no-gutters min-vh-100">
+            <div class="col-12 col-md-5 col-lg-4 py-8 py-md-11">
+              
+              <!-- Heading -->
+              <h1 class="mb-0 font-weight-bold text-center">
+                Sign up
+              </h1>
+  
+              <!-- Text -->
+              <p class="mb-6 text-center text-muted">
+                Simplify your workflow in minutes.
+              </p>
+  
+              <!-- Form -->
+              <form class="mb-6">
+                <!-- First Name -->
+                <div class="form-group">
+                    <label for="first-name">
+                      First Name
+                    </label>
+                    <input type="first-name" class="form-control" id="first-name" placeholder="First Name">
+                  </div>
 
-            <!-- Text -->
-            <p class="mb-6 text-muted">
-              Simplify your workflow in minutes.
-            </p>
+                <!-- Last Name -->
+                <div class="form-group">
+                    <label for="last-name">
+                      Last Name
+                    </label>
+                    <input type="last-name" class="form-control" id="last-name" placeholder="Last Name">
+                  </div>
 
-            <!-- Form -->
-            <form class="mb-6">
+                <!-- Social Security -->
+                <div class="form-group">
+                    <label for="social-security">
+                      Social Security
+                    </label>
+                    <input type="social-security" class="form-control" id="social-security" placeholder="Social Security">
+                </div>
 
-              <!-- Email -->
-              <div class="form-group">
-                <label for="email">
-                  Email Address
-                </label>
-                <input type="email" class="form-control" id="email" placeholder="name@address.com">
-              </div>
+                <!-- Social Security -->
+                <div class="form-group">
+                    <label for="phone-number">
+                      Phone Number
+                    </label>
+                    <input type="phone-number" class="form-control" id="phone-number" placeholder="000 000 0000">
+                </div>
 
-              <!-- Password -->
-              <div class="form-group mb-5">
-                <label for="password">
-                  Password
-                </label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your password">
-              </div>
+                <!-- Social Security -->
+                <div class="form-group">
+                    <label for="gender">
+                      Gender
+                    </label>
+                    <input type="gender" class="form-control" id="gender" placeholder="M/F/NB">
+                </div>
+  
+                <!-- Email -->
+                <div class="form-group">
+                  <label for="email">
+                    Email Address
+                  </label>
+                  <input type="email" class="form-control" id="email" placeholder="name@address.com">
+                </div>
 
-              <!-- Submit -->
-              <button class="btn btn-block btn-primary" type="submit">
-                Sign in
-              </button>
-
-            </form>
-
-            <!-- Text -->
-            <p class="mb-0 font-size-sm text-muted">
-              Don't have an account yet? <a href="signup-cover.html">Sign up</a>.
-            </p>
-
-          </div>
-          <div class="col-lg-7 offset-lg-1 align-self-stretch d-none d-lg-block">
-
-            <!-- Image -->
-            <div class="h-100 w-cover bg-cover" style="background-image: url(assets/img/covers/cover-14.jpg);"></div>
-            
-            <!-- Shape -->
-            <div class="shape shape-left shape-fluid-y svg-shim text-white">
-              <svg viewBox="0 0 100 1544" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h100v386l-50 772v386H0V0z" fill="currentColor"/></svg>
+  
+                <!-- Password -->
+                <div class="form-group mb-5">
+                  <label for="password">
+                    Password
+                  </label>
+                  <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                </div>
+  
+                <!-- Submit -->
+                <button class="btn btn-block btn-primary" type="submit">
+                  Sign up
+                </button>
+  
+              </form>
+  
+              <!-- Text -->
+              <p class="mb-0 font-size-sm text-center text-muted">
+                Already have an account? <a href="login.html">Log in</a>.
+              </p>
+  
             </div>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-  </section>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
 
   <!-- JAVASCRIPT
     ================================================== -->
