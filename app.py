@@ -94,6 +94,11 @@ def zillow_call1():
 
     return render_template('test.html', data=results)
 
+@app.route('/about')
+def about():
+    print('Under Construction')
+    return render_template('about.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
