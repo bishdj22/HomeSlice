@@ -101,14 +101,23 @@
                 Simplify your workflow in minutes.
               </p>
   
+
+              <form action="/test#sectionThree" method="post" class="submissions">
+                <label for="fname">Address:</label>
+                <input type="text" id="fname" name="address" placeholder="Street, City, State" class="form-control pl-2 border-left-0">
+                <label for="lname">&nbsp;&nbsp;&nbsp;&nbsp;Zip Code:</label>
+                <input type="text" id="lname" name="zipcode" placeholder="Zip Code" class="form-control pl-2 border-left-0">
+                <br>
+                <input type="submit" value="Submit" class="btn btn-primary btn-rounded-circle shadow" data-toggle="smooth-scroll" data-offset="0" href="#sectionThree">
+            </form>  
               <!-- Form -->
-              <form class="mb-6">
+              <form class="mb-6" action="/test#sectionThree" method="post">
                 <!-- First Name -->
                 <div class="form-group">
                     <label for="first-name">
                       First Name
                     </label>
-                    <input type="first-name" class="form-control" id="first-name" placeholder="First Name">
+                    <input type="text" class="form-control pl-2 border-left-0" id="first-name" placeholder="First Name">
                   </div>
 
                 <!-- Last Name -->
@@ -116,7 +125,7 @@
                     <label for="last-name">
                       Last Name
                     </label>
-                    <input type="last-name" class="form-control" id="last-name" placeholder="Last Name">
+                    <input type="text" class="form-control pl-2 border-left-0" id="last-name" placeholder="Last Name">
                   </div>
 
                 <!-- Social Security -->
@@ -124,7 +133,7 @@
                     <label for="social-security">
                       Social Security
                     </label>
-                    <input type="social-security" class="form-control" id="social-security" placeholder="Social Security">
+                    <input type="text" class="form-control pl-2 border-left-0" id="social-security" placeholder="Social Security">
                 </div>
 
                 <!-- Social Security -->
@@ -132,7 +141,7 @@
                     <label for="phone-number">
                       Phone Number
                     </label>
-                    <input type="phone-number" class="form-control" id="phone-number" placeholder="000 000 0000">
+                    <input type="text" class="form-control pl-2 border-left-0" id="phone-number" placeholder="000 000 0000">
                 </div>
 
                 <!-- Social Security -->
@@ -140,7 +149,7 @@
                     <label for="gender">
                       Gender
                     </label>
-                    <input type="gender" class="form-control" id="gender" placeholder="M/F/NB">
+                    <input type="text" class="form-control pl-2 border-left-0" id="gender" placeholder="M/F/NB">
                 </div>
   
                 <!-- Email -->
@@ -148,7 +157,7 @@
                   <label for="email">
                     Email Address
                   </label>
-                  <input type="email" class="form-control" id="email" placeholder="name@address.com">
+                  <input type="text" class="form-control pl-2 border-left-0" id="email" placeholder="name@address.com">
                 </div>
 
   
@@ -157,7 +166,7 @@
                   <label for="password">
                     Password
                   </label>
-                  <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                  <input type="text" class="form-control pl-2 border-left-0" id="password" placeholder="Enter your password">
                 </div>
   
                 <!-- Submit -->
