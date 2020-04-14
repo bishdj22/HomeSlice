@@ -92,7 +92,7 @@ def zillow_call1():
         #Function to call data from Zillow and return data
         results = address_search(address,postal_code)  
 
-    return render_template('test.html', data=results)
+    return render_template('index.html', data=results)
 
 @app.route("/about")
 def about():
