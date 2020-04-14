@@ -39,6 +39,7 @@ bootstrap = Bootstrap(app)
 def zillow_call():
     #Default results
     results = ('435,000', '17,000')
+    print(request.method)
     if request.method == "POST":
         #Passing user inputs from HTML to python variable
         address = request.form['address']
@@ -72,6 +73,26 @@ def signup():
         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
 
     return render_template('signup.html', form=form)
+
+
+
+@app.route('/test',methods = ['GET', 'POST'])
+def zillow_call1():
+    print("working...")
+    #Default results
+    print(request.method)
+    results = ('435,000', '17,000')
+    if request.method == "POST":
+        #Passing user inputs from HTML to python variable
+        address = request.form['address']
+        postal_code = request.form['zipcode']
+        print(address)
+        print(postal_code)
+
+        #Function to call data from Zillow and return data
+        results = address_search(address,postal_code)  
+
+    return render_template('test.html', data=results)
 
 
 if __name__ == "__main__":
