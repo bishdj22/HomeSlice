@@ -94,6 +94,20 @@ def signup():
 
         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
+
+        def result_getter():
+            connection = engine.connect()
+            query = "select first-name from user_data where first-name = " + firstname + ";"
+            result = connection.execute(query)
+            for i in result:
+                results = i
+            return results
+            results = result_getter(firstname)
+            print("query finished")
+            print(results)
+            print("Success")
+
+        
         
     return render_template('index.html')
 
