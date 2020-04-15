@@ -109,7 +109,7 @@ def signup():
 
         
         
-    return render_template('index.html')
+    return render_template('signup.html')
 
 
 # @app.route('/signup1', methods=['GET', 'POST'])
