@@ -24,8 +24,6 @@ def address_search(address, postal_code):
     engine = create_engine(f'postgresql://{connection_string}')
     api = zillow.ValuationApi()
     key = zillow_key
-
-    #API call and results returned
     try:
         request_data = api.GetSearchResults(key, address, postal_code)
         result = request_data.get_dict()
@@ -46,33 +44,35 @@ def address_search(address, postal_code):
         combined_df.to_sql(name='zillow', con=engine, if_exists='append', index=False)
         print("connecting to db")
 
-
-
-        #Using API-returned Zip Code, compare that value with our risk data table ('sales_price' table). Will return True/False response from the 'equity_risk' column
-        def result_getter(postal_code):
-            connection = engine.connect()
-            query = "select sp.equity_risk from sales_price sp where sp.zip_code = " + postal_code + ";"
-            result = connection.execute(query)
-            for i in result:
-                results = i
-            return results
-        results = result_getter(postal_code)
-        print("query finished")
-        print(results[0])
-        print("Success")
-        
-        
-        # Decision tree - if True, allowable investment 30% of risk adj home value. If False, 10% of risk adj home value
-        if results[0] == True:
-            offer = (zestimate['amount']*.85)*.30
-            print(f'$ {offer}')
+        #API call and results returned
+        try:
+            #Using API-returned Zip Code, compare that value with our risk data table ('sales_price' table). Will return True/False response from the 'equity_risk' column
+            def result_getter(postal_code):
+                connection = engine.connect()
+                query = "select sp.equity_risk from sales_price sp where sp.zip_code = " + postal_code + ";"
+                result = connection.execute(query)
+                for i in result:
+                    results = i
+                return results
+            results = result_getter(postal_code)
+            print("query finished")
+            print(results[0])
+            print("Success")
             
-        else:
-            offer = (zestimate['amount']*.85)*.10
-            print(combined_df['risk_adj_value']*.10)
-        
-        return ((zestimate['amount']), offer)
+            
+            # Decision tree - if True, allowable investment 30% of risk adj home value. If False, 10% of risk adj home value
+            if results[0] == True:
+                offer = (zestimate['amount']*.85)*.30
+                print(f'$ {offer}')
+                
+            else:
+                offer = (zestimate['amount']*.85)*.10
+                print(combined_df['risk_adj_value']*.10)
+            
+            return ((zestimate['amount']), offer)
 
+        except:
+            return((zestimate['amount']), ((zestimate['amount']*.85)*.20))
     except:
         return("Bad", "Address")
 
