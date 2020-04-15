@@ -64,14 +64,14 @@ def address_search(address, postal_code):
         
         # Decision tree - if True, allowable investment 30% of risk adj home value. If False, 10% of risk adj home value
         if results[0] == True:
-            offer = "$ {:,.0f}".format((zestimate['amount']*.85)*.30)
+            offer = (zestimate['amount']*.85)*.30
             print(f'$ {offer}')
             
         else:
-            offer = "$ {:,.0f}".format((zestimate['amount']*.85)*.10)
+            offer = (zestimate['amount']*.85)*.10
             print(combined_df['risk_adj_value']*.10)
         
-        return ("$ {:,.0f}".format(zestimate['amount']), offer)
+        return ((zestimate['amount']), offer)
 
     except:
         return("Bad", "Address")

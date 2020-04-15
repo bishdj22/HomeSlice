@@ -32,7 +32,7 @@ app.config['SECRET_KEY'] = 'awssecreykey123'
 db = SQLAlchemy(app)
 bootstrap = Bootstrap(app)
 
-
+firstname = None
             
 
 @app.route('/',methods = ['GET', 'POST'])
@@ -54,13 +54,14 @@ def zillow_call():
     return render_template('index.html', data=results)
 
 ########Signup Froms 
-class RegisterForm(FlaskForm):
-    name = StringField('name', validators=[InputRequired(), Length(max=50)])
-    address = StringField('address', validators=[InputRequired(), Length(min=1, max=8)])
-    socialsecurity = StringField('socialsecurity', validators=[InputRequired(), Length(min=1, max=8)])
-    email = StringField('email', validators=[InputRequired(), Length(min=1, max=8)])
-    phonenumber = IntegerField('phonenumber', validators=[InputRequired(), Length(min=1, max=8)])
-    gender = StringField('gender', validators=[InputRequired(), Length(min=1, max=8)])
+# class RegisterForm(FlaskForm):
+#     name = StringField('name', validators=[InputRequired(), Length(max=50)])
+#     address = StringField('address', validators=[InputRequired(), Length(min=1, max=8)])
+#     socialsecurity = StringField('socialsecurity', validators=[InputRequired(), Length(min=1, max=8)])
+#     email = StringField('email', validators=[InputRequired(), Length(min=1, max=8)])
+#     phonenumber = IntegerField('phonenumber', validators=[InputRequired(), Length(min=1, max=8)])
+#     gender = StringField('gender', validators=[InputRequired(), Length(min=1, max=8)])
+
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
@@ -69,6 +70,7 @@ def signup():
     print(request.method)
     # results = ('435,000', '17,000')
     if request.method == "POST":
+        global firstname 
         firstname = request.form['first-name']
         lastname = request.form['last-name']
         social_security = request.form['social-security']
@@ -97,33 +99,14 @@ def signup():
         
         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
 
-        # def result_getter():
-        #     connection = engine.connect()
-        #     query = "select first-name from user_data where first-name = " + firstname + ";"
-        #     result = connection.execute(query)
-        #     for i in result:
-        #         results = i
-        #     return results
-        #     results = result_getter(firstname)
-        #     print("query finished")
-        #     print(results)
-        #     print("Success")
+        return redirect('/welcome', code=302)
 
         
         
-    return render_template('welcome.html', say=results)
 
-
-# @app.route('/signup1', methods=['GET', 'POST'])
-# def signup():
-#     form = RegisterForm()
-#     if request.method == 'POST': 
-#         # new_user = User(name=form.name.data, address=form.address.data,socialsecurity=form.socialsecurity.data,email=form.email.data,phonenumber=form.phonenumber.data,gender=form.gender.data)
-#         user_dict = {'name':form.name.data, 'address': form.address.data,'socialsecurity': form.socialsecurity.data, 'email': form.email.data, 'phonenumber': form.phonenumber.data, 'gender': form.gender.data}
-#         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
-#         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
-
-#     return render_template('signup.html', form=form)
+        
+        
+    return render_template('signup.html')
 
 
 
@@ -154,6 +137,13 @@ def about():
 def dashboard():
     print('Under Construction')
     return render_template('dashboard.html')
+
+@app.route("/welcome")
+def welcome():
+    print('Under Construction')
+    name = firstname
+
+    return render_template('welcome.html',say=name)
 
 
 if __name__ == "__main__":
