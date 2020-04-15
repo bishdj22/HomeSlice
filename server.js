@@ -12,6 +12,6 @@ app.get("/", function(req, res){
     res.render("index");
 })
 
-app.listen(post, function(){
+app.listen(port, function(){
     console.log("app running");
 })
