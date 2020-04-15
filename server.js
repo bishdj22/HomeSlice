@@ -9,7 +9,7 @@ app.use(express.static(__dirname + "/public"));
 //routes
 
 app.get("/", function(req, res){
-    res.send("/templates/index");
+    res.send("index");
 })
 
 app.listen(port, function(){
