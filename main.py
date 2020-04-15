@@ -170,5 +170,3 @@ def welcome():
     return render_template('welcome.html',say=name)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
