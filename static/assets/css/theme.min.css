@@ -13831,7 +13831,7 @@ a.card-body:hover, a.card-footer:hover, a.card-meta:hover, a.card:hover {
 }
 
 .navbar-brand-img {
-    max-height: 2.4rem;
+    max-height: 4em;
     width: auto
 }
 
