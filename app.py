@@ -106,10 +106,8 @@ def signup():
             print("query finished")
             print(results)
             print("Success")
-
-        
-        
-    return render_template('signup.html')
+    # return render_template('signup.html')
+    return render_template('welcome.html', say=results)
 
 
 # @app.route('/signup1', methods=['GET', 'POST'])
