@@ -62,21 +62,70 @@ class RegisterForm(FlaskForm):
     phonenumber = IntegerField('phonenumber', validators=[InputRequired(), Length(min=1, max=8)])
     gender = StringField('gender', validators=[InputRequired(), Length(min=1, max=8)])
 
-
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
-    form = RegisterForm()
-    if request.method == 'POST': 
-        # new_user = User(name=form.name.data, address=form.address.data,socialsecurity=form.socialsecurity.data,email=form.email.data,phonenumber=form.phonenumber.data,gender=form.gender.data)
-        user_dict = {'name':form.name.data, 'address': form.address.data,'socialsecurity': form.socialsecurity.data, 'email': form.email.data, 'phonenumber': form.phonenumber.data, 'gender': form.gender.data}
+    print("working...")
+    #Default results
+    print(request.method)
+    # results = ('435,000', '17,000')
+    if request.method == "POST":
+        firstname = request.form['first-name']
+        lastname = request.form['last-name']
+        social_security = request.form['social-security']
+        phone_number = request.form['phone-number']
+        gender = request.form['gender']
+        address = request.form['address']
+        postal_code = request.form['zipcode']
+        email = request.form['email']
+        password = request.form['password'] 
+
+        #Passing user inputs from HTML to python variable
+        user_dict = {'first-name': firstname, 'last-name' : lastname, 'social-security': social_security, 'phone-number': phone_number, 'gender': gender, 'address': address, 'zipcode': postal_code, 'gender': gender, 'email': email, 'password': password}
+
+        print(firstname)
+        print(lastname)
+        print(social_security)
+        print(phone_number)
+        print(gender)
+        print(address)
+        print(postal_code)
+        print(email)
+        print(password)
+
         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
 
-    return render_template('signup.html', form=form)
+        def result_getter():
+            connection = engine.connect()
+            query = "select first-name from user_data where first-name = " + firstname + ";"
+            result = connection.execute(query)
+            for i in result:
+                results = i
+            return results
+            results = result_getter(firstname)
+            print("query finished")
+            print(results)
+            print("Success")
+
+        
+        
+    return render_template('index.html')
+
+
+# @app.route('/signup1', methods=['GET', 'POST'])
+# def signup():
+#     form = RegisterForm()
+#     if request.method == 'POST': 
+#         # new_user = User(name=form.name.data, address=form.address.data,socialsecurity=form.socialsecurity.data,email=form.email.data,phonenumber=form.phonenumber.data,gender=form.gender.data)
+#         user_dict = {'name':form.name.data, 'address': form.address.data,'socialsecurity': form.socialsecurity.data, 'email': form.email.data, 'phonenumber': form.phonenumber.data, 'gender': form.gender.data}
+#         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
+#         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
+
+#     return render_template('signup.html', form=form)
 
 
 
-@app.route('/test',methods = ['GET', 'POST'])
+@app.route('/test', methods = ['GET', 'POST'])
 def zillow_call1():
     print("working...")
     #Default results
@@ -92,7 +141,7 @@ def zillow_call1():
         #Function to call data from Zillow and return data
         results = address_search(address,postal_code)  
 
-    return render_template('test.html', data=results)
+    return render_template('index.html', data=results)
 
 @app.route("/about")
 def about():

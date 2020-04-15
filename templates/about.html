@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Libs CSS -->
-    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css">
-    <link rel="stylesheet" href="./assets/libs/flickity/dist/flickity.min.css">
-    <link rel="stylesheet" href="./assets/libs/flickity-fade/flickity-fade.css">
-    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css">
-    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css">
-    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css">
-    <link rel="stylesheet" href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
-
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/assets/fonts/Feather/feather.css">
+    <link rel="stylesheet" href="../static/assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="../static/assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="../static/assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="../static/assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="../static/assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="../static/assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    
     <!-- Map -->
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="./assets/css/theme.min.css">
+    <link rel="stylesheet" href="../static/assets/css/theme.min.css">
 
     <title>About</title>
   </head>
@@ -28,54 +29,59 @@
       <!-- NAVBAR
       ==================================================
       -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
+      <section class="navigation">
+        <!-- NAVBAR
+        ==================================================
+        -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
 
-          <!-- Brand -->
-          <a class="navbar-brand" href="./index.html">
-          <img src="../static/images/dark-logo.png" class="navbar-brand-img" alt="...">
-          </a>
+            <!-- Brand -->
+            <a class="navbar-brand" href="/">
+            <img src="../static/images/dark-logo.png" class="navbar-brand-img" alt="...">
+            </a>
 
-          <!-- Toggler -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <!-- Collapse -->
-          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
 
-          <!-- Toggler -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fe fe-x"></i>
-          </button>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fe fe-x"></i>
+            </button>
 
-          <!-- Navigation -->
-          <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="./about.html" aria-haspopup="true" aria-expanded="false">
-                  About
-              </a>
-              </li>
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="./contact-us.html" aria-haspopup="true" aria-expanded="false">
-                  Contact
-              </a>
-              </li>
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarAccount" data-toggle="dropdown" href="./dashboard.html" aria-haspopup="true" aria-expanded="false">
-                  Dashboard
-              </a>
-              </li> 
-          <!-- Button -->
-          <a class="navbar-btn btn btn-sm lift ml-auto" href="./signup" target="_blank">
-              Sign Up
-          </a>
-          <a class="navbar-btn btn btn-sm lift ml-auto" href="./login.html" target="_blank">
-              Login
-          </a>
-          </div>
-      </div>
-      </nav>
+            <!-- Navigation -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarLandings" href="about" aria-haspopup="true" aria-expanded="false" target="_blank">
+                    About
+                </a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="contact-us.html" aria-haspopup="true" aria-expanded="false">
+                    Contact
+                </a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarAccount" href="dash" aria-haspopup="true" aria-expanded="false">
+                    Dashboard
+                </a>
+                </li> 
+            <!-- Button -->
+            <a class="navbar-btn btn btn-sm lift ml-auto" href="signup" target="_blank">
+                Sign Up
+            </a>
+            <a class="navbar-btn btn btn-sm lift ml-auto" href="login.html" target="_blank">
+                Login
+            </a>
+            </div>
+        </div>
+        </nav>
+    </section>
   </section>
   <!-- WELCOME
     ================================================== -->
@@ -92,7 +98,7 @@
             </h1>
 
             <!-- Button -->
-            <a href="#" class="btn btn-pill btn-white shadow lift">
+            <a href="/" class="btn btn-pill btn-white shadow lift">
               <i class="fe fe-eye mr-2"></i>
               Watch us work
             </a>
@@ -128,17 +134,17 @@
             
             <!-- Badge -->
             <span class="badge badge-pill badge-primary-soft mb-3">
-              <span class="h6 text-uppercase">Pay it down</span>
+              <span class="h6 text-uppercase"><a href='/signup'>Get Cash Today</a> </span>
             </span>
 
             <!-- Heading -->
             <h1>
-              Some title for earning your share <span class="text-primary">idk something catchy</span>
+              The World's premiere<br> <span class="text-primary">Home Equity Marketplace</span>
             </h1>
 
             <!-- Text -->
             <p class="lead text-gray-700 mb-7 mb-md-9">
-              some kinda bio we'll let dan decide 
+              No monthly principle payments, no monthly interest payments.
             </p>
 
           </div>
@@ -150,7 +156,7 @@
             <div class="mb-8 mb-md-0">
 
               <!-- Image -->
-              <img src="assets/img/screenshots/desktop/rental.jpg" alt="..." class="screenshot img-fluid mw-md-110 float-right mr-md-6 mb-6 mb-md-0">
+              <img src="../static/images/home-exterior.jpg" alt="..." class="screenshot img-fluid mw-md-110 float-right mr-md-6 mb-6 mb-md-0">
               
             </div>
 
@@ -170,12 +176,12 @@
                 
                 <!-- Heading -->
                 <h3>
-                  Sign up 
+                  Explore your home's value
                 </h3>
 
                 <!-- Text -->
                 <p class="text-gray-700 mb-6">
-                  It takes a few minutes to add your information.
+                  Get a cash estimate in seconds.
                 </p>
 
               </div>
@@ -193,12 +199,12 @@
                 
                 <!-- Heading -->
                 <h3>
-                  List your homes
+                  Sign up today
                 </h3>
 
                 <!-- Text -->
                 <p class="text-gray-700 mb-6">
-                  Let us know where your home is located.
+                  Our application takes only minutes to complete.
                 </p>
 
               </div>
@@ -216,12 +222,12 @@
                 
                 <!-- Heading -->
                 <h3>
-                  Start earning cash now!
+                  Get cash fast
                 </h3>
 
                 <!-- Text -->
                 <p class="text-gray-700 mb-0">
-                  idk again something catchy
+                  No waits at the bank, no sales pitch, no hassle.
                 </p>
 
               </div>
@@ -233,7 +239,7 @@
       </div> <!-- / .container -->
     </section>
     
-    <!-- PRICING
+    <!-- Easy Section
     ================================================== -->
     <section class="py-8 py-md-12">
       <div class="container">
@@ -242,81 +248,72 @@
 
             <!-- Badge -->
             <span class="badge badge-pill badge-primary-soft mb-3">
-              <span class="h6 text-uppercase">Pricing</span>
+              <span class="h6 text-uppercase">Easy</span>
             </span>
 
             <!-- Heading -->
             <h2>
-              Don't worry about pricing. <br>
-              <span class="text-primary">We maximize your earnings</span>.
+              Life happens. <br>
+              <span class="text-primary">Even good credit can't get you cash quickly, let us help..</span>
             </h2>
 
             <!-- Text -->
             <p class="font-size-lg text-gray-700 mb-6">
-              We use top tier machine learning to get you the best value for your home.
+              Our combination of advanced data and machine learning get you a fair price for your home and a cash offer in seconds, not weeks.
             </p>
 
             <!-- List -->
             <div class="row">
-              <div class="col-12 col-lg-6">
+              <!-- <div class="col-12 col-lg-6"> -->
                 
-                </div>
+                <!-- </div> -->
 
                 <!-- Item -->
-                <div class="d-flex">
+                <!-- <div class="d-flex"> -->
 
-                  <!-- Check -->
-                  <div class="badge badge-rounded-circle badge-primary-soft mt-1 mr-4">
-                    <i class="fe fe-check"></i>
-                  </div>
                   
-                  <p class="mb-lg-0">
-                    No wasted time
-                  </p>
 
-                </div>
-
-              </div>
-              <div class="col-12 col-lg-6">
+              <!-- </div> -->
+              <!-- <div class="col-12 col-lg-6"> -->
 
                 <!-- Item -->
-                <div class="d-flex">
+                <!-- <div class="d-flex"> -->
 
                   <!-- Check -->
-                  <span class="badge badge-rounded-circle badge-primary-soft mt-1 mr-4">
+                  <!-- <span class="badge badge-rounded-circle badge-primary-soft mt-1 mr-4">
                     <i class="fe fe-check"></i>
-                  </span>
+                  </span> -->
                   
                   <!-- Text -->
-                  <p>
+                  <!-- <p>
                     Engineering backed
                   </p>
 
-                </div>
+                </div> -->
 
                 <!-- Item -->
-                <div class="d-flex">
+                <!-- <div class="d-flex"> -->
 
                   <!-- Check -->
-                  <div class="badge badge-rounded-circle badge-primary-soft mr-1 mr-4">
+                  <!-- <div class="badge badge-rounded-circle badge-primary-soft mr-1 mr-4">
                     <i class="fe fe-check"></i>
-                  </div>
+                  </div> -->
                   
                   <!-- Text -->
-                  <p class="mb-0">
+                  <!-- <p class="mb-0">
                     Data driven
                   </p>
 
                 </div>
 
-              </div>
-            </div> <!-- / .row -->
-            
-          </div>
+              </div> -->
+            <!--</div> / .row -->
+<!--             
+          </div> -->
           <div class="col-12 col-md-6">
             
             <!-- Image -->
-            <img src="assets/img/illustrations/illustration-3.png" alt="..." class="img-fluid mw-md-130">
+            <img src="../static/images/home-exterior-front.jpg" alt="..." class="img-fluid mw-md-130">
 
           </div>
         </div> <!-- / .row -->
