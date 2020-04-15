@@ -33,6 +33,14 @@ db = SQLAlchemy(app)
 bootstrap = Bootstrap(app)
 
 firstname = None
+lastname = None
+social_security = None
+phone_number = None
+gender = None
+address = None
+postal_code = None
+email = None
+password = None
             
 
 @app.route('/',methods = ['GET', 'POST'])
@@ -71,6 +79,15 @@ def signup():
     # results = ('435,000', '17,000')
     if request.method == "POST":
         global firstname 
+        global lastname
+        global social_security
+        global phone_number
+        global gender
+        global address
+        global postal_code
+        global email
+        global password 
+
         firstname = request.form['first-name']
         lastname = request.form['last-name']
         social_security = request.form['social-security']
@@ -100,13 +117,15 @@ def signup():
         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
 
         return redirect('/welcome', code=302)
-
-        
-        
-
-        
         
     return render_template('signup.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    print("working...")
+    #Default results
+    print(request.method)
+    return render_template('login.html')
 
 
 
@@ -137,6 +156,11 @@ def about():
 def dashboard():
     print('Under Construction')
     return render_template('dashboard.html')
+
+@app.route("/contact")
+def contact():
+    print('Under Construction')
+    return render_template('contact.html')
 
 @app.route("/welcome")
 def welcome():
