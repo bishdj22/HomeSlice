@@ -1,1 +1,1 @@
-web: gunicorn wsgi:app-homeslice
+web:gunicorn main:app
