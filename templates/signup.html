@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164261387-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164261387-1');
+  </script>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -81,11 +91,13 @@
                     Contact
                 </a>
                 </li>
-                <li class="nav-item dropdown">
+
+                <!--DB commented out dashboard 4/21, to be hidden behind login in future-->
+                <!-- <li class="nav-item dropdown">
                 <a class="nav-link" id="navbarAccount" href="dash" aria-haspopup="true" aria-expanded="false">
                     Dashboard
                 </a>
-                </li> 
+                </li>  -->
             <!-- Button -->
             <a class="navbar-btn btn btn-sm lift ml-auto" href="signup">
                 Sign Up
