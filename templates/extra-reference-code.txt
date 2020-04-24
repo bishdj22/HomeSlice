@@ -1,0 +1,108 @@
+  <!-- CONTENT
+    ================================================== -->
+    <!-- <section class="section-border border-primary">
+        <div class="container d-flex flex-column">
+          <div class="row align-items-center justify-content-center no-gutters min-vh-100">
+            <div class="col-12 col-md-5 col-lg-4 py-8 py-md-11">
+               -->
+              <!-- Heading -->
+              <!-- <h1 class="mb-0 font-weight-bold text-center">
+                Sign up
+              </h1> -->
+  
+              <!-- Text -->
+              <p class="mb-6 text-center text-muted">
+                Start your journey now.
+              </p>
+
+              <!-- Form -->
+              <form class="mb-6" action="/signup" method="post">
+                <!-- First Name -->
+                <div class="form-group">
+                    <label for="first-name">
+                      First Name
+                    </label>
+                    <input type="text" name='first-name' class="form-control pl-2 border-left-0" id="first-name" placeholder="First Name">
+                  </div>
+
+                <!-- Last Name -->
+                <div class="form-group">
+                    <label for="last-name">
+                      Last Name
+                    </label>
+                    <input type="text" name='last-name' class="form-control pl-2 border-left-0" id="last-name" placeholder="Last Name">
+                  </div>
+
+                <!-- Social Security -->
+                <div class="form-group">
+                    <label for="social-security">
+                      Person ID
+                    </label>
+                    <input type="text" name='social-security' class="form-control pl-2 border-left-0" id="social-security" placeholder="0000">
+                </div>
+
+                <!-- Social Security -->
+                <div class="form-group">
+                    <label for="phone-number">
+                      Phone Number
+                    </label>
+                    <input type="text" name='phone-number' class="form-control pl-2 border-left-0" id="phone-number" placeholder="000 000 0000">
+                </div>
+
+                <div class="form-group">
+                  <label for="address">
+                    Address
+                  </label>
+                  <input type="text" name='address' class="form-control pl-2 border-left-0" id="address" placeholder="Street, City, State">
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="zipcode">
+                  Zip Code
+                </label>
+                <input type="text" name='zipcode' class="form-control pl-2 border-left-0" id="zipcode" placeholder="Zipcode...">
+              </div>
+
+                <!-- Social Security -->
+                <div class="form-group">
+                    <label for="gender">
+                      Gender
+                    </label>
+                    <input type="text" name='gender' class="form-control pl-2 border-left-0" id="gender" placeholder="M/F/NB">
+                </div>
+  
+                <!-- Email -->
+                <div class="form-group">
+                  <label for="email">
+                    Email Address
+                  </label>
+                  <input type="text" name='email' class="form-control pl-2 border-left-0" id="email" placeholder="name@address.com">
+                </div>
+
+  
+                <!-- Password -->
+                <div class="form-group mb-5">
+                  <label for="password">
+                    Password
+                  </label>
+                  <input type="text" name='password' class="form-control pl-2 border-left-0" id="password" placeholder="Enter your password">
+                </div>
+  
+                <!-- Submit -->
+
+                <button class="btn btn-block btn-primary" type="submit">
+                  Sign up
+                </button>
+  
+              </form>
+  
+              <!-- Text -->
+              <p class="mb-0 font-size-sm text-center text-muted">
+                Already have an account? <a href="login">Log in</a>.
+              </p>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
