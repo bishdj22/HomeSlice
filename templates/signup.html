@@ -134,6 +134,16 @@
                 <label for="username">
                   Username
                 </label>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <ul class=flashes>
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                 {% endfor %}
+                </ul>
+                {% endif %}
+                {% endwith %}
+                {% block body %}{% endblock %}
                 <input type="text" name='username' class="form-control pl-2 border-left-0" id="username" placeholder="username">
               </div>
 
