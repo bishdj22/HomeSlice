@@ -4,7 +4,7 @@ import zillow
 # import pprint as pp
 import json
 from sqlalchemy import create_engine
-from flask import Flask, jsonify, render_template,request
+from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, redirect
 from calculations import address_search
@@ -14,17 +14,13 @@ from wtforms import StringField, PasswordField, BooleanField,IntegerField
 from wtforms.validators import InputRequired, Email, Length
 from flask_bootstrap import Bootstrap
 from sqlalchemy.ext.automap import automap_base
-
-
-
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
+from werkzeug.security import generate_password_hash, check_password_hash
 
 
 # Create an instance of Flask
 app = Flask(__name__)
 # app.config["SQLALCHEMY_DATABASE_URI"] ='postgres:apartment@homeslice.cjnrjw08kldx.us-east-2.rds.amazonaws.com:5432/HomeSliceDB'
-
-
 connection_string = database_key
 engine = create_engine(f'postgresql://{connection_string}')
 
@@ -40,6 +36,9 @@ app.config['SECRET_KEY'] = 'awssecreykey123'
 db = SQLAlchemy(app)
 bootstrap = Bootstrap(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:apartment@homeslice.cjnrjw08kldx.us-east-2.rds.amazonaws.com:5432/HomeSliceDB"
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'login'
 
 
 firstname = None
@@ -72,7 +71,7 @@ def zillow_call():
     return render_template('index.html', data=results)
 
 
-@app.route('/signup', methods=['GET', 'POST'])
+@app.route('/signup1', methods=['GET', 'POST'])
 def signup():
     print("working...")
     #Default results
@@ -121,7 +120,7 @@ def signup():
         
     return render_template('signup.html')
 
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/login1', methods=['GET', 'POST'])
 def login():
     print("working...")
     #Default results
@@ -170,6 +169,67 @@ def welcome():
 
     return render_template('welcome.html',say=name)
 
+
+    ##########Login Attempt 
+
+@login_manager.user_loader
+# def load_user(user_id):
+#     return User.query.get(int(user_id))
+
+class User(UserMixin, db.Model):
+    __tablename__ = "users"
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(15), unique=True)
+    email = db.Column(db.String(50), unique=True)
+    password = db.Column(db.String(80))
+
+
+@app.route('/signup', methods=['GET', 'POST'])
+def signup1():
+    if request.method == "POST":
+        username = request.form['username']
+        email = request.form['email']
+        password = request.form['password']
+        print(username)
+        if not (username and password):
+            flash("Username or Password cannot be empty")
+        else:
+            username = username.strip()
+            password = password.strip()
+            hashed_pwd = generate_password_hash(password, 'sha256')
+        new_user = User(username=username, password=hashed_pwd,email=email)
+        db.session.add(new_user)
+        try:
+            db.session.commit()
+        except:
+            flash("Username {u} is not available.".format(u=username))
+            flash("User account has been created.")
+        # return redirect(url_for("login"))
+    return render_template('signup.html')
+
+@app.route("/login", methods=["GET", "POST"])
+def login1():
+    if request.method == "POST":
+        email = request.form['email']
+        password = request.form['password']
+
+        if not (email and password):
+            flash("Username or Password cannot be empty.")
+            # return redirect(url_for('login'))
+        else:
+            email = email.strip()
+            password = password.strip()
+
+        user = User.query.filter_by(email=email).first()
+
+        if user and check_password_hash(user.password, password):
+            session[email] = True
+            return redirect(url_for("dashboard", email=email))
+        else:
+            flash("Invalid username or password.")
+        # return redirect("account-creation.html")
+
+    return render_template("login.html")
 
 
 
