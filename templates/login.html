@@ -117,14 +117,24 @@
             </p>
 
             <!-- Form -->
-            <form class="mb-6">
+            <form class="mb-6" method="post">
 
               <!-- Email -->
               <div class="form-group">
                 <label for="email">
                   Email Address
                 </label>
-                <input type="text" class="form-control pl-2 border-left-0" id="email" placeholder="name@address.com">
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <ul class=flashes>
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                 {% endfor %}
+                </ul>
+                {% endif %}
+                {% endwith %}
+                {% block body %}{% endblock %}
+                <input type="text" name = "email" class="form-control pl-2 border-left-0" id="email" placeholder="name@address.com">
               </div>
 
               <!-- Password -->
@@ -132,7 +142,7 @@
                 <label for="password">
                   Password
                 </label>
-                <input type="text" class="form-control pl-2 border-left-0" id="password" placeholder="Enter your password">
+                <input type="text" name="password" class="form-control pl-2 border-left-0" id="password" placeholder="Enter your password">
               </div>
 
               <!-- Submit -->
@@ -277,6 +287,9 @@
 
   <!-- Theme JS -->
   <script src="./assets/js/theme.min.js"></script>
+
+
+  
 
 
 </body>
