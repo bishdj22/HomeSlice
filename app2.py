@@ -196,15 +196,30 @@ def signup1():
         else:
             username = username.strip()
             password = password.strip()
+
+            #------DB code to pass to Database-----#
+            #THIS CODE WORKS, but leaving in comment since Collins' may work on other's machines'
+        
+            # user_signup_dict = {'username': username, 'email': email, 'password': password}
+            # newuser_df = pd.DataFrame.from_dict(user_signup_dict, orient='index').T
+            # newuser_df['datetimestamp'] = pd.Timestamp.now()
+            
+            # newuser_df.to_sql(name='users', con=engine, if_exists='append', index=False)
+
+            #-------End DB added code--------#
+
+            return redirect(url_for("login"))
             hashed_pwd = generate_password_hash(password, 'sha256')
-        new_user = User(username=username, password=hashed_pwd,email=email)
+
+        new_user = User(username=username, password=password,email=email)
         db.session.add(new_user)
+        
         try:
             db.session.commit()
         except:
             flash("Username {u} is not available.".format(u=username))
             flash("User account has been created.")
-        # return redirect(url_for("login"))
+            return redirect(url_for("signup"))
     return render_template('signup.html')
 
 @app.route("/login", methods=["GET", "POST"])
