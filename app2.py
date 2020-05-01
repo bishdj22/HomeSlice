@@ -4,7 +4,7 @@ import zillow
 # import pprint as pp
 import json
 from sqlalchemy import create_engine
-from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash
+from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash,session
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, redirect
 from calculations import address_search
@@ -211,14 +211,16 @@ def signup1():
             # return redirect(url_for("login"))
             hashed_pwd = generate_password_hash(password, 'sha256')
 
-        new_user = User(username=username, password=password,email=email)
+        new_user = User(username=username, password=hashed_pwd,email=email)
         db.session.add(new_user)
+     
         
         try:
             db.session.commit()
+            flash("User account has been created.")
         except:
             flash("Username {u} is not available.".format(u=username))
-            flash("User account has been created.")
+
             return redirect(url_for("signup"))
     return render_template('signup.html')
 
