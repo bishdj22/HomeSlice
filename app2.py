@@ -198,7 +198,7 @@ def signup1():
             password = password.strip()
 
             #------DB code to pass to Database-----#
-            #THIS CODE WORKS, but leaving in comment since Collin's may work on other's machines'
+            #THIS CODE WORKS, but leaving in comment since Collins' may work on other's machines'
         
             # user_signup_dict = {'username': username, 'email': email, 'password': password}
             # newuser_df = pd.DataFrame.from_dict(user_signup_dict, orient='index').T
