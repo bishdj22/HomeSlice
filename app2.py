@@ -208,7 +208,7 @@ def signup1():
 
             #-------End DB added code--------#
 
-            return redirect(url_for("login"))
+            # return redirect(url_for("login"))
             hashed_pwd = generate_password_hash(password, 'sha256')
 
         new_user = User(username=username, password=password,email=email)
