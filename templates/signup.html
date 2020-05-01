@@ -134,7 +134,7 @@
                 <label for="username">
                   Username
                 </label>
-                <h1>Flashing messages</h1>
+
                 {% for message in get_flashed_messages() %}
             <div class="alert-error">Error: {{ message }}</div>
              {% endfor %}
