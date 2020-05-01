@@ -196,10 +196,24 @@ def signup1():
         else:
             username = username.strip()
             password = password.strip()
+
+            #------DB code to pass to Database-----#
+            #THIS CODE WORKS, but leaving in comment since Collin's may work on other's machines'
+        
+            # user_signup_dict = {'username': username, 'email': email, 'password': password}
+            # newuser_df = pd.DataFrame.from_dict(user_signup_dict, orient='index').T
+            # newuser_df['datetimestamp'] = pd.Timestamp.now()
+            
+            # newuser_df.to_sql(name='users', con=engine, if_exists='append', index=False)
+
+            #-------End DB added code--------#
+
             return redirect(url_for("login"))
             # hashed_pwd = generate_password_hash(password, 'sha256')
+
         new_user = User(username=username, password=password,email=email)
         db.session.add(new_user)
+        
         try:
             db.session.commit()
         except:
