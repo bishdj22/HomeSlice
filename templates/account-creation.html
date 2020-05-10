@@ -54,62 +54,70 @@
     <title>Sign Up</title>
   </head>
   <body class="bg-light">
-    <section class="navigation">
-        <!-- NAVBAR
-        ==================================================
-        -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
 
-            <!-- Brand -->
-            <a class="navbar-brand" href="/">
-            <img src="../static/images/dark-logo.png" class="navbar-brand-img" alt="...">
-            </a>
+      <!-- CONTENT
+    ================================================== -->
+    <section class="section-border border-gray">
+      <div class="container d-flex flex-column">
+        <div class="row align-items-center justify-content-center no-gutters min-vh-100">
+          <div class="col-12 col-md-8 col-lg-6 py-10 py-md-12">
+            <!-- Form -->
+            <form class="mb-6">
+              <!-- Heading -->
+              <h1 class="mb-0 font-weight-bold text-center">
+                Diversify Your Income
+              </h1>
+              
+            <!-- Text -->
+            <p class="mb-6 text-center text-muted">
+            </p>
 
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+              <div class="form-group">
+                <label for="address">
+                  Address
+                </label>
+                <input type="text" class="form-control" id="address" placeholder="City, State, Zip Code">
+              </div>
 
-            <!-- Collapse -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="form-group">
+                <label for="phone-number">
+                  Phone Number
+                </label>
+                <input type="tel" class="form-control" id="phone-number" placeholder="000 000 0000">
+              </div>
 
-            <!-- Toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fe fe-x"></i>
-            </button>
+              <div class="form-group">
+                <label for="dob">
+                  Date of Birth
+                </label>
+                <input type="date" class="form-control" id="dob" placeholder="MM/DD/YYYY">
+              </div>
 
-            <!-- Navigation -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                <a class="nav-link" id="navbarLandings" href="about" aria-haspopup="true" aria-expanded="false">
-                    About
-                </a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link" id="navbarPages" href="contact" aria-haspopup="true" aria-expanded="false">
-                    Contact
-                </a>
-                </li>
+              <div class="form-group">
+                <label for="social-security">
+                  Social Security
+                </label>
+                <input type="password" class="form-control" id="social-security" placeholder="XXX-XX-XXXX">
+              </div>
 
-                <!--DB commented out dashboard 4/21, to be hidden behind login in future-->
-                <!-- <li class="nav-item dropdown">
-                <a class="nav-link" id="navbarAccount" href="dash" aria-haspopup="true" aria-expanded="false">
-                    Dashboard
-                </a>
-                </li>  -->
-            <!-- Button -->
-            <a class="navbar-btn btn btn-sm lift ml-auto" href="signup">
-                Sign Up
-            </a>
-            <a class="navbar-btn btn btn-sm lift ml-auto" href="login">
-                Login
-            </a>
-            </div>
-        </div>
-        </nav>
-  </section>
+              <div class="form-group">
+                <label for="gender">
+                  Gender
+                </label>
+                <input type="text" class="form-control" id="gender" placeholder="M/F/NB">
+              </div>
 
+              <!-- Submit -->
+              <button class="btn btn-block btn-black" type="submit">
+                Sign up
+              </button>
+
+            </form>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
   
 
 
