@@ -72,6 +72,7 @@ def zillow_call():
     return render_template('index.html', data=results)
 
 
+<<<<<<< HEAD
 @app.route('/signup1', methods=['GET', 'POST'])
 def newform():
     print("working...")
@@ -114,12 +115,56 @@ def newform():
 
         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
         user_df['time_stamp'] = pd.Timestamp.now()
-        
-        user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
+=======
+# @app.route('/signup1', methods=['GET', 'POST'])
+# def signup():
+#     print("working...")
+#     #Default results
+#     print(request.method)
+#     # results = ('435,000', '17,000')
+#     if request.method == "POST":
+#         global firstname 
+#         global lastname
+#         global social_security
+#         global phone_number
+#         global gender
+#         global address
+#         global postal_code
+#         global email
+#         global password 
 
-        return redirect('/welcome', code=302)
+#         firstname = request.form['first-name']
+#         lastname = request.form['last-name']
+#         social_security = request.form['social-security']
+#         phone_number = request.form['phone-number']
+#         gender = request.form['gender']
+#         address = request.form['address']
+#         postal_code = request.form['zipcode']
+#         email = request.form['email']
+#         password = request.form['password'] 
+
+#         #Passing user inputs from HTML to python variable
+#         user_dict = {'first-name': firstname, 'last-name' : lastname, 'social-security': social_security, 'phone-number': phone_number, 'gender': gender, 'address': address, 'zipcode': postal_code, 'gender': gender, 'email': email, 'password': password}
+
+#         print(firstname)
+#         print(lastname)
+#         print(social_security)
+#         print(phone_number)
+#         print(gender)
+#         print(address)
+#         print(postal_code)
+#         print(email)
+#         print(password)
+
+#         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
+#         user_df['time_stamp'] = pd.Timestamp.now()
+>>>>>>> origin
         
-    return render_template('signup.html')
+#         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
+
+#         return redirect('/welcome', code=302)
+        
+#     return render_template('signup.html')
 
 # @app.route('/login1', methods=['GET', 'POST'])
 # def login():
@@ -176,8 +221,14 @@ def test():
     ##########Login Attempt 
 
 @login_manager.user_loader
+<<<<<<< HEAD
 def load_user(user_id):
     return User.query.get(int(user_id))
+=======
+# identifing users that are logged in
+# def load_user(user_id):
+#     return User.query.get(int(user_id))
+>>>>>>> origin
 
 class User(UserMixin, db.Model):
     __tablename__ = "usersdata"
@@ -226,7 +277,7 @@ class Todo(db.Model):
 
 
 @app.route('/signup', methods=['GET', 'POST'])
-def signup1():
+def signup():
     if request.method == "POST":
         username = request.form['username']
         email = request.form['email']
@@ -242,7 +293,11 @@ def signup1():
         db.session.add(new_user)
         try:
             db.session.commit()
+<<<<<<< HEAD
             flash("User account has been created.")
+=======
+            # flash("User account has been created.")
+>>>>>>> origin
             return redirect(url_for("login"))
         except:
             flash("Username {u} is not available.".format(u=username))
@@ -267,9 +322,14 @@ def login():
         if user and check_password_hash(user.password, password):
             login_user(user)
             session[email] = True
+<<<<<<< HEAD
             print(g.user.id)
             print(current_user)
             return redirect(url_for("test"))
+=======
+            return redirect(url_for("dashboard"))
+            # return redirect(url_for("dashboard", email=email))
+>>>>>>> origin
         else:
             flash("Invalid username or password.")
         # return redirect("account-creation.html")

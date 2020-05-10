@@ -91,12 +91,12 @@
                 </a>
                 </li>
                 
-                <!--DB commented out dashboard 4/21, to be hidden behind login in future-->
-                <!-- <li class="nav-item dropdown">
+                <!--DB bringing dashboard back in 5/6 ahead of 5/13 demo day, to be hidden behind login in future-->
+                <li class="nav-item dropdown">
                 <a class="nav-link" id="navbarAccount" href="dash" aria-haspopup="true" aria-expanded="false">
                     Dashboard
                 </a>
-                </li>  -->
+                </li>
 
             <!-- Button -->
             <a class="navbar-btn btn btn-sm lift ml-auto" href="signup">
@@ -139,6 +139,12 @@
         <div class="container d-flex flex-column">
           <div class="row align-items-center min-vh-100 py-8 py-md-11">
             <div class="col-12">
+              <div class="row col-md-8">
+                <form>            
+                  <input type="radio" name="choice" value="Buyer">Buyer
+                  <input type="radio" name="choice" value="Seller">Seller
+              </form>
+              </div>
                 <form action="/test#sectionThree" method="post" class="submissions">
                     <label for="fname">Address:</label>
                     <input type="text" id="fname" name="address" placeholder="Street, City, State" class="form-control pl-2 border-left-0">
