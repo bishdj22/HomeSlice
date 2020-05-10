@@ -3,8 +3,9 @@ import requests
 import zillow
 # import pprint as pp
 import json
+from datetime import datetime
 from sqlalchemy import create_engine
-from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash,session
+from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash,session,g
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, redirect
 from calculations import address_search
@@ -168,21 +169,71 @@ def welcome():
     name = firstname
 
     return render_template('welcome.html',say=name)
+@app.route("/test1")
+def test():
+    return render_template('test.html')
+@app.route("/account")
+def account():
+    return render_template('account-creation.html')
 
-
+@app.route("/buyer")
+def buyer():
+    return render_template('buyer.html')
     ##########Login Attempt 
 
 @login_manager.user_loader
 # identifing users that are logged in
-# def load_user(user_id):
-#     return User.query.get(int(user_id))
+def load_user(user_id):
+    return Profile.query.get(int(user_id))
 
-class User(UserMixin, db.Model):
-    __tablename__ = "users"
-    id = db.Column(db.Integer, primary_key=True)
+class Profile(UserMixin, db.Model):
+    __tablename__ = "profile"
+    id = db.Column('user_id',db.Integer, primary_key=True)
     username = db.Column(db.String(15), unique=True)
     email = db.Column(db.String(50), unique=True)
     password = db.Column(db.String(80))
+    registered_on = db.Column('registered_on' , db.DateTime)
+    account = db.relationship('Account' , backref='profile',lazy='dynamic')
+    def __init__(self , username ,password , email):
+
+        self.username = username
+
+        self.password = password
+
+        self.email = email
+
+        self.registered_on = datetime.utcnow()
+
+    def is_authenticated(self):
+        return True
+    def is_active(self):
+        return True
+    def is_anonymous(self):
+        return False
+    def get_id(self):
+        return str(self.id)
+    def __repr__(self):
+        return '<User %r>' % (self.username)
+
+
+class Account(db.Model):
+    __tablename__ = 'account'
+    id = db.Column('account_id', db.Integer, primary_key=True)
+    address = db.Column(db.String(120))
+    phone = db.Column(db.String)
+    dob = db.Column(db.DateTime)
+    social = db.Column(db.Integer)
+    gender = db.Column(db.String)
+    registered_on = db.Column('registered_on' , db.DateTime)
+    user_id = db.Column(db.Integer, db.ForeignKey('profile.user_id'))
+
+    def __init__(self, address, phone,dob,social,gender):
+        self.address = address
+        self.phone = phone
+        self.dob = dob
+        self.social = social
+        self.gender = gender
+        self.registered_on = datetime.utcnow()
 
 
 @app.route('/signup', methods=['GET', 'POST'])
@@ -197,32 +248,15 @@ def signup():
         else:
             username = username.strip()
             password = password.strip()
-
-            #------DB code to pass to Database-----#
-            #THIS CODE WORKS, but leaving in comment since Collins' may work on other's machines'
-        
-            # user_signup_dict = {'username': username, 'email': email, 'password': password}
-            # newuser_df = pd.DataFrame.from_dict(user_signup_dict, orient='index').T
-            # newuser_df['datetimestamp'] = pd.Timestamp.now()
-            
-            # newuser_df.to_sql(name='users', con=engine, if_exists='append', index=False)
-
-            #-------End DB added code--------#
-
-            # return redirect(url_for("login"))
-            hashed_pwd = generate_password_hash(password, 'sha256')
-
-        new_user = User(username=username, password=hashed_pwd,email=email)
+        hashed_pwd = generate_password_hash(password, 'sha256')
+        new_user = Profile(username=username, password=hashed_pwd,email=email)
         db.session.add(new_user)
-     
-        
         try:
             db.session.commit()
             # flash("User account has been created.")
             return redirect(url_for("login"))
         except:
             flash("Username {u} is not available.".format(u=username))
-
             return redirect(url_for("signup"))
     return render_template('signup.html')
 
@@ -239,12 +273,13 @@ def login():
             email = email.strip()
             password = password.strip()
 
-        user = User.query.filter_by(email=email).first()
+        user = Profile.query.filter_by(email=email).first()
 
         if user and check_password_hash(user.password, password):
+            login_user(user)
             session[email] = True
-            return redirect(url_for("dashboard"))
-            # return redirect(url_for("dashboard", email=email))
+            # return redirect(url_for("account"))
+            return redirect(url_for("account"))
         else:
             flash("Invalid username or password.")
         # return redirect("account-creation.html")
@@ -252,6 +287,25 @@ def login():
     return render_template("login.html")
 
 
+@login_required
+@app.route('/account', methods = ['GET' , 'POST'])
+def new():
+    if request.method == 'POST':
+        if not request.form['address']:
+            flash('address is required', 'error')
+        else:
+            account = Account(request.form['address'], request.form['phone'],request.form['dob'],request.form['social'],request.form['gender'])
+            account.user_id = g.user.id
+            db.session.add(account)
+            db.session.commit()
+            flash('Account item was successfully created')
+        return redirect(url_for("buyer"))
+    return render_template('buyer.html')
+
+
+@app.before_request
+def before_request():
+    g.user = current_user
 
 if __name__ == "__main__":
     app.run(debug=True)

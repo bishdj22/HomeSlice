@@ -127,6 +127,9 @@
             </p>
             <!-- Form -->
             <form class="mb-6" method="post">
+              {% for message in get_flashed_messages() %}
+          <div class="alert-error">{{ message }}</div>
+           {% endfor %}
 
             
               <!-- User Name -->
@@ -134,10 +137,14 @@
                 <label for="username">
                   Username
                 </label>
+<<<<<<< HEAD
+      
+=======
 
                 {% for message in get_flashed_messages() %}
             <div class="alert-error">Error: {{ message }}</div>
              {% endfor %}
+>>>>>>> origin
                 <input type="text" name='username' class="form-control pl-2 border-left-0" id="username" placeholder="username">
               </div>
 
