@@ -118,22 +118,15 @@
 
             <!-- Form -->
             <form class="mb-6" method="post">
+              {% for message in get_flashed_messages() %}
+              <div class="alert-error">{{ message }}</div>
+               {% endfor %}
 
               <!-- Email -->
               <div class="form-group">
                 <label for="email">
                   Email Address
                 </label>
-                {% with messages = get_flashed_messages() %}
-                {% if messages %}
-                <ul class=flashes>
-                {% for message in messages %}
-                <li>{{ message }}</li>
-                 {% endfor %}
-                </ul>
-                {% endif %}
-                {% endwith %}
-                {% block body %}{% endblock %}
                 <input type="text" name = "email" class="form-control pl-2 border-left-0" id="email" placeholder="name@address.com">
               </div>
 

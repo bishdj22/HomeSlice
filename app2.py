@@ -3,8 +3,9 @@ import requests
 import zillow
 # import pprint as pp
 import json
+from datetime import datetime
 from sqlalchemy import create_engine
-from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash,session
+from flask import Flask, jsonify, render_template,request,redirect, url_for,request,flash,session,g
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask, render_template, redirect
 from calculations import address_search
@@ -72,7 +73,7 @@ def zillow_call():
 
 
 @app.route('/signup1', methods=['GET', 'POST'])
-def signup():
+def newform():
     print("working...")
     #Default results
     print(request.method)
@@ -120,12 +121,12 @@ def signup():
         
     return render_template('signup.html')
 
-@app.route('/login1', methods=['GET', 'POST'])
-def login():
-    print("working...")
-    #Default results
-    print(request.method)
-    return render_template('login.html')
+# @app.route('/login1', methods=['GET', 'POST'])
+# def login():
+#     print("working...")
+#     #Default results
+#     print(request.method)
+#     return render_template('login.html')
 
 
 
@@ -168,20 +169,60 @@ def welcome():
     name = firstname
 
     return render_template('welcome.html',say=name)
-
+@app.route("/test1")
+def test():
+    return render_template('test.html')
 
     ##########Login Attempt 
 
 @login_manager.user_loader
-# def load_user(user_id):
-#     return User.query.get(int(user_id))
+def load_user(user_id):
+    return User.query.get(int(user_id))
 
 class User(UserMixin, db.Model):
-    __tablename__ = "users"
-    id = db.Column(db.Integer, primary_key=True)
+    __tablename__ = "usersdata"
+    id = db.Column('user_id',db.Integer, primary_key=True)
     username = db.Column(db.String(15), unique=True)
     email = db.Column(db.String(50), unique=True)
     password = db.Column(db.String(80))
+    registered_on = db.Column('registered_on' , db.DateTime)
+    todos = db.relationship('Todo' , backref='user',lazy='dynamic')
+    def __init__(self , username ,password , email):
+
+        self.username = username
+
+        self.password = password
+
+        self.email = email
+
+        self.registered_on = datetime.utcnow()
+
+    def is_authenticated(self):
+        return True
+    def is_active(self):
+        return True
+    def is_anonymous(self):
+        return False
+    def get_id(self):
+        return str(self.id)
+    def __repr__(self):
+        return '<User %r>' % (self.username)
+
+
+class Todo(db.Model):
+    __tablename__ = 'todos'
+    id = db.Column('todo_id', db.Integer, primary_key=True)
+    title = db.Column(db.String(60))
+    text = db.Column(db.String)
+    done = db.Column(db.Boolean)
+    pub_date = db.Column(db.DateTime)
+    user_id = db.Column(db.Integer, db.ForeignKey('usersdata.user_id'))
+
+    def __init__(self, title, text):
+        self.title = title
+        self.text = text
+        self.done = False
+        self.pub_date = datetime.utcnow()
 
 
 @app.route('/signup', methods=['GET', 'POST'])
@@ -196,36 +237,20 @@ def signup1():
         else:
             username = username.strip()
             password = password.strip()
-
-            #------DB code to pass to Database-----#
-            #THIS CODE WORKS, but leaving in comment since Collins' may work on other's machines'
-        
-            # user_signup_dict = {'username': username, 'email': email, 'password': password}
-            # newuser_df = pd.DataFrame.from_dict(user_signup_dict, orient='index').T
-            # newuser_df['datetimestamp'] = pd.Timestamp.now()
-            
-            # newuser_df.to_sql(name='users', con=engine, if_exists='append', index=False)
-
-            #-------End DB added code--------#
-
-            # return redirect(url_for("login"))
-            hashed_pwd = generate_password_hash(password, 'sha256')
-
+        hashed_pwd = generate_password_hash(password, 'sha256')
         new_user = User(username=username, password=hashed_pwd,email=email)
         db.session.add(new_user)
-     
-        
         try:
             db.session.commit()
             flash("User account has been created.")
+            return redirect(url_for("login"))
         except:
             flash("Username {u} is not available.".format(u=username))
-
             return redirect(url_for("signup"))
     return render_template('signup.html')
 
 @app.route("/login", methods=["GET", "POST"])
-def login1():
+def login():
     if request.method == "POST":
         email = request.form['email']
         password = request.form['password']
@@ -240,15 +265,37 @@ def login1():
         user = User.query.filter_by(email=email).first()
 
         if user and check_password_hash(user.password, password):
+            login_user(user)
             session[email] = True
-            return redirect(url_for("dashboard", email=email))
+            print(g.user.id)
+            print(current_user)
+            return redirect(url_for("test"))
         else:
             flash("Invalid username or password.")
         # return redirect("account-creation.html")
 
     return render_template("login.html")
 
+@app.route('/test1', methods = ['GET' , 'POST'])
+@login_required
+def new():
+    if request.method == 'POST':
+        if not request.form['title']:
+            flash('Title is required', 'error')
+        elif not request.form['text']:
+            flash('Text is required', 'error')
+        else:
+            todo = Todo(request.form['title'], request.form['text'])
+            todo.user = g.user
+            db.session.add(todo)
+            db.session.commit()
+            flash('Todo item was successfully created')
+    return render_template('test.html')
 
+
+@app.before_request
+def before_request():
+    g.user = current_user
 
 if __name__ == "__main__":
     app.run(debug=True)
