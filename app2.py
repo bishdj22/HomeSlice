@@ -72,50 +72,6 @@ def zillow_call():
     return render_template('index.html', data=results)
 
 
-<<<<<<< HEAD
-@app.route('/signup1', methods=['GET', 'POST'])
-def newform():
-    print("working...")
-    #Default results
-    print(request.method)
-    # results = ('435,000', '17,000')
-    if request.method == "POST":
-        global firstname 
-        global lastname
-        global social_security
-        global phone_number
-        global gender
-        global address
-        global postal_code
-        global email
-        global password 
-
-        firstname = request.form['first-name']
-        lastname = request.form['last-name']
-        social_security = request.form['social-security']
-        phone_number = request.form['phone-number']
-        gender = request.form['gender']
-        address = request.form['address']
-        postal_code = request.form['zipcode']
-        email = request.form['email']
-        password = request.form['password'] 
-
-        #Passing user inputs from HTML to python variable
-        user_dict = {'first-name': firstname, 'last-name' : lastname, 'social-security': social_security, 'phone-number': phone_number, 'gender': gender, 'address': address, 'zipcode': postal_code, 'gender': gender, 'email': email, 'password': password}
-
-        print(firstname)
-        print(lastname)
-        print(social_security)
-        print(phone_number)
-        print(gender)
-        print(address)
-        print(postal_code)
-        print(email)
-        print(password)
-
-        user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
-        user_df['time_stamp'] = pd.Timestamp.now()
-=======
 # @app.route('/signup1', methods=['GET', 'POST'])
 # def signup():
 #     print("working...")
@@ -158,7 +114,6 @@ def newform():
 
 #         user_df = pd.DataFrame.from_dict(user_dict, orient='index').T
 #         user_df['time_stamp'] = pd.Timestamp.now()
->>>>>>> origin
         
 #         user_df.to_sql(name='user_data', con=engine, if_exists='append', index=False)
 
@@ -217,27 +172,28 @@ def welcome():
 @app.route("/test1")
 def test():
     return render_template('test.html')
+@app.route("/account")
+def account():
+    return render_template('account-creation.html')
 
+@app.route("/buyer")
+def buyer():
+    return render_template('buyer.html')
     ##########Login Attempt 
 
 @login_manager.user_loader
-<<<<<<< HEAD
-def load_user(user_id):
-    return User.query.get(int(user_id))
-=======
 # identifing users that are logged in
-# def load_user(user_id):
-#     return User.query.get(int(user_id))
->>>>>>> origin
+def load_user(user_id):
+    return Profile.query.get(int(user_id))
 
-class User(UserMixin, db.Model):
-    __tablename__ = "usersdata"
+class Profile(UserMixin, db.Model):
+    __tablename__ = "profile"
     id = db.Column('user_id',db.Integer, primary_key=True)
     username = db.Column(db.String(15), unique=True)
     email = db.Column(db.String(50), unique=True)
     password = db.Column(db.String(80))
     registered_on = db.Column('registered_on' , db.DateTime)
-    todos = db.relationship('Todo' , backref='user',lazy='dynamic')
+    account = db.relationship('Account' , backref='profile',lazy='dynamic')
     def __init__(self , username ,password , email):
 
         self.username = username
@@ -260,20 +216,24 @@ class User(UserMixin, db.Model):
         return '<User %r>' % (self.username)
 
 
-class Todo(db.Model):
-    __tablename__ = 'todos'
-    id = db.Column('todo_id', db.Integer, primary_key=True)
-    title = db.Column(db.String(60))
-    text = db.Column(db.String)
-    done = db.Column(db.Boolean)
-    pub_date = db.Column(db.DateTime)
-    user_id = db.Column(db.Integer, db.ForeignKey('usersdata.user_id'))
+class Account(db.Model):
+    __tablename__ = 'account'
+    id = db.Column('account_id', db.Integer, primary_key=True)
+    address = db.Column(db.String(120))
+    phone = db.Column(db.String)
+    dob = db.Column(db.DateTime)
+    social = db.Column(db.Integer)
+    gender = db.Column(db.String)
+    registered_on = db.Column('registered_on' , db.DateTime)
+    user_id = db.Column(db.Integer, db.ForeignKey('profile.user_id'))
 
-    def __init__(self, title, text):
-        self.title = title
-        self.text = text
-        self.done = False
-        self.pub_date = datetime.utcnow()
+    def __init__(self, address, phone,dob,social,gender):
+        self.address = address
+        self.phone = phone
+        self.dob = dob
+        self.social = social
+        self.gender = gender
+        self.registered_on = datetime.utcnow()
 
 
 @app.route('/signup', methods=['GET', 'POST'])
@@ -289,15 +249,11 @@ def signup():
             username = username.strip()
             password = password.strip()
         hashed_pwd = generate_password_hash(password, 'sha256')
-        new_user = User(username=username, password=hashed_pwd,email=email)
+        new_user = Profile(username=username, password=hashed_pwd,email=email)
         db.session.add(new_user)
         try:
             db.session.commit()
-<<<<<<< HEAD
-            flash("User account has been created.")
-=======
             # flash("User account has been created.")
->>>>>>> origin
             return redirect(url_for("login"))
         except:
             flash("Username {u} is not available.".format(u=username))
@@ -317,40 +273,34 @@ def login():
             email = email.strip()
             password = password.strip()
 
-        user = User.query.filter_by(email=email).first()
+        user = Profile.query.filter_by(email=email).first()
 
         if user and check_password_hash(user.password, password):
             login_user(user)
             session[email] = True
-<<<<<<< HEAD
-            print(g.user.id)
-            print(current_user)
-            return redirect(url_for("test"))
-=======
-            return redirect(url_for("dashboard"))
-            # return redirect(url_for("dashboard", email=email))
->>>>>>> origin
+            # return redirect(url_for("account"))
+            return redirect(url_for("account"))
         else:
             flash("Invalid username or password.")
         # return redirect("account-creation.html")
 
     return render_template("login.html")
 
-@app.route('/test1', methods = ['GET' , 'POST'])
+
 @login_required
+@app.route('/account', methods = ['GET' , 'POST'])
 def new():
     if request.method == 'POST':
-        if not request.form['title']:
-            flash('Title is required', 'error')
-        elif not request.form['text']:
-            flash('Text is required', 'error')
+        if not request.form['address']:
+            flash('address is required', 'error')
         else:
-            todo = Todo(request.form['title'], request.form['text'])
-            todo.user = g.user
-            db.session.add(todo)
+            account = Account(request.form['address'], request.form['phone'],request.form['dob'],request.form['social'],request.form['gender'])
+            account.user_id = g.user.id
+            db.session.add(account)
             db.session.commit()
-            flash('Todo item was successfully created')
-    return render_template('test.html')
+            flash('Account item was successfully created')
+        return redirect(url_for("buyer"))
+    return render_template('buyer.html')
 
 
 @app.before_request
