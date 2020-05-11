@@ -285,13 +285,13 @@ def login():
 
             login_user(user)
             session[email] = True
-            if user.query.filter(user.registered_on > five_min).filter(user.registered_on < now).all():
-            # if user.query.filter(user.registered_on > five_min).all():
+            # if user.query.filter(user.registered_on > five_min).filter(user.registered_on < now).all():
+            if user.query.filter(user.registered_on > five_min).all():
             # return redirect(url_for("account"))
                 print("nada")
                 return redirect(url_for("seller"))
                 
-            elif user.query.filter(user.registered_on < five_min).filter(user.registered_on < now).all():
+            elif user.query.filter(user.registered_on < five_min).all():
                 print("collins")
                 return redirect(url_for("account"))
             else:
