@@ -17,6 +17,10 @@ from flask_bootstrap import Bootstrap
 from sqlalchemy.ext.automap import automap_base
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
+from sqlalchemy import func
+from sqlalchemy.dialects.postgresql import INTERVAL
+from sqlalchemy.sql.functions import concat
+from datetime import datetime, timedelta
 
 
 # Create an instance of Flask
@@ -176,9 +180,9 @@ def test():
 def account():
     return render_template('account-creation.html')
 
-@app.route("/buyer")
-def buyer():
-    return render_template('buyer.html')
+@app.route("/seller")
+def seller():
+    return render_template('seller.html')
     ##########Login Attempt 
 
 @login_manager.user_loader
@@ -276,12 +280,25 @@ def login():
         user = Profile.query.filter_by(email=email).first()
 
         if user and check_password_hash(user.password, password):
+            now = datetime.now()
+            five_min = now - timedelta(minutes=5)
+
             login_user(user)
             session[email] = True
+            if user.query.filter(user.registered_on > five_min).filter(user.registered_on < now).all():
+            # if user.query.filter(user.registered_on > five_min).all():
             # return redirect(url_for("account"))
-            return redirect(url_for("account"))
+                print("nada")
+                return redirect(url_for("seller"))
+                
+            elif user.query.filter(user.registered_on < five_min).filter(user.registered_on < now).all():
+                print("collins")
+                return redirect(url_for("account"))
+            else:
+                return None
         else:
             flash("Invalid username or password.")
+
         # return redirect("account-creation.html")
 
     return render_template("login.html")
@@ -299,9 +316,8 @@ def new():
             db.session.add(account)
             db.session.commit()
             flash('Account item was successfully created')
-        return redirect(url_for("buyer"))
-    return render_template('buyer.html')
-
+        return redirect(url_for("seller"))
+    return render_template('seller.html')
 
 @app.before_request
 def before_request():
