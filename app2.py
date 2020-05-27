@@ -553,6 +553,14 @@ def new():
 def before_request():
     g.user = current_user
 
+@app.route('/logout')
+
+def logout():
+
+    logout_user()
+
+    return redirect(url_for('index'))
+
 if __name__ == "__main__":
     app.run(debug=True)
 
