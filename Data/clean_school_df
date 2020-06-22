@@ -1,0 +1,3429 @@
+,zip,Rank,state_name
+0,01002,479.0,Massachusetts
+1,01003,479.0,Massachusetts
+2,01010,329.0,Massachusetts
+3,01013,285.0,Pennsylvania
+4,01013,471.0,Pennsylvania
+5,01020,285.0,Pennsylvania
+6,01020,471.0,Pennsylvania
+7,01035,458.0,Massachusetts
+8,01036,365.0,Massachusetts
+9,01054,479.0,Massachusetts
+10,01057,365.0,Massachusetts
+11,01057,329.0,Massachusetts
+12,01072,479.0,Massachusetts
+13,01081,329.0,Massachusetts
+14,01085,84.0,New Jersey
+15,01086,84.0,New Jersey
+16,01095,365.0,Massachusetts
+17,01103,285.0,Pennsylvania
+18,01103,471.0,Pennsylvania
+19,01104,285.0,Pennsylvania
+20,01104,471.0,Pennsylvania
+21,01105,285.0,Pennsylvania
+22,01105,471.0,Pennsylvania
+23,01106,178.0,Massachusetts
+24,01106,285.0,Pennsylvania
+25,01106,471.0,Pennsylvania
+26,01107,285.0,Pennsylvania
+27,01107,471.0,Pennsylvania
+28,01108,285.0,Pennsylvania
+29,01108,471.0,Pennsylvania
+30,01109,285.0,Pennsylvania
+31,01109,471.0,Pennsylvania
+32,01118,285.0,Pennsylvania
+33,01118,471.0,Pennsylvania
+34,01119,285.0,Pennsylvania
+35,01119,471.0,Pennsylvania
+36,01128,285.0,Pennsylvania
+37,01128,471.0,Pennsylvania
+38,01129,285.0,Pennsylvania
+39,01129,471.0,Pennsylvania
+40,01151,285.0,Pennsylvania
+41,01151,471.0,Pennsylvania
+42,01199,285.0,Pennsylvania
+43,01199,471.0,Pennsylvania
+44,01201,456.0,Massachusetts
+45,01201,19.0,Massachusetts
+46,01224,19.0,Massachusetts
+47,01237,19.0,Massachusetts
+48,01240,456.0,Massachusetts
+49,01242,456.0,Massachusetts
+50,01267,19.0,Massachusetts
+51,01331,473.0,Rhode Island
+52,01355,479.0,Massachusetts
+53,01434,51.0,Massachusetts
+54,01436,473.0,Rhode Island
+55,01438,473.0,Rhode Island
+56,01440,473.0,Rhode Island
+57,01450,72.0,Massachusetts
+58,01451,51.0,Massachusetts
+59,01453,116.0,Massachusetts
+60,01460,145.0,Massachusetts
+61,01462,423.0,Massachusetts
+62,01467,51.0,Massachusetts
+63,01468,473.0,Rhode Island
+64,01506,329.0,Massachusetts
+65,01518,329.0,Massachusetts
+66,01519,109.0,Massachusetts
+67,01519,415.0,Wisconsin
+68,01520,103.0,Massachusetts
+69,01521,329.0,Massachusetts
+70,01522,103.0,Massachusetts
+71,01523,116.0,Massachusetts
+72,01536,109.0,Massachusetts
+73,01536,415.0,Wisconsin
+74,01536,10.0,Massachusetts
+75,01541,103.0,Massachusetts
+76,01543,103.0,Massachusetts
+77,01545,10.0,Massachusetts
+78,01560,109.0,Massachusetts
+79,01560,415.0,Wisconsin
+80,01561,116.0,Massachusetts
+81,01564,103.0,Massachusetts
+82,01566,329.0,Massachusetts
+83,01568,220.0,Massachusetts
+84,01581,70.0,Massachusetts
+85,01588,442.0,Massachusetts
+86,01590,442.0,Massachusetts
+87,01604,10.0,Massachusetts
+88,01612,103.0,Massachusetts
+89,01702,94.0,Massachusetts
+90,01718,32.0,Massachusetts
+91,01719,32.0,Massachusetts
+92,01720,32.0,Massachusetts
+93,01721,296.0,Massachusetts
+94,01730,20.0,New Hampshire
+95,01730,37.0,Massachusetts
+96,01730,495.0,Massachusetts
+97,01731,20.0,New Hampshire
+98,01731,37.0,Massachusetts
+99,01740,116.0,Massachusetts
+100,01742,32.0,Massachusetts
+101,01746,82.0,Massachusetts
+102,01747,256.0,Massachusetts
+103,01748,61.0,Massachusetts
+104,01756,220.0,Massachusetts
+105,01757,220.0,Massachusetts
+106,01760,94.0,Massachusetts
+107,01760,30.0,Massachusetts
+108,01770,36.0,Massachusetts
+109,01775,116.0,Massachusetts
+110,01776,30.0,Massachusetts
+111,01778,94.0,Massachusetts
+112,01778,30.0,Massachusetts
+113,01801,184.0,Massachusetts
+114,01803,495.0,Massachusetts
+115,01810,39.0,Massachusetts
+116,01810,340.0,Kansas
+117,01824,119.0,Massachusetts
+118,01827,72.0,Massachusetts
+119,01833,469.0,Massachusetts
+120,01834,270.0,Massachusetts
+121,01845,417.0,Massachusetts
+122,01860,270.0,Massachusetts
+123,01863,119.0,Massachusetts
+124,01864,174.0,Massachusetts
+125,01867,184.0,Massachusetts
+126,01880,420.0,Massachusetts
+127,01886,5.0,Massachusetts
+128,01887,304.0,Massachusetts
+129,01890,8.0,Massachusetts
+130,01907,368.0,Massachusetts
+131,01921,268.0,Massachusetts
+132,01929,66.0,Massachusetts
+133,01938,246.0,Massachusetts
+134,01940,62.0,Massachusetts
+135,01940,420.0,Massachusetts
+136,01944,66.0,Massachusetts
+137,01945,133.0,Massachusetts
+138,01949,268.0,Massachusetts
+139,01950,295.0,Massachusetts
+140,01951,295.0,Massachusetts
+141,01982,188.0,Massachusetts
+142,01983,268.0,Massachusetts
+143,01984,188.0,Massachusetts
+144,01985,270.0,Massachusetts
+145,02021,149.0,Massachusetts
+146,02025,91.0,Massachusetts
+147,02026,291.0,Massachusetts
+148,02030,36.0,Massachusetts
+149,02032,211.0,Massachusetts
+150,02035,437.0,Massachusetts
+151,02038,93.0,Massachusetts
+152,02038,400.0,Wisconsin
+153,02043,31.0,Massachusetts
+154,02047,41.0,Massachusetts
+155,02048,204.0,Massachusetts
+156,02050,192.0,Massachusetts
+157,02050,41.0,Massachusetts
+158,02052,63.0,Massachusetts
+159,02053,172.0,Massachusetts
+160,02054,464.0,Massachusetts
+161,02056,38.0,Massachusetts
+162,02061,161.0,Massachusetts
+163,02066,41.0,Massachusetts
+164,02067,25.0,Massachusetts
+165,02071,38.0,Massachusetts
+166,02071,211.0,Massachusetts
+167,02072,25.0,Massachusetts
+168,02081,25.0,Massachusetts
+169,02081,211.0,Massachusetts
+170,02090,291.0,Massachusetts
+171,02090,9.0,Massachusetts
+172,02093,38.0,Massachusetts
+173,02138,15.0,Massachusetts
+174,02176,233.0,Massachusetts
+175,02180,496.0,Massachusetts
+176,02184,163.0,Massachusetts
+177,02186,156.0,Massachusetts
+178,02215,22.0,Massachusetts
+179,02332,135.0,Massachusetts
+180,02338,274.0,Massachusetts
+181,02338,490.0,Kansas
+182,02339,218.0,Massachusetts
+183,02341,459.0,Massachusetts
+184,02343,413.0,Massachusetts
+185,02356,251.0,Massachusetts
+186,02357,251.0,Massachusetts
+187,02359,459.0,Massachusetts
+188,02364,274.0,Massachusetts
+189,02364,490.0,Kansas
+190,02367,274.0,Massachusetts
+191,02367,490.0,Kansas
+192,02368,413.0,Massachusetts
+193,02368,223.0,New Jersey
+194,02375,251.0,Massachusetts
+195,02379,310.0,Massachusetts
+196,02420,3.0,Massachusetts
+197,02421,3.0,Massachusetts
+198,02445,22.0,Massachusetts
+199,02446,22.0,Massachusetts
+200,02457,33.0,Massachusetts
+201,02458,23.0,Massachusetts
+202,02459,23.0,Massachusetts
+203,02460,23.0,Massachusetts
+204,02461,23.0,Massachusetts
+205,02462,23.0,Massachusetts
+206,02464,23.0,Massachusetts
+207,02465,23.0,Massachusetts
+208,02466,23.0,Massachusetts
+209,02467,22.0,Massachusetts
+210,02467,23.0,Massachusetts
+211,02468,23.0,Massachusetts
+212,02472,15.0,Massachusetts
+213,02472,23.0,Massachusetts
+214,02474,26.0,Massachusetts
+215,02476,26.0,Massachusetts
+216,02478,15.0,Massachusetts
+217,02481,33.0,Massachusetts
+218,02482,36.0,Massachusetts
+219,02482,33.0,Massachusetts
+220,02492,50.0,Massachusetts
+221,02492,33.0,Massachusetts
+222,02493,14.0,Massachusetts
+223,02494,50.0,Massachusetts
+224,02536,146.0,Maine
+225,02537,314.0,Massachusetts
+226,02540,146.0,Maine
+227,02542,314.0,Massachusetts
+228,02543,146.0,Maine
+229,02556,146.0,Maine
+230,02562,314.0,Massachusetts
+231,02563,314.0,Massachusetts
+232,02576,181.0,Massachusetts
+233,02576,153.0,Michigan
+234,02631,275.0,Massachusetts
+235,02642,275.0,Massachusetts
+236,02643,275.0,Massachusetts
+237,02644,314.0,Massachusetts
+238,02645,275.0,Massachusetts
+239,02649,314.0,Massachusetts
+240,02651,275.0,Massachusetts
+241,02653,275.0,Massachusetts
+242,02663,275.0,Massachusetts
+243,02667,275.0,Massachusetts
+244,02703,432.0,Massachusetts
+245,02738,181.0,Massachusetts
+246,02739,181.0,Massachusetts
+247,02760,353.0,Massachusetts
+248,02762,38.0,Massachusetts
+249,02763,353.0,Massachusetts
+250,02766,361.0,Massachusetts
+251,02770,181.0,Massachusetts
+252,02770,153.0,Michigan
+253,02771,432.0,Massachusetts
+254,02806,115.0,Rhode Island
+255,02813,377.0,Rhode Island
+256,02815,41.0,Massachusetts
+257,02816,41.0,Massachusetts
+258,02818,236.0,Rhode Island
+259,02825,41.0,Massachusetts
+260,02831,41.0,Massachusetts
+261,02857,41.0,Massachusetts
+262,02871,498.0,Rhode Island
+263,02872,498.0,Rhode Island
+264,02874,473.0,Rhode Island
+265,02874,377.0,Rhode Island
+266,02878,498.0,Rhode Island
+267,02879,473.0,Rhode Island
+268,02879,377.0,Rhode Island
+269,02881,377.0,Rhode Island
+270,02882,473.0,Rhode Island
+271,02892,377.0,Rhode Island
+272,02893,236.0,Rhode Island
+273,02919,259.0,Iowa
+274,03033,22.0,Massachusetts
+275,03049,22.0,Massachusetts
+276,03110,20.0,New Hampshire
+277,03110,37.0,Massachusetts
+278,03216,39.0,Massachusetts
+279,03216,340.0,Kansas
+280,03217,296.0,Massachusetts
+281,03229,61.0,Massachusetts
+282,03231,39.0,Massachusetts
+283,03231,340.0,Kansas
+284,03235,39.0,Massachusetts
+285,03235,340.0,Kansas
+286,03235,93.0,Massachusetts
+287,03235,400.0,Wisconsin
+288,03275,459.0,Massachusetts
+289,03304,334.0,New Hampshire
+290,03441,8.0,Massachusetts
+291,03451,8.0,Massachusetts
+292,03470,8.0,Massachusetts
+293,03561,145.0,Massachusetts
+294,03741,104.0,New Hampshire
+295,03741,218.0,Massachusetts
+296,03750,104.0,New Hampshire
+297,03750,218.0,Massachusetts
+298,03755,104.0,New Hampshire
+299,03755,218.0,Massachusetts
+300,03771,376.0,New Jersey
+301,03780,319.0,Wisconsin
+302,03785,319.0,Wisconsin
+303,03785,376.0,New Jersey
+304,03801,498.0,Rhode Island
+305,03818,60.0,New Jersey
+306,03825,115.0,Rhode Island
+307,03830,420.0,Massachusetts
+308,03832,60.0,New Jersey
+309,03833,443.0,Missouri
+310,03839,115.0,Rhode Island
+311,03839,153.0,Michigan
+312,03842,144.0,Pennsylvania
+313,03844,144.0,Pennsylvania
+314,03849,60.0,New Jersey
+315,03851,156.0,Massachusetts
+316,03852,156.0,Massachusetts
+317,03867,153.0,Michigan
+318,03868,153.0,Michigan
+319,03872,420.0,Massachusetts
+320,03874,144.0,Pennsylvania
+321,03875,60.0,New Jersey
+322,03886,60.0,New Jersey
+323,03887,420.0,Massachusetts
+324,04062,146.0,Maine
+325,04096,148.0,Maine
+326,04105,146.0,Maine
+327,04106,212.0,Maine
+328,04107,212.0,Maine
+329,04429,291.0,Massachusetts
+330,04460,172.0,Massachusetts
+331,04487,387.0,Minnesota
+332,04548,469.0,Massachusetts
+333,04605,291.0,Massachusetts
+334,04654,192.0,Massachusetts
+335,04666,459.0,Massachusetts
+336,04668,17.0,New Jersey
+337,04740,251.0,Massachusetts
+338,05032,153.0,Michigan
+339,05041,223.0,New Jersey
+340,05060,163.0,Massachusetts
+341,05060,223.0,New Jersey
+342,05061,223.0,New Jersey
+343,05062,184.0,Massachusetts
+344,05065,25.0,Massachusetts
+345,05068,25.0,Massachusetts
+346,05141,109.0,Massachusetts
+347,05141,415.0,Wisconsin
+348,05146,109.0,Massachusetts
+349,05146,415.0,Wisconsin
+350,05150,285.0,Pennsylvania
+351,05150,471.0,Pennsylvania
+352,05156,285.0,Pennsylvania
+353,05156,471.0,Pennsylvania
+354,05250,26.0,Massachusetts
+355,05345,22.0,Massachusetts
+356,05346,22.0,Massachusetts
+357,05363,304.0,Massachusetts
+358,05401,495.0,Massachusetts
+359,05401,327.0,Vermont
+360,05403,327.0,Vermont
+361,05405,495.0,Massachusetts
+362,05408,495.0,Massachusetts
+363,05446,495.0,Massachusetts
+364,05450,93.0,Massachusetts
+365,05450,400.0,Wisconsin
+366,05450,52.0,New Jersey
+367,05452,5.0,Massachusetts
+368,05457,93.0,Massachusetts
+369,05457,400.0,Wisconsin
+370,05459,93.0,Massachusetts
+371,05459,400.0,Wisconsin
+372,05468,156.0,Massachusetts
+373,05471,52.0,New Jersey
+374,05471,84.0,New Jersey
+375,05476,52.0,New Jersey
+376,05482,327.0,Vermont
+377,05489,5.0,Massachusetts
+378,05494,5.0,Massachusetts
+379,05669,163.0,Massachusetts
+380,05738,10.0,Massachusetts
+381,05767,153.0,Michigan
+382,05859,217.0,Michigan
+383,05867,442.0,Massachusetts
+384,05868,217.0,Michigan
+385,05871,442.0,Massachusetts
+386,05874,84.0,New Jersey
+387,05904,423.0,Massachusetts
+388,05905,423.0,Massachusetts
+389,05906,423.0,Massachusetts
+390,05907,361.0,Massachusetts
+391,06019,149.0,Massachusetts
+392,06020,149.0,Massachusetts
+393,06022,149.0,Massachusetts
+394,06043,39.0,Massachusetts
+395,06043,340.0,Kansas
+396,06069,25.0,Massachusetts
+397,06098,8.0,Massachusetts
+398,06226,204.0,Massachusetts
+399,06232,39.0,Massachusetts
+400,06232,340.0,Kansas
+401,06247,144.0,Pennsylvania
+402,06250,204.0,Massachusetts
+403,06254,93.0,Massachusetts
+404,06254,400.0,Wisconsin
+405,06268,204.0,Massachusetts
+406,06269,204.0,Massachusetts
+407,06280,93.0,Massachusetts
+408,06280,400.0,Wisconsin
+409,06330,93.0,Massachusetts
+410,06330,400.0,Wisconsin
+411,06353,102.0,New Jersey
+412,06370,102.0,New Jersey
+413,06375,102.0,New Jersey
+414,06382,102.0,New Jersey
+415,06443,60.0,New Jersey
+416,06468,376.0,New Jersey
+417,06611,251.0,Massachusetts
+418,06612,251.0,Massachusetts
+419,06754,25.0,Massachusetts
+420,06790,8.0,Massachusetts
+421,06796,25.0,Massachusetts
+422,06883,14.0,Massachusetts
+423,07004,401.0,New Jersey
+424,07005,102.0,New Jersey
+425,07005,266.0,New Jersey
+426,07006,407.0,New Jersey
+427,07006,401.0,New Jersey
+428,07016,205.0,New Jersey
+429,07017,186.0,Ohio
+430,07018,186.0,Ohio
+431,07018,323.0,New Jersey
+432,07021,407.0,New Jersey
+433,07021,401.0,New Jersey
+434,07024,262.0,New Jersey
+435,07024,318.0,New Jersey
+436,07028,200.0,New Jersey
+437,07034,102.0,New Jersey
+438,07034,266.0,New Jersey
+439,07035,107.0,New Jersey
+440,07035,245.0,New Jersey
+441,07039,53.0,New Jersey
+442,07039,16.0,New Jersey
+443,07040,323.0,New Jersey
+444,07041,16.0,New Jersey
+445,07041,323.0,New Jersey
+446,07044,332.0,New Jersey
+447,07045,102.0,New Jersey
+448,07046,44.0,New Jersey
+449,07046,266.0,New Jersey
+450,07050,186.0,Ohio
+451,07052,53.0,New Jersey
+452,07052,332.0,New Jersey
+453,07054,266.0,New Jersey
+454,07058,102.0,New Jersey
+455,07068,401.0,New Jersey
+456,07078,16.0,New Jersey
+457,07079,186.0,Ohio
+458,07079,323.0,New Jersey
+459,07081,285.0,Pennsylvania
+460,07081,471.0,Pennsylvania
+461,07082,102.0,New Jersey
+462,07083,323.0,New Jersey
+463,07405,107.0,New Jersey
+464,07410,317.0,New Jersey
+465,07416,93.0,Massachusetts
+466,07416,400.0,Wisconsin
+467,07419,93.0,Massachusetts
+468,07419,400.0,Wisconsin
+469,07430,113.0,New Jersey
+470,07430,138.0,New Jersey
+471,07435,107.0,New Jersey
+472,07439,93.0,Massachusetts
+473,07439,400.0,Wisconsin
+474,07440,245.0,New Jersey
+475,07444,245.0,New Jersey
+476,07446,138.0,New Jersey
+477,07450,354.0,New Jersey
+478,07450,350.0,New Jersey
+479,07452,46.0,New Jersey
+480,07458,138.0,New Jersey
+481,07460,93.0,Massachusetts
+482,07460,400.0,Wisconsin
+483,07463,293.0,New Jersey
+484,07481,293.0,New Jersey
+485,07495,113.0,New Jersey
+486,07601,68.0,New Jersey
+487,07605,262.0,New Jersey
+488,07605,318.0,New Jersey
+489,07621,382.0,New Jersey
+490,07626,98.0,New Jersey
+491,07628,382.0,New Jersey
+492,07630,278.0,New Jersey
+493,07649,68.0,New Jersey
+494,07652,354.0,New Jersey
+495,07656,190.0,New Jersey
+496,07661,68.0,New Jersey
+497,07670,98.0,New Jersey
+498,07670,11.0,New Jersey
+499,07675,278.0,New Jersey
+500,07675,350.0,New Jersey
+501,07676,350.0,New Jersey
+502,07702,10.0,Massachusetts
+503,07719,366.0,New Jersey
+504,07727,366.0,New Jersey
+505,07730,124.0,New Jersey
+506,07731,366.0,New Jersey
+507,07733,124.0,New Jersey
+508,07753,366.0,New Jersey
+509,07762,366.0,New Jersey
+510,07801,223.0,New Jersey
+511,07803,223.0,New Jersey
+512,07828,160.0,New Jersey
+513,07834,266.0,New Jersey
+514,07836,160.0,New Jersey
+515,07838,204.0,Massachusetts
+516,07840,204.0,Massachusetts
+517,07840,160.0,New Jersey
+518,07848,144.0,Pennsylvania
+519,07860,144.0,Pennsylvania
+520,07863,204.0,Massachusetts
+521,07865,204.0,Massachusetts
+522,07869,266.0,New Jersey
+523,07869,223.0,New Jersey
+524,07871,93.0,Massachusetts
+525,07871,400.0,Wisconsin
+526,07874,160.0,New Jersey
+527,07878,266.0,New Jersey
+528,07882,93.0,Massachusetts
+529,07882,400.0,Wisconsin
+530,07882,204.0,Massachusetts
+531,07901,99.0,New Jersey
+532,07901,79.0,New Jersey
+533,07901,285.0,Pennsylvania
+534,07901,471.0,Pennsylvania
+535,07901,110.0,New Jersey
+536,07920,13.0,New Jersey
+537,07920,137.0,New Jersey
+538,07922,99.0,New Jersey
+539,07922,79.0,New Jersey
+540,07924,118.0,New Jersey
+541,07927,218.0,Massachusetts
+542,07928,28.0,New Jersey
+543,07930,160.0,New Jersey
+544,07931,118.0,New Jersey
+545,07931,13.0,New Jersey
+546,07932,28.0,New Jersey
+547,07932,60.0,New Jersey
+548,07934,118.0,New Jersey
+549,07935,28.0,New Jersey
+550,07936,266.0,New Jersey
+551,07939,13.0,New Jersey
+552,07940,28.0,New Jersey
+553,07940,60.0,New Jersey
+554,07945,223.0,New Jersey
+555,07950,218.0,Massachusetts
+556,07950,266.0,New Jersey
+557,07960,28.0,New Jersey
+558,07960,218.0,Massachusetts
+559,07960,266.0,New Jersey
+560,07974,99.0,New Jersey
+561,07974,79.0,New Jersey
+562,07977,118.0,New Jersey
+563,07981,218.0,Massachusetts
+564,08002,411.0,New Jersey
+565,08003,411.0,New Jersey
+566,08007,115.0,Rhode Island
+567,08007,347.0,New Jersey
+568,08010,495.0,Massachusetts
+569,08016,495.0,Massachusetts
+570,08016,285.0,Pennsylvania
+571,08016,471.0,Pennsylvania
+572,08020,236.0,Rhode Island
+573,08020,427.0,New Jersey
+574,08022,204.0,Massachusetts
+575,08022,285.0,Pennsylvania
+576,08022,471.0,Pennsylvania
+577,08027,236.0,Rhode Island
+578,08027,427.0,New Jersey
+579,08028,162.0,Missouri
+580,08033,115.0,Rhode Island
+581,08033,411.0,New Jersey
+582,08033,347.0,New Jersey
+583,08033,86.0,New Jersey
+584,08034,411.0,New Jersey
+585,08035,115.0,Rhode Island
+586,08035,347.0,New Jersey
+587,08037,241.0,Wisconsin
+588,08039,427.0,New Jersey
+589,08041,285.0,Pennsylvania
+590,08041,471.0,Pennsylvania
+591,08042,285.0,Pennsylvania
+592,08042,471.0,Pennsylvania
+593,08054,303.0,New Jersey
+594,08056,236.0,Rhode Island
+595,08056,427.0,New Jersey
+596,08057,303.0,New Jersey
+597,08060,285.0,Pennsylvania
+598,08060,471.0,Pennsylvania
+599,08061,236.0,Rhode Island
+600,08061,427.0,New Jersey
+601,08062,427.0,New Jersey
+602,08066,236.0,Rhode Island
+603,08066,427.0,New Jersey
+604,08068,285.0,Pennsylvania
+605,08068,471.0,Pennsylvania
+606,08085,236.0,Rhode Island
+607,08085,427.0,New Jersey
+608,08094,162.0,Missouri
+609,08094,93.0,Massachusetts
+610,08094,400.0,Wisconsin
+611,08094,376.0,New Jersey
+612,08108,411.0,New Jersey
+613,08109,411.0,New Jersey
+614,08312,162.0,Missouri
+615,08322,93.0,Massachusetts
+616,08322,400.0,Wisconsin
+617,08328,93.0,Massachusetts
+618,08328,400.0,Wisconsin
+619,08330,241.0,Wisconsin
+620,08343,93.0,Massachusetts
+621,08343,400.0,Wisconsin
+622,08344,93.0,Massachusetts
+623,08344,400.0,Wisconsin
+624,08360,93.0,Massachusetts
+625,08360,400.0,Wisconsin
+626,08501,241.0,Wisconsin
+627,08502,52.0,New Jersey
+628,08505,204.0,Massachusetts
+629,08505,285.0,Pennsylvania
+630,08505,471.0,Pennsylvania
+631,08512,117.0,New Jersey
+632,08512,6.0,New Jersey
+633,08520,114.0,New Jersey
+634,08520,6.0,New Jersey
+635,08525,165.0,New Jersey
+636,08528,93.0,Massachusetts
+637,08528,400.0,Wisconsin
+638,08528,117.0,New Jersey
+639,08530,165.0,New Jersey
+640,08534,165.0,New Jersey
+641,08536,6.0,New Jersey
+642,08540,93.0,Massachusetts
+643,08540,400.0,Wisconsin
+644,08540,165.0,New Jersey
+645,08540,52.0,New Jersey
+646,08540,17.0,New Jersey
+647,08540,117.0,New Jersey
+648,08540,6.0,New Jersey
+649,08542,17.0,New Jersey
+650,08550,6.0,New Jersey
+651,08553,52.0,New Jersey
+652,08558,165.0,New Jersey
+653,08558,52.0,New Jersey
+654,08560,165.0,New Jersey
+655,08561,114.0,New Jersey
+656,08562,285.0,Pennsylvania
+657,08562,471.0,Pennsylvania
+658,08609,241.0,Wisconsin
+659,08610,241.0,Wisconsin
+660,08611,241.0,Wisconsin
+661,08619,241.0,Wisconsin
+662,08620,241.0,Wisconsin
+663,08629,241.0,Wisconsin
+664,08638,241.0,Wisconsin
+665,08690,241.0,Wisconsin
+666,08690,114.0,New Jersey
+667,08690,6.0,New Jersey
+668,08691,241.0,Wisconsin
+669,08691,114.0,New Jersey
+670,08720,366.0,New Jersey
+671,08724,366.0,New Jersey
+672,08736,366.0,New Jersey
+673,08750,366.0,New Jersey
+674,08801,93.0,Massachusetts
+675,08801,400.0,Wisconsin
+676,08802,93.0,Massachusetts
+677,08802,400.0,Wisconsin
+678,08804,93.0,Massachusetts
+679,08804,400.0,Wisconsin
+680,08805,137.0,New Jersey
+681,08807,137.0,New Jersey
+682,08808,93.0,Massachusetts
+683,08808,400.0,Wisconsin
+684,08810,117.0,New Jersey
+685,08816,265.0,New Jersey
+686,08816,117.0,New Jersey
+687,08817,59.0,New Jersey
+688,08817,468.0,New Jersey
+689,08820,59.0,New Jersey
+690,08821,167.0,New Jersey
+691,08822,93.0,Massachusetts
+692,08822,400.0,Wisconsin
+693,08823,93.0,Massachusetts
+694,08823,400.0,Wisconsin
+695,08824,117.0,New Jersey
+696,08825,93.0,Massachusetts
+697,08825,400.0,Wisconsin
+698,08827,144.0,Pennsylvania
+699,08831,265.0,New Jersey
+700,08831,376.0,New Jersey
+701,08831,117.0,New Jersey
+702,08836,137.0,New Jersey
+703,08837,59.0,New Jersey
+704,08840,375.0,New Jersey
+705,08844,167.0,New Jersey
+706,08850,265.0,New Jersey
+707,08852,117.0,New Jersey
+708,08854,468.0,New Jersey
+709,08867,93.0,Massachusetts
+710,08867,400.0,Wisconsin
+711,08869,137.0,New Jersey
+712,08873,93.0,Massachusetts
+713,08873,400.0,Wisconsin
+714,08886,93.0,Massachusetts
+715,08886,400.0,Wisconsin
+716,08890,93.0,Massachusetts
+717,08890,400.0,Wisconsin
+718,08902,265.0,New Jersey
+719,08902,117.0,New Jersey
+720,10501,429.0,New York
+721,10502,92.0,New York
+722,10503,67.0,New York
+723,10504,49.0,New York
+724,10504,85.0,New York
+725,10504,447.0,New York
+726,10504,313.0,New York
+727,10505,429.0,New York
+728,10506,49.0,New York
+729,10506,128.0,New York
+730,10506,447.0,New York
+731,10507,128.0,New York
+732,10507,447.0,New York
+733,10509,395.0,New York
+734,10510,95.0,New York
+735,10510,85.0,New York
+736,10510,271.0,New York
+737,10512,395.0,New York
+738,10514,49.0,New York
+739,10514,85.0,New York
+740,10514,271.0,New York
+741,10518,128.0,New York
+742,10519,395.0,New York
+743,10520,301.0,New York
+744,10522,92.0,New York
+745,10526,128.0,New York
+746,10527,429.0,New York
+747,10528,378.0,New York
+748,10528,35.0,New York
+749,10528,194.0,New York
+750,10530,92.0,New York
+751,10530,302.0,New York
+752,10532,313.0,New York
+753,10533,92.0,New York
+754,10533,67.0,New York
+755,10536,128.0,New York
+756,10536,447.0,New York
+757,10536,429.0,New York
+758,10538,126.0,New York
+759,10538,73.0,New York
+760,10541,429.0,New York
+761,10543,126.0,New York
+762,10543,194.0,New York
+763,10543,73.0,New York
+764,10546,85.0,New York
+765,10549,49.0,New York
+766,10549,85.0,New York
+767,10549,128.0,New York
+768,10549,447.0,New York
+769,10560,128.0,New York
+770,10560,395.0,New York
+771,10562,85.0,New York
+772,10562,301.0,New York
+773,10567,301.0,New York
+774,10570,95.0,New York
+775,10570,49.0,New York
+776,10570,85.0,New York
+777,10570,313.0,New York
+778,10570,271.0,New York
+779,10573,71.0,New York
+780,10573,35.0,New York
+781,10576,128.0,New York
+782,10576,447.0,New York
+783,10577,378.0,New York
+784,10577,71.0,New York
+785,10578,395.0,New York
+786,10578,429.0,New York
+787,10580,378.0,New York
+788,10580,35.0,New York
+789,10580,194.0,New York
+790,10583,92.0,New York
+791,10583,142.0,New York
+792,10583,302.0,New York
+793,10583,126.0,New York
+794,10583,73.0,New York
+795,10589,128.0,New York
+796,10589,395.0,New York
+797,10589,429.0,New York
+798,10590,128.0,New York
+799,10590,447.0,New York
+800,10591,67.0,New York
+801,10591,313.0,New York
+802,10594,49.0,New York
+803,10594,313.0,New York
+804,10595,49.0,New York
+805,10595,313.0,New York
+806,10597,128.0,New York
+807,10598,429.0,New York
+808,10604,49.0,New York
+809,10604,378.0,New York
+810,10604,313.0,New York
+811,10604,71.0,New York
+812,10607,92.0,New York
+813,10701,260.0,New York
+814,10706,92.0,New York
+815,10706,260.0,New York
+816,10707,142.0,New York
+817,10707,183.0,New York
+818,10708,77.0,New York
+819,10708,142.0,New York
+820,10708,183.0,New York
+821,10709,142.0,New York
+822,10709,183.0,New York
+823,10803,125.0,New York
+824,10805,125.0,New York
+825,10901,460.0,New York
+826,10931,460.0,New York
+827,10952,460.0,New York
+828,10954,242.0,New York
+829,10965,242.0,New York
+830,10970,460.0,New York
+831,10974,460.0,New York
+832,10977,242.0,New York
+833,10980,460.0,New York
+834,10994,242.0,New York
+835,11020,166.0,New York
+836,11020,34.0,New York
+837,11021,166.0,New York
+838,11021,34.0,New York
+839,11023,166.0,New York
+840,11023,34.0,New York
+841,11024,166.0,New York
+842,11030,166.0,New York
+843,11030,112.0,New York
+844,11030,34.0,New York
+845,11030,320.0,New York
+846,11040,80.0,New York
+847,11040,166.0,New York
+848,11040,112.0,New York
+849,11042,166.0,New York
+850,11050,320.0,New York
+851,11050,279.0,New York
+852,11501,122.0,New York
+853,11501,80.0,New York
+854,11507,122.0,New York
+855,11507,112.0,New York
+856,11518,396.0,New York
+857,11530,488.0,New York
+858,11530,80.0,New York
+859,11542,171.0,New York
+860,11542,132.0,New York
+861,11545,65.0,New York
+862,11545,171.0,New York
+863,11545,279.0,New York
+864,11545,132.0,New York
+865,11547,320.0,New York
+866,11547,132.0,New York
+867,11548,65.0,New York
+868,11548,279.0,New York
+869,11548,132.0,New York
+870,11550,80.0,New York
+871,11552,80.0,New York
+872,11553,488.0,New York
+873,11554,488.0,New York
+874,11556,488.0,New York
+875,11557,396.0,New York
+876,11560,171.0,New York
+877,11563,396.0,New York
+878,11568,122.0,New York
+879,11568,65.0,New York
+880,11568,279.0,New York
+881,11576,112.0,New York
+882,11576,320.0,New York
+883,11576,279.0,New York
+884,11576,132.0,New York
+885,11577,122.0,New York
+886,11577,112.0,New York
+887,11577,279.0,New York
+888,11579,132.0,New York
+889,11580,396.0,New York
+890,11590,488.0,New York
+891,11590,65.0,New York
+892,11596,122.0,New York
+893,11596,112.0,New York
+894,11709,171.0,New York
+895,11710,426.0,New York
+896,11714,402.0,New York
+897,11714,321.0,New York
+898,11720,434.0,New York
+899,11721,355.0,New York
+900,11724,324.0,New York
+901,11725,322.0,New York
+902,11729,307.0,New York
+903,11731,307.0,New York
+904,11732,171.0,New York
+905,11733,240.0,New York
+906,11733,434.0,New York
+907,11735,402.0,New York
+908,11735,307.0,New York
+909,11735,321.0,New York
+910,11740,355.0,New York
+911,11743,324.0,New York
+912,11743,307.0,New York
+913,11743,355.0,New York
+914,11746,307.0,New York
+915,11746,355.0,New York
+916,11747,307.0,New York
+917,11753,65.0,New York
+918,11753,100.0,New York
+919,11754,322.0,New York
+920,11755,322.0,New York
+921,11755,434.0,New York
+922,11756,402.0,New York
+923,11756,488.0,New York
+924,11758,254.0,New York
+925,11762,254.0,New York
+926,11765,171.0,New York
+927,11766,240.0,New York
+928,11767,322.0,New York
+929,11768,355.0,New York
+930,11771,324.0,New York
+931,11771,171.0,New York
+932,11771,100.0,New York
+933,11776,434.0,New York
+934,11777,240.0,New York
+935,11777,434.0,New York
+936,11780,322.0,New York
+937,11780,434.0,New York
+938,11787,322.0,New York
+939,11788,322.0,New York
+940,11790,434.0,New York
+941,11791,324.0,New York
+942,11791,65.0,New York
+943,11791,171.0,New York
+944,11791,100.0,New York
+945,11793,426.0,New York
+946,11794,434.0,New York
+947,11797,321.0,New York
+948,11797,100.0,New York
+949,11798,307.0,New York
+950,11801,402.0,New York
+951,11801,65.0,New York
+952,11801,100.0,New York
+953,11803,402.0,New York
+954,11803,321.0,New York
+955,11803,100.0,New York
+956,11804,402.0,New York
+957,11804,321.0,New York
+958,11932,394.0,New York
+959,11937,394.0,New York
+960,11962,394.0,New York
+961,11963,394.0,New York
+962,12008,404.0,New York
+963,12009,475.0,New York
+964,12010,500.0,New York
+965,12019,500.0,New York
+966,12020,500.0,New York
+967,12027,500.0,New York
+968,12041,475.0,New York
+969,12054,475.0,New York
+970,12059,475.0,New York
+971,12065,500.0,New York
+972,12075,213.0,Ohio
+973,12110,404.0,New York
+974,12148,500.0,New York
+975,12148,404.0,New York
+976,12159,475.0,New York
+977,12172,213.0,Ohio
+978,12186,475.0,New York
+979,12302,500.0,New York
+980,12302,404.0,New York
+981,12304,404.0,New York
+982,12308,404.0,New York
+983,12309,404.0,New York
+984,12502,213.0,Ohio
+985,12513,213.0,Ohio
+986,12521,213.0,Ohio
+987,12523,213.0,Ohio
+988,12534,213.0,Ohio
+989,12814,232.0,New York
+990,12824,232.0,New York
+991,12836,232.0,New York
+992,13032,451.0,New York
+993,13035,451.0,New York
+994,13035,105.0,New York
+995,13037,451.0,New York
+996,13037,105.0,New York
+997,13052,451.0,New York
+998,13057,449.0,New York
+999,13061,451.0,New York
+1000,13066,449.0,New York
+1001,13066,105.0,New York
+1002,13072,451.0,New York
+1003,13078,449.0,New York
+1004,13078,105.0,New York
+1005,13104,451.0,New York
+1006,13104,449.0,New York
+1007,13104,105.0,New York
+1008,13122,451.0,New York
+1009,13210,449.0,New York
+1010,13214,449.0,New York
+1011,13224,449.0,New York
+1012,14032,280.0,New York
+1013,14051,280.0,New York
+1014,14068,280.0,New York
+1015,14221,280.0,New York
+1016,14225,280.0,New York
+1017,14228,280.0,New York
+1018,14261,280.0,New York
+1019,14445,130.0,New York
+1020,14450,258.0,New York
+1021,14450,130.0,New York
+1022,14467,130.0,New York
+1023,14502,258.0,New York
+1024,14526,258.0,New York
+1025,14534,130.0,New York
+1026,14564,130.0,New York
+1027,14580,258.0,New York
+1028,14609,258.0,New York
+1029,14610,374.0,New York
+1030,14610,258.0,New York
+1031,14610,130.0,New York
+1032,14618,374.0,New York
+1033,14618,130.0,New York
+1034,14620,374.0,New York
+1035,14623,374.0,New York
+1036,14625,258.0,New York
+1037,14625,130.0,New York
+1038,15003,292.0,Pennsylvania
+1039,15005,208.0,Pennsylvania
+1040,15007,272.0,Pennsylvania
+1041,15015,208.0,Pennsylvania
+1042,15017,261.0,Pennsylvania
+1043,15017,21.0,Pennsylvania
+1044,15024,154.0,Pennsylvania
+1045,15031,21.0,Pennsylvania
+1046,15044,272.0,Pennsylvania
+1047,15044,144.0,Pennsylvania
+1048,15044,252.0,Pennsylvania
+1049,15044,208.0,Pennsylvania
+1050,15051,154.0,Pennsylvania
+1051,15056,292.0,Pennsylvania
+1052,15057,21.0,Pennsylvania
+1053,15064,21.0,Pennsylvania
+1054,15068,357.0,Pennsylvania
+1055,15071,21.0,Pennsylvania
+1056,15075,154.0,Pennsylvania
+1057,15082,21.0,Pennsylvania
+1058,15086,208.0,Pennsylvania
+1059,15086,349.0,Pennsylvania
+1060,15090,272.0,Pennsylvania
+1061,15090,208.0,Pennsylvania
+1062,15101,272.0,Pennsylvania
+1063,15101,154.0,Pennsylvania
+1064,15101,144.0,Pennsylvania
+1065,15101,208.0,Pennsylvania
+1066,15116,154.0,Pennsylvania
+1067,15116,144.0,Pennsylvania
+1068,15143,461.0,Pennsylvania
+1069,15143,208.0,Pennsylvania
+1070,15143,292.0,Pennsylvania
+1071,15146,357.0,Pennsylvania
+1072,15202,461.0,Pennsylvania
+1073,15215,154.0,Pennsylvania
+1074,15227,443.0,Missouri
+1075,15228,157.0,Pennsylvania
+1076,15236,443.0,Missouri
+1077,15237,461.0,Pennsylvania
+1078,15237,208.0,Pennsylvania
+1079,15238,154.0,Pennsylvania
+1080,15241,261.0,Pennsylvania
+1081,15241,157.0,Pennsylvania
+1082,15243,157.0,Pennsylvania
+1083,15317,261.0,Pennsylvania
+1084,15332,261.0,Pennsylvania
+1085,15367,261.0,Pennsylvania
+1086,15626,357.0,Pennsylvania
+1087,15632,357.0,Pennsylvania
+1088,15644,357.0,Pennsylvania
+1089,15668,357.0,Pennsylvania
+1090,15904,483.0,Michigan
+1091,15921,483.0,Michigan
+1092,15930,483.0,Michigan
+1093,15934,483.0,Michigan
+1094,15942,483.0,Michigan
+1095,15946,483.0,Michigan
+1096,15951,483.0,Michigan
+1097,15952,483.0,Michigan
+1098,15955,483.0,Michigan
+1099,15956,483.0,Michigan
+1100,15958,483.0,Michigan
+1101,15962,483.0,Michigan
+1102,15963,483.0,Michigan
+1103,16002,252.0,Pennsylvania
+1104,16002,349.0,Pennsylvania
+1105,16024,349.0,Pennsylvania
+1106,16033,252.0,Pennsylvania
+1107,16033,349.0,Pennsylvania
+1108,16037,349.0,Pennsylvania
+1109,16046,272.0,Pennsylvania
+1110,16046,252.0,Pennsylvania
+1111,16046,208.0,Pennsylvania
+1112,16046,349.0,Pennsylvania
+1113,16052,349.0,Pennsylvania
+1114,16053,349.0,Pennsylvania
+1115,16056,252.0,Pennsylvania
+1116,16059,272.0,Pennsylvania
+1117,16059,252.0,Pennsylvania
+1118,16063,349.0,Pennsylvania
+1119,16066,349.0,Pennsylvania
+1120,17007,439.0,Pennsylvania
+1121,17011,439.0,Pennsylvania
+1122,17013,439.0,Pennsylvania
+1123,17015,439.0,Pennsylvania
+1124,17019,439.0,Pennsylvania
+1125,17025,439.0,Pennsylvania
+1126,17050,439.0,Pennsylvania
+1127,17055,439.0,Pennsylvania
+1128,17072,439.0,Pennsylvania
+1129,17331,218.0,Massachusetts
+1130,17401,297.0,Pennsylvania
+1131,17402,297.0,Pennsylvania
+1132,17403,297.0,Pennsylvania
+1133,17540,438.0,Pennsylvania
+1134,17543,438.0,Pennsylvania
+1135,17545,438.0,Pennsylvania
+1136,17569,494.0,Pennsylvania
+1137,17601,438.0,Pennsylvania
+1138,17602,438.0,Pennsylvania
+1139,17603,438.0,Pennsylvania
+1140,17606,438.0,Pennsylvania
+1141,17837,383.0,Pennsylvania
+1142,17870,383.0,Pennsylvania
+1143,17886,383.0,Pennsylvania
+1144,17889,383.0,Pennsylvania
+1145,18041,308.0,Pennsylvania
+1146,18054,308.0,Pennsylvania
+1147,18058,326.0,Iowa
+1148,18071,326.0,Iowa
+1149,18073,308.0,Pennsylvania
+1150,18074,143.0,Pennsylvania
+1151,18210,326.0,Iowa
+1152,18322,326.0,Iowa
+1153,18330,326.0,Iowa
+1154,18331,326.0,Iowa
+1155,18333,326.0,Iowa
+1156,18353,326.0,Iowa
+1157,18354,326.0,Iowa
+1158,18360,326.0,Iowa
+1159,18411,470.0,Pennsylvania
+1160,18414,470.0,Pennsylvania
+1161,18471,470.0,Pennsylvania
+1162,18504,470.0,Pennsylvania
+1163,18610,326.0,Iowa
+1164,18615,470.0,Pennsylvania
+1165,18653,470.0,Pennsylvania
+1166,18901,141.0,Pennsylvania
+1167,18902,141.0,Pennsylvania
+1168,18902,198.0,Pennsylvania
+1169,18912,141.0,Pennsylvania
+1170,18913,141.0,Pennsylvania
+1171,18913,198.0,Pennsylvania
+1172,18914,141.0,Pennsylvania
+1173,18915,448.0,Pennsylvania
+1174,18923,141.0,Pennsylvania
+1175,18925,141.0,Pennsylvania
+1176,18929,141.0,Pennsylvania
+1177,18930,308.0,Pennsylvania
+1178,18932,141.0,Pennsylvania
+1179,18932,448.0,Pennsylvania
+1180,18935,308.0,Pennsylvania
+1181,18936,448.0,Pennsylvania
+1182,18938,141.0,Pennsylvania
+1183,18938,198.0,Pennsylvania
+1184,18944,141.0,Pennsylvania
+1185,18947,141.0,Pennsylvania
+1186,18951,308.0,Pennsylvania
+1187,18955,308.0,Pennsylvania
+1188,18964,448.0,Pennsylvania
+1189,18966,440.0,Minnesota
+1190,18970,308.0,Pennsylvania
+1191,18974,440.0,Minnesota
+1192,18974,141.0,Pennsylvania
+1193,18976,141.0,Pennsylvania
+1194,19001,97.0,Pennsylvania
+1195,19002,196.0,Pennsylvania
+1196,19002,273.0,Pennsylvania
+1197,19002,140.0,Pennsylvania
+1198,19002,97.0,Pennsylvania
+1199,19003,228.0,Pennsylvania
+1200,19003,42.0,Pennsylvania
+1201,19004,42.0,Pennsylvania
+1202,19006,440.0,Minnesota
+1203,19006,214.0,Pennsylvania
+1204,19008,56.0,Pennsylvania
+1205,19010,228.0,Pennsylvania
+1206,19010,42.0,Pennsylvania
+1207,19010,56.0,Pennsylvania
+1208,19012,424.0,Pennsylvania
+1209,19014,230.0,Pennsylvania
+1210,19015,229.0,Pennsylvania
+1211,19017,230.0,Pennsylvania
+1212,19025,97.0,Pennsylvania
+1213,19026,228.0,Pennsylvania
+1214,19027,424.0,Pennsylvania
+1215,19031,140.0,Pennsylvania
+1216,19031,285.0,Pennsylvania
+1217,19031,471.0,Pennsylvania
+1218,19034,140.0,Pennsylvania
+1219,19034,285.0,Pennsylvania
+1220,19034,471.0,Pennsylvania
+1221,19034,97.0,Pennsylvania
+1222,19035,42.0,Pennsylvania
+1223,19038,424.0,Pennsylvania
+1224,19038,285.0,Pennsylvania
+1225,19038,471.0,Pennsylvania
+1226,19038,97.0,Pennsylvania
+1227,19040,440.0,Minnesota
+1228,19040,273.0,Pennsylvania
+1229,19041,228.0,Pennsylvania
+1230,19041,42.0,Pennsylvania
+1231,19044,273.0,Pennsylvania
+1232,19046,197.0,Pennsylvania
+1233,19046,214.0,Pennsylvania
+1234,19053,440.0,Minnesota
+1235,19060,230.0,Pennsylvania
+1236,19063,230.0,Pennsylvania
+1237,19063,229.0,Pennsylvania
+1238,19063,147.0,Pennsylvania
+1239,19064,285.0,Pennsylvania
+1240,19064,471.0,Pennsylvania
+1241,19064,147.0,Pennsylvania
+1242,19066,42.0,Pennsylvania
+1243,19070,285.0,Pennsylvania
+1244,19070,471.0,Pennsylvania
+1245,19070,147.0,Pennsylvania
+1246,19072,42.0,Pennsylvania
+1247,19073,234.0,Pennsylvania
+1248,19073,56.0,Pennsylvania
+1249,19073,229.0,Pennsylvania
+1250,19075,285.0,Pennsylvania
+1251,19075,471.0,Pennsylvania
+1252,19075,97.0,Pennsylvania
+1253,19081,285.0,Pennsylvania
+1254,19081,471.0,Pennsylvania
+1255,19081,147.0,Pennsylvania
+1256,19083,228.0,Pennsylvania
+1257,19083,42.0,Pennsylvania
+1258,19085,42.0,Pennsylvania
+1259,19085,56.0,Pennsylvania
+1260,19086,147.0,Pennsylvania
+1261,19087,56.0,Pennsylvania
+1262,19087,101.0,Pennsylvania
+1263,19090,273.0,Pennsylvania
+1264,19090,97.0,Pennsylvania
+1265,19095,424.0,Pennsylvania
+1266,19096,228.0,Pennsylvania
+1267,19096,42.0,Pennsylvania
+1268,19118,285.0,Pennsylvania
+1269,19118,471.0,Pennsylvania
+1270,19150,285.0,Pennsylvania
+1271,19150,471.0,Pennsylvania
+1272,19301,234.0,Pennsylvania
+1273,19301,101.0,Pennsylvania
+1274,19311,29.0,Pennsylvania
+1275,19312,234.0,Pennsylvania
+1276,19312,101.0,Pennsylvania
+1277,19317,230.0,Pennsylvania
+1278,19317,29.0,Pennsylvania
+1279,19319,384.0,Pennsylvania
+1280,19320,248.0,Pennsylvania
+1281,19320,29.0,Pennsylvania
+1282,19333,101.0,Pennsylvania
+1283,19335,248.0,Pennsylvania
+1284,19335,384.0,Pennsylvania
+1285,19341,248.0,Pennsylvania
+1286,19341,234.0,Pennsylvania
+1287,19341,384.0,Pennsylvania
+1288,19342,230.0,Pennsylvania
+1289,19342,229.0,Pennsylvania
+1290,19342,29.0,Pennsylvania
+1291,19342,384.0,Pennsylvania
+1292,19343,248.0,Pennsylvania
+1293,19344,248.0,Pennsylvania
+1294,19345,234.0,Pennsylvania
+1295,19348,29.0,Pennsylvania
+1296,19355,234.0,Pennsylvania
+1297,19355,101.0,Pennsylvania
+1298,19355,384.0,Pennsylvania
+1299,19373,230.0,Pennsylvania
+1300,19373,384.0,Pennsylvania
+1301,19375,29.0,Pennsylvania
+1302,19380,248.0,Pennsylvania
+1303,19380,234.0,Pennsylvania
+1304,19380,384.0,Pennsylvania
+1305,19382,248.0,Pennsylvania
+1306,19382,234.0,Pennsylvania
+1307,19382,29.0,Pennsylvania
+1308,19382,384.0,Pennsylvania
+1309,19383,384.0,Pennsylvania
+1310,19390,29.0,Pennsylvania
+1311,19403,306.0,Pennsylvania
+1312,19422,196.0,Pennsylvania
+1313,19422,140.0,Pennsylvania
+1314,19425,248.0,Pennsylvania
+1315,19425,234.0,Pennsylvania
+1316,19426,306.0,Pennsylvania
+1317,19426,143.0,Pennsylvania
+1318,19426,215.0,Pennsylvania
+1319,19428,42.0,Pennsylvania
+1320,19428,140.0,Pennsylvania
+1321,19436,196.0,Pennsylvania
+1322,19437,196.0,Pennsylvania
+1323,19438,306.0,Pennsylvania
+1324,19438,448.0,Pennsylvania
+1325,19438,143.0,Pennsylvania
+1326,19440,448.0,Pennsylvania
+1327,19444,140.0,Pennsylvania
+1328,19444,285.0,Pennsylvania
+1329,19444,471.0,Pennsylvania
+1330,19446,306.0,Pennsylvania
+1331,19446,448.0,Pennsylvania
+1332,19453,215.0,Pennsylvania
+1333,19454,196.0,Pennsylvania
+1334,19454,273.0,Pennsylvania
+1335,19454,448.0,Pennsylvania
+1336,19456,215.0,Pennsylvania
+1337,19460,234.0,Pennsylvania
+1338,19460,306.0,Pennsylvania
+1339,19460,215.0,Pennsylvania
+1340,19460,101.0,Pennsylvania
+1341,19462,196.0,Pennsylvania
+1342,19462,140.0,Pennsylvania
+1343,19464,215.0,Pennsylvania
+1344,19468,215.0,Pennsylvania
+1345,19473,143.0,Pennsylvania
+1346,19473,215.0,Pennsylvania
+1347,19474,143.0,Pennsylvania
+1348,19475,215.0,Pennsylvania
+1349,19477,196.0,Pennsylvania
+1350,19492,143.0,Pennsylvania
+1351,19551,494.0,Pennsylvania
+1352,19565,494.0,Pennsylvania
+1353,19601,184.0,Massachusetts
+1354,19602,184.0,Massachusetts
+1355,19604,184.0,Massachusetts
+1356,19605,184.0,Massachusetts
+1357,19606,184.0,Massachusetts
+1358,19607,184.0,Massachusetts
+1359,19607,494.0,Pennsylvania
+1360,19608,494.0,Pennsylvania
+1361,19609,494.0,Pennsylvania
+1362,19610,184.0,Massachusetts
+1363,19610,494.0,Pennsylvania
+1364,19611,184.0,Massachusetts
+1365,19701,140.0,Pennsylvania
+1366,19702,140.0,Pennsylvania
+1367,19706,140.0,Pennsylvania
+1368,19709,140.0,Pennsylvania
+1369,19713,140.0,Pennsylvania
+1370,19720,140.0,Pennsylvania
+1371,19731,140.0,Pennsylvania
+1372,19733,140.0,Pennsylvania
+1373,19801,140.0,Pennsylvania
+1374,19802,140.0,Pennsylvania
+1375,19804,140.0,Pennsylvania
+1376,19809,140.0,Pennsylvania
+1377,20701,367.0,Maryland
+1378,20723,367.0,Maryland
+1379,20759,367.0,Maryland
+1380,20763,367.0,Maryland
+1381,20777,367.0,Maryland
+1382,20794,367.0,Maryland
+1383,20833,367.0,Maryland
+1384,21029,367.0,Maryland
+1385,21036,367.0,Maryland
+1386,21042,367.0,Maryland
+1387,21043,367.0,Maryland
+1388,21044,367.0,Maryland
+1389,21045,367.0,Maryland
+1390,21046,367.0,Maryland
+1391,21075,367.0,Maryland
+1392,21076,367.0,Maryland
+1393,21104,367.0,Maryland
+1394,21163,367.0,Maryland
+1395,21723,367.0,Maryland
+1396,21737,367.0,Maryland
+1397,21738,367.0,Maryland
+1398,21771,367.0,Maryland
+1399,21784,367.0,Maryland
+1400,21794,367.0,Maryland
+1401,21797,367.0,Maryland
+1402,22042,444.0,Virginia
+1403,22043,444.0,Virginia
+1404,22044,444.0,Virginia
+1405,22046,444.0,Virginia
+1406,22205,444.0,Virginia
+1407,27009,191.0,Georgia
+1408,27012,191.0,Georgia
+1409,27019,191.0,Georgia
+1410,27021,191.0,Georgia
+1411,27023,191.0,Georgia
+1412,27040,191.0,Georgia
+1413,27043,191.0,Georgia
+1414,27045,191.0,Georgia
+1415,27050,191.0,Georgia
+1416,27051,191.0,Georgia
+1417,27052,191.0,Georgia
+1418,27101,191.0,Georgia
+1419,27103,191.0,Georgia
+1420,27104,191.0,Georgia
+1421,27105,191.0,Georgia
+1422,27106,191.0,Georgia
+1423,27107,191.0,Georgia
+1424,27109,191.0,Georgia
+1425,27110,191.0,Georgia
+1426,27127,191.0,Georgia
+1427,27265,191.0,Georgia
+1428,27284,191.0,Georgia
+1429,30004,191.0,Georgia
+1430,30005,191.0,Georgia
+1431,30024,191.0,Georgia
+1432,30028,191.0,Georgia
+1433,30040,191.0,Georgia
+1434,30041,191.0,Georgia
+1435,30097,191.0,Georgia
+1436,30107,191.0,Georgia
+1437,30506,191.0,Georgia
+1438,30534,191.0,Georgia
+1439,31021,239.0,Ohio
+1440,35209,253.0,Alabama
+1441,35210,43.0,Alabama
+1442,35210,253.0,Alabama
+1443,35213,43.0,Alabama
+1444,35216,43.0,Alabama
+1445,35216,253.0,Alabama
+1446,35223,43.0,Alabama
+1447,35223,253.0,Alabama
+1448,35226,253.0,Alabama
+1449,35242,253.0,Alabama
+1450,35243,43.0,Alabama
+1451,35243,253.0,Alabama
+1452,37014,341.0,Tennessee
+1453,37025,341.0,Tennessee
+1454,37027,341.0,Tennessee
+1455,37046,341.0,Tennessee
+1456,37060,341.0,Tennessee
+1457,37062,341.0,Tennessee
+1458,37064,341.0,Tennessee
+1459,37067,341.0,Tennessee
+1460,37069,341.0,Tennessee
+1461,37135,341.0,Tennessee
+1462,37174,341.0,Tennessee
+1463,37179,341.0,Tennessee
+1464,37215,341.0,Tennessee
+1465,37221,341.0,Tennessee
+1466,38401,341.0,Tennessee
+1467,38476,341.0,Tennessee
+1468,38850,362.0,Minnesota
+1469,38851,362.0,Minnesota
+1470,38860,362.0,Minnesota
+1471,38878,362.0,Minnesota
+1472,39045,149.0,Massachusetts
+1473,39046,149.0,Massachusetts
+1474,39071,149.0,Massachusetts
+1475,39110,149.0,Massachusetts
+1476,39751,362.0,Minnesota
+1477,39756,362.0,Minnesota
+1478,39776,362.0,Minnesota
+1479,41071,189.0,Washington
+1480,41073,189.0,Washington
+1481,41101,296.0,Massachusetts
+1482,41102,296.0,Massachusetts
+1483,41129,296.0,Massachusetts
+1484,43001,224.0,Ohio
+1485,43015,187.0,Ohio
+1486,43015,239.0,Ohio
+1487,43016,187.0,Ohio
+1488,43016,239.0,Ohio
+1489,43017,239.0,Ohio
+1490,43021,187.0,Ohio
+1491,43023,224.0,Ohio
+1492,43025,224.0,Ohio
+1493,43026,239.0,Ohio
+1494,43031,392.0,Ohio
+1495,43035,187.0,Ohio
+1496,43054,392.0,Ohio
+1497,43055,224.0,Ohio
+1498,43062,392.0,Ohio
+1499,43064,239.0,Ohio
+1500,43065,187.0,Ohio
+1501,43065,239.0,Ohio
+1502,43074,187.0,Ohio
+1503,43081,187.0,Ohio
+1504,43081,392.0,Ohio
+1505,43082,187.0,Ohio
+1506,43209,356.0,Ohio
+1507,43212,331.0,Ohio
+1508,43220,331.0,Ohio
+1509,43220,239.0,Ohio
+1510,43221,331.0,Ohio
+1511,43221,239.0,Ohio
+1512,43230,392.0,Ohio
+1513,43235,239.0,Ohio
+1514,43240,187.0,Ohio
+1515,43430,489.0,Ohio
+1516,43447,489.0,Ohio
+1517,43465,489.0,Ohio
+1518,43548,343.0,Ohio
+1519,43551,489.0,Ohio
+1520,43606,219.0,Ohio
+1521,43615,219.0,Ohio
+1522,43619,489.0,Ohio
+1523,44011,139.0,Ohio
+1524,44012,159.0,Ohio
+1525,44017,379.0,Ohio
+1526,44021,209.0,Ohio
+1527,44022,170.0,Ohio
+1528,44022,55.0,Ohio
+1529,44022,186.0,Ohio
+1530,44023,170.0,Ohio
+1531,44023,209.0,Ohio
+1532,44024,499.0,Ohio
+1533,44024,231.0,Ohio
+1534,44026,499.0,Ohio
+1535,44028,379.0,Ohio
+1536,44040,186.0,Ohio
+1537,44056,497.0,Ohio
+1538,44060,499.0,Ohio
+1539,44060,231.0,Ohio
+1540,44070,379.0,Ohio
+1541,44072,170.0,Ohio
+1542,44087,497.0,Ohio
+1543,44094,231.0,Ohio
+1544,44105,457.0,Ohio
+1545,44109,457.0,Ohio
+1546,44116,81.0,Ohio
+1547,44122,45.0,Ohio
+1548,44122,186.0,Ohio
+1549,44124,186.0,Ohio
+1550,44125,457.0,Ohio
+1551,44125,431.0,Ohio
+1552,44126,81.0,Ohio
+1553,44128,186.0,Ohio
+1554,44131,457.0,Ohio
+1555,44131,431.0,Ohio
+1556,44133,277.0,Ohio
+1557,44133,410.0,Ohio
+1558,44138,379.0,Ohio
+1559,44139,170.0,Ohio
+1560,44139,55.0,Ohio
+1561,44139,186.0,Ohio
+1562,44140,305.0,Ohio
+1563,44141,277.0,Ohio
+1564,44141,388.0,Ohio
+1565,44145,238.0,Ohio
+1566,44146,186.0,Ohio
+1567,44147,277.0,Ohio
+1568,44147,410.0,Ohio
+1569,44202,209.0,Ohio
+1570,44202,276.0,Ohio
+1571,44202,497.0,Ohio
+1572,44203,409.0,Ohio
+1573,44216,284.0,Ohio
+1574,44224,213.0,Ohio
+1575,44230,409.0,Ohio
+1576,44236,213.0,Ohio
+1577,44236,497.0,Ohio
+1578,44256,388.0,Ohio
+1579,44256,409.0,Ohio
+1580,44260,489.0,Ohio
+1581,44264,213.0,Ohio
+1582,44264,388.0,Ohio
+1583,44270,409.0,Ohio
+1584,44273,409.0,Ohio
+1585,44281,409.0,Ohio
+1586,44286,388.0,Ohio
+1587,44313,388.0,Ohio
+1588,44321,388.0,Ohio
+1589,44333,388.0,Ohio
+1590,44614,284.0,Ohio
+1591,44632,489.0,Ohio
+1592,44646,284.0,Ohio
+1593,44647,284.0,Ohio
+1594,44685,489.0,Ohio
+1595,44708,284.0,Ohio
+1596,44709,284.0,Ohio
+1597,44718,284.0,Ohio
+1598,44720,284.0,Ohio
+1599,44720,489.0,Ohio
+1600,44721,489.0,Ohio
+1601,45005,328.0,Ohio
+1602,45034,406.0,Ohio
+1603,45036,328.0,Ohio
+1604,45036,406.0,Ohio
+1605,45036,64.0,Ohio
+1606,45039,406.0,Ohio
+1607,45040,406.0,Ohio
+1608,45040,64.0,Ohio
+1609,45065,406.0,Ohio
+1610,45066,328.0,Ohio
+1611,45068,328.0,Ohio
+1612,45069,64.0,Ohio
+1613,45111,27.0,Ohio
+1614,45140,169.0,Ohio
+1615,45140,27.0,Ohio
+1616,45140,406.0,Ohio
+1617,45147,27.0,Ohio
+1618,45150,27.0,Ohio
+1619,45152,406.0,Ohio
+1620,45174,206.0,Ohio
+1621,45215,40.0,Ohio
+1622,45216,40.0,Ohio
+1623,45226,206.0,Ohio
+1624,45226,333.0,Ohio
+1625,45227,89.0,Ohio
+1626,45227,206.0,Ohio
+1627,45230,333.0,Ohio
+1628,45236,89.0,Ohio
+1629,45236,169.0,Ohio
+1630,45236,27.0,Ohio
+1631,45241,169.0,Ohio
+1632,45242,169.0,Ohio
+1633,45242,27.0,Ohio
+1634,45243,89.0,Ohio
+1635,45243,206.0,Ohio
+1636,45243,27.0,Ohio
+1637,45244,333.0,Ohio
+1638,45249,169.0,Ohio
+1639,45249,27.0,Ohio
+1640,45249,406.0,Ohio
+1641,45249,64.0,Ohio
+1642,45255,333.0,Ohio
+1643,45302,158.0,Ohio
+1644,45306,158.0,Ohio
+1645,45342,416.0,Ohio
+1646,45342,328.0,Ohio
+1647,45348,433.0,Ohio
+1648,45348,455.0,Ohio
+1649,45351,455.0,Ohio
+1650,45380,455.0,Ohio
+1651,45388,312.0,Ohio
+1652,45388,455.0,Ohio
+1653,45409,173.0,Ohio
+1654,45419,173.0,Ohio
+1655,45429,416.0,Ohio
+1656,45440,416.0,Ohio
+1657,45458,416.0,Ohio
+1658,45458,328.0,Ohio
+1659,45459,416.0,Ohio
+1660,45822,455.0,Ohio
+1661,45826,455.0,Ohio
+1662,45827,435.0,Ohio
+1663,45828,433.0,Ohio
+1664,45831,343.0,Ohio
+1665,45833,435.0,Ohio
+1666,45844,435.0,Ohio
+1667,45845,312.0,Ohio
+1668,45846,433.0,Ohio
+1669,45856,343.0,Ohio
+1670,45860,312.0,Ohio
+1671,45860,455.0,Ohio
+1672,45864,343.0,Ohio
+1673,45865,312.0,Ohio
+1674,45865,455.0,Ohio
+1675,45869,312.0,Ohio
+1676,45869,455.0,Ohio
+1677,45875,343.0,Ohio
+1678,45876,435.0,Ohio
+1679,45883,433.0,Ohio
+1680,45883,455.0,Ohio
+1681,45895,158.0,Ohio
+1682,46032,47.0,Indiana
+1683,46033,47.0,Indiana
+1684,46033,207.0,Indiana
+1685,46034,463.0,Indiana
+1686,46037,207.0,Indiana
+1687,46038,207.0,Indiana
+1688,46040,207.0,Indiana
+1689,46052,152.0,Indiana
+1690,46055,207.0,Indiana
+1691,46060,463.0,Indiana
+1692,46060,207.0,Indiana
+1693,46062,47.0,Indiana
+1694,46062,463.0,Indiana
+1695,46069,152.0,Indiana
+1696,46074,47.0,Indiana
+1697,46075,152.0,Indiana
+1698,46077,47.0,Indiana
+1699,46077,152.0,Indiana
+1700,46112,152.0,Indiana
+1701,46240,47.0,Indiana
+1702,46250,207.0,Indiana
+1703,46256,207.0,Indiana
+1704,46260,47.0,Indiana
+1705,46268,152.0,Indiana
+1706,46280,47.0,Indiana
+1707,46290,47.0,Indiana
+1708,46703,241.0,Wisconsin
+1709,46721,241.0,Wisconsin
+1710,46742,241.0,Wisconsin
+1711,46779,241.0,Wisconsin
+1712,46793,241.0,Wisconsin
+1713,48071,60.0,New Jersey
+1714,48073,217.0,Michigan
+1715,48083,217.0,Michigan
+1716,48084,217.0,Michigan
+1717,48085,217.0,Michigan
+1718,48094,153.0,Michigan
+1719,48095,153.0,Michigan
+1720,48098,282.0,Michigan
+1721,48098,217.0,Michigan
+1722,48103,389.0,Michigan
+1723,48105,351.0,Michigan
+1724,48108,389.0,Michigan
+1725,48116,351.0,Michigan
+1726,48117,376.0,New Jersey
+1727,48124,9.0,Massachusetts
+1728,48125,9.0,Massachusetts
+1729,48133,20.0,New Hampshire
+1730,48133,37.0,Massachusetts
+1731,48133,376.0,New Jersey
+1732,48140,376.0,New Jersey
+1733,48141,9.0,Massachusetts
+1734,48144,20.0,New Hampshire
+1735,48144,37.0,Massachusetts
+1736,48145,376.0,New Jersey
+1737,48158,389.0,Michigan
+1738,48159,376.0,New Jersey
+1739,48160,389.0,Michigan
+1740,48161,376.0,New Jersey
+1741,48162,376.0,New Jersey
+1742,48165,351.0,Michigan
+1743,48167,315.0,Michigan
+1744,48167,134.0,Michigan
+1745,48167,351.0,Michigan
+1746,48168,315.0,Michigan
+1747,48168,351.0,Michigan
+1748,48170,315.0,Michigan
+1749,48170,351.0,Michigan
+1750,48176,389.0,Michigan
+1751,48177,20.0,New Hampshire
+1752,48177,37.0,Massachusetts
+1753,48178,351.0,Michigan
+1754,48182,20.0,New Hampshire
+1755,48182,37.0,Massachusetts
+1756,48189,351.0,Michigan
+1757,48301,282.0,Michigan
+1758,48302,282.0,Michigan
+1759,48304,282.0,Michigan
+1760,48306,153.0,Michigan
+1761,48307,153.0,Michigan
+1762,48309,153.0,Michigan
+1763,48316,153.0,Michigan
+1764,48317,153.0,Michigan
+1765,48323,282.0,Michigan
+1766,48324,282.0,Michigan
+1767,48326,153.0,Michigan
+1768,48341,282.0,Michigan
+1769,48360,153.0,Michigan
+1770,48363,153.0,Michigan
+1771,48374,315.0,Michigan
+1772,48374,134.0,Michigan
+1773,48374,351.0,Michigan
+1774,48375,315.0,Michigan
+1775,48375,134.0,Michigan
+1776,48377,134.0,Michigan
+1777,48381,351.0,Michigan
+1778,48393,134.0,Michigan
+1779,48393,351.0,Michigan
+1780,48420,387.0,Minnesota
+1781,48421,387.0,Minnesota
+1782,48423,387.0,Minnesota
+1783,48435,387.0,Minnesota
+1784,48446,387.0,Minnesota
+1785,48458,387.0,Minnesota
+1786,48463,387.0,Minnesota
+1787,48464,387.0,Minnesota
+1788,48746,387.0,Minnesota
+1789,48813,189.0,Washington
+1790,48823,226.0,Michigan
+1791,48854,226.0,Michigan
+1792,48864,226.0,Michigan
+1793,48895,226.0,Michigan
+1794,48910,226.0,Michigan
+1795,49010,241.0,Wisconsin
+1796,49014,189.0,Washington
+1797,49017,189.0,Washington
+1798,49021,189.0,Washington
+1799,49068,189.0,Washington
+1800,49073,189.0,Washington
+1801,49076,189.0,Washington
+1802,49082,184.0,Massachusetts
+1803,49096,189.0,Washington
+1804,49221,60.0,New Jersey
+1805,49227,184.0,Massachusetts
+1806,49232,184.0,Massachusetts
+1807,49236,389.0,Michigan
+1808,49242,184.0,Massachusetts
+1809,49255,184.0,Massachusetts
+1810,49267,20.0,New Hampshire
+1811,49267,37.0,Massachusetts
+1812,49270,20.0,New Hampshire
+1813,49270,37.0,Massachusetts
+1814,49274,184.0,Massachusetts
+1815,49301,483.0,Michigan
+1816,49302,483.0,Michigan
+1817,49315,241.0,Wisconsin
+1818,49323,241.0,Wisconsin
+1819,49408,241.0,Wisconsin
+1820,49419,241.0,Wisconsin
+1821,49423,241.0,Wisconsin
+1822,49453,241.0,Wisconsin
+1823,49503,227.0,Michigan
+1824,49505,483.0,Michigan
+1825,49506,227.0,Michigan
+1826,49506,483.0,Michigan
+1827,49512,483.0,Michigan
+1828,49525,483.0,Michigan
+1829,49546,483.0,Michigan
+1830,50003,487.0,Iowa
+1831,50003,300.0,Iowa
+1832,50010,337.0,Iowa
+1833,50014,337.0,Iowa
+1834,50021,403.0,Iowa
+1835,50023,403.0,Iowa
+1836,50028,23.0,Massachusetts
+1837,50035,403.0,Iowa
+1838,50036,337.0,Iowa
+1839,50054,23.0,Massachusetts
+1840,50058,58.0,Texas
+1841,50061,300.0,Iowa
+1842,50063,487.0,Iowa
+1843,50063,300.0,Iowa
+1844,50073,403.0,Iowa
+1845,50105,337.0,Iowa
+1846,50106,23.0,Massachusetts
+1847,50109,259.0,Iowa
+1848,50111,487.0,Iowa
+1849,50111,259.0,Iowa
+1850,50111,300.0,Iowa
+1851,50131,403.0,Iowa
+1852,50131,259.0,Iowa
+1853,50135,23.0,Massachusetts
+1854,50141,23.0,Massachusetts
+1855,50167,487.0,Iowa
+1856,50170,23.0,Massachusetts
+1857,50208,23.0,Massachusetts
+1858,50226,403.0,Iowa
+1859,50226,259.0,Iowa
+1860,50232,23.0,Massachusetts
+1861,50248,337.0,Iowa
+1862,50261,300.0,Iowa
+1863,50263,487.0,Iowa
+1864,50263,300.0,Iowa
+1865,50266,300.0,Iowa
+1866,50276,487.0,Iowa
+1867,50310,259.0,Iowa
+1868,50313,403.0,Iowa
+1869,50313,259.0,Iowa
+1870,50322,487.0,Iowa
+1871,50322,259.0,Iowa
+1872,50323,487.0,Iowa
+1873,50323,259.0,Iowa
+1874,50323,300.0,Iowa
+1875,50325,300.0,Iowa
+1876,50401,64.0,Ohio
+1877,50428,64.0,Ohio
+1878,50458,64.0,Ohio
+1879,50468,64.0,Ohio
+1880,50801,456.0,Massachusetts
+1881,50833,20.0,New Hampshire
+1882,50833,37.0,Massachusetts
+1883,50833,456.0,Massachusetts
+1884,50836,20.0,New Hampshire
+1885,50836,37.0,Massachusetts
+1886,50840,456.0,Massachusetts
+1887,50841,20.0,New Hampshire
+1888,50841,37.0,Massachusetts
+1889,50841,456.0,Massachusetts
+1890,50845,456.0,Massachusetts
+1891,50848,20.0,New Hampshire
+1892,50848,37.0,Massachusetts
+1893,50848,456.0,Massachusetts
+1894,50851,456.0,Massachusetts
+1895,50857,20.0,New Hampshire
+1896,50857,37.0,Massachusetts
+1897,50859,456.0,Massachusetts
+1898,50860,20.0,New Hampshire
+1899,50860,37.0,Massachusetts
+1900,50862,20.0,New Hampshire
+1901,50862,37.0,Massachusetts
+1902,50862,456.0,Massachusetts
+1903,50864,20.0,New Hampshire
+1904,50864,37.0,Massachusetts
+1905,51004,9.0,Massachusetts
+1906,51026,9.0,Massachusetts
+1907,51034,9.0,Massachusetts
+1908,51044,9.0,Massachusetts
+1909,51052,9.0,Massachusetts
+1910,51054,9.0,Massachusetts
+1911,51055,9.0,Massachusetts
+1912,51056,9.0,Massachusetts
+1913,51063,9.0,Massachusetts
+1914,51401,58.0,Texas
+1915,51430,58.0,Texas
+1916,51436,58.0,Texas
+1917,51440,58.0,Texas
+1918,51443,58.0,Texas
+1919,51444,58.0,Texas
+1920,51449,58.0,Texas
+1921,51455,58.0,Texas
+1922,51463,58.0,Texas
+1923,51467,58.0,Texas
+1924,51646,20.0,New Hampshire
+1925,51646,37.0,Massachusetts
+1926,52031,189.0,Washington
+1927,52054,189.0,Washington
+1928,52074,189.0,Washington
+1929,52203,319.0,Wisconsin
+1930,52206,319.0,Wisconsin
+1931,52208,319.0,Wisconsin
+1932,52209,319.0,Wisconsin
+1933,52224,319.0,Wisconsin
+1934,52225,319.0,Wisconsin
+1935,52228,319.0,Wisconsin
+1936,52229,319.0,Wisconsin
+1937,52249,319.0,Wisconsin
+1938,52257,319.0,Wisconsin
+1939,52301,319.0,Wisconsin
+1940,52315,319.0,Wisconsin
+1941,52318,319.0,Wisconsin
+1942,52332,319.0,Wisconsin
+1943,52346,319.0,Wisconsin
+1944,52349,319.0,Wisconsin
+1945,52351,319.0,Wisconsin
+1946,52354,319.0,Wisconsin
+1947,52601,495.0,Massachusetts
+1948,52638,495.0,Massachusetts
+1949,52655,495.0,Massachusetts
+1950,52722,326.0,Iowa
+1951,52753,326.0,Iowa
+1952,52767,326.0,Iowa
+1953,52807,326.0,Iowa
+1954,53004,492.0,Wisconsin
+1955,53005,235.0,Wisconsin
+1956,53007,241.0,Wisconsin
+1957,53012,453.0,Wisconsin
+1958,53012,372.0,Wisconsin
+1959,53012,109.0,Massachusetts
+1960,53012,415.0,Wisconsin
+1961,53012,175.0,Wisconsin
+1962,53017,372.0,Wisconsin
+1963,53017,241.0,Wisconsin
+1964,53018,352.0,Wisconsin
+1965,53021,492.0,Wisconsin
+1966,53022,372.0,Wisconsin
+1967,53024,453.0,Wisconsin
+1968,53024,109.0,Massachusetts
+1969,53024,415.0,Wisconsin
+1970,53029,241.0,Wisconsin
+1971,53033,372.0,Wisconsin
+1972,53037,453.0,Wisconsin
+1973,53037,372.0,Wisconsin
+1974,53044,221.0,Wisconsin
+1975,53045,235.0,Wisconsin
+1976,53046,241.0,Wisconsin
+1977,53051,241.0,Wisconsin
+1978,53058,352.0,Wisconsin
+1979,53066,352.0,Wisconsin
+1980,53072,235.0,Wisconsin
+1981,53072,352.0,Wisconsin
+1982,53072,241.0,Wisconsin
+1983,53074,492.0,Wisconsin
+1984,53076,372.0,Wisconsin
+1985,53080,453.0,Wisconsin
+1986,53080,492.0,Wisconsin
+1987,53081,221.0,Wisconsin
+1988,53085,221.0,Wisconsin
+1989,53089,241.0,Wisconsin
+1990,53090,492.0,Wisconsin
+1991,53092,175.0,Wisconsin
+1992,53095,453.0,Wisconsin
+1993,53095,492.0,Wisconsin
+1994,53097,175.0,Wisconsin
+1995,53103,493.0,Wisconsin
+1996,53118,352.0,Wisconsin
+1997,53118,493.0,Wisconsin
+1998,53119,352.0,Wisconsin
+1999,53119,493.0,Wisconsin
+2000,53120,493.0,Wisconsin
+2001,53122,235.0,Wisconsin
+2002,53132,93.0,Massachusetts
+2003,53132,400.0,Wisconsin
+2004,53146,425.0,Wisconsin
+2005,53149,352.0,Wisconsin
+2006,53149,493.0,Wisconsin
+2007,53150,493.0,Wisconsin
+2008,53150,425.0,Wisconsin
+2009,53151,235.0,Wisconsin
+2010,53151,425.0,Wisconsin
+2011,53153,352.0,Wisconsin
+2012,53153,493.0,Wisconsin
+2013,53183,352.0,Wisconsin
+2014,53186,235.0,Wisconsin
+2015,53188,352.0,Wisconsin
+2016,53189,352.0,Wisconsin
+2017,53189,493.0,Wisconsin
+2018,53190,156.0,Massachusetts
+2019,53208,465.0,Wisconsin
+2020,53210,465.0,Wisconsin
+2021,53211,210.0,Wisconsin
+2022,53213,465.0,Wisconsin
+2023,53217,175.0,Wisconsin
+2024,53217,210.0,Wisconsin
+2025,53221,93.0,Massachusetts
+2026,53221,400.0,Wisconsin
+2027,53222,465.0,Wisconsin
+2028,53225,465.0,Wisconsin
+2029,53226,465.0,Wisconsin
+2030,53504,370.0,Texas
+2031,53504,376.0,New Jersey
+2032,53505,156.0,Massachusetts
+2033,53510,15.0,Massachusetts
+2034,53516,370.0,Texas
+2035,53522,376.0,New Jersey
+2036,53527,348.0,Wisconsin
+2037,53527,450.0,Wisconsin
+2038,53529,180.0,Wisconsin
+2039,53530,370.0,Texas
+2040,53530,15.0,Massachusetts
+2041,53531,450.0,Wisconsin
+2042,53532,180.0,Wisconsin
+2043,53534,156.0,Massachusetts
+2044,53538,156.0,Massachusetts
+2045,53545,156.0,Massachusetts
+2046,53546,156.0,Massachusetts
+2047,53548,156.0,Massachusetts
+2048,53550,376.0,New Jersey
+2049,53558,348.0,Wisconsin
+2050,53558,450.0,Wisconsin
+2051,53562,180.0,Wisconsin
+2052,53563,156.0,Massachusetts
+2053,53565,15.0,Massachusetts
+2054,53566,370.0,Texas
+2055,53566,376.0,New Jersey
+2056,53570,370.0,Texas
+2057,53570,376.0,New Jersey
+2058,53575,348.0,Wisconsin
+2059,53581,14.0,Massachusetts
+2060,53586,15.0,Massachusetts
+2061,53586,319.0,Wisconsin
+2062,53587,370.0,Texas
+2063,53589,348.0,Wisconsin
+2064,53597,180.0,Wisconsin
+2065,53704,180.0,Wisconsin
+2066,53711,348.0,Wisconsin
+2067,53713,348.0,Wisconsin
+2068,53713,450.0,Wisconsin
+2069,53714,450.0,Wisconsin
+2070,53716,450.0,Wisconsin
+2071,53718,348.0,Wisconsin
+2072,53718,450.0,Wisconsin
+2073,53803,319.0,Wisconsin
+2074,53807,15.0,Massachusetts
+2075,53807,319.0,Wisconsin
+2076,53811,319.0,Wisconsin
+2077,53818,15.0,Massachusetts
+2078,53916,223.0,New Jersey
+2079,53923,223.0,New Jersey
+2080,53924,14.0,Massachusetts
+2081,53930,84.0,New Jersey
+2082,53932,223.0,New Jersey
+2083,53933,223.0,New Jersey
+2084,53937,14.0,Massachusetts
+2085,53941,14.0,Massachusetts
+2086,53943,14.0,Massachusetts
+2087,53946,17.0,New Jersey
+2088,53949,17.0,New Jersey
+2089,53949,84.0,New Jersey
+2090,53952,84.0,New Jersey
+2091,53956,223.0,New Jersey
+2092,53959,14.0,Massachusetts
+2093,53964,84.0,New Jersey
+2094,54001,162.0,Missouri
+2095,54004,162.0,Missouri
+2096,54410,192.0,Massachusetts
+2097,54412,192.0,Massachusetts
+2098,54420,192.0,Massachusetts
+2099,54436,192.0,Massachusetts
+2100,54441,192.0,Massachusetts
+2101,54449,192.0,Massachusetts
+2102,54466,192.0,Massachusetts
+2103,54484,192.0,Massachusetts
+2104,54546,296.0,Massachusetts
+2105,54559,296.0,Massachusetts
+2106,54634,14.0,Massachusetts
+2107,54806,296.0,Massachusetts
+2108,54847,296.0,Massachusetts
+2109,54855,296.0,Massachusetts
+2110,54856,296.0,Massachusetts
+2111,54861,296.0,Massachusetts
+2112,54889,162.0,Missouri
+2113,54923,17.0,New Jersey
+2114,54930,84.0,New Jersey
+2115,54941,17.0,New Jersey
+2116,54943,84.0,New Jersey
+2117,54960,17.0,New Jersey
+2118,54960,84.0,New Jersey
+2119,54968,17.0,New Jersey
+2120,54982,84.0,New Jersey
+2121,55001,482.0,Minnesota
+2122,55001,466.0,Minnesota
+2123,55003,466.0,Minnesota
+2124,55008,17.0,New Jersey
+2125,55009,223.0,New Jersey
+2126,55012,491.0,Minnesota
+2127,55013,491.0,Minnesota
+2128,55014,440.0,Minnesota
+2129,55016,482.0,Minnesota
+2130,55017,17.0,New Jersey
+2131,55018,223.0,New Jersey
+2132,55020,387.0,Minnesota
+2133,55020,344.0,Minnesota
+2134,55024,387.0,Minnesota
+2135,55024,223.0,New Jersey
+2136,55025,491.0,Minnesota
+2137,55027,385.0,Minnesota
+2138,55031,223.0,New Jersey
+2139,55033,482.0,Minnesota
+2140,55033,466.0,Minnesota
+2141,55038,440.0,Minnesota
+2142,55038,203.0,Minnesota
+2143,55038,466.0,Minnesota
+2144,55041,385.0,Minnesota
+2145,55042,203.0,Minnesota
+2146,55042,466.0,Minnesota
+2147,55043,466.0,Minnesota
+2148,55044,387.0,Minnesota
+2149,55044,344.0,Minnesota
+2150,55044,287.0,Minnesota
+2151,55045,491.0,Minnesota
+2152,55046,344.0,Minnesota
+2153,55047,466.0,Minnesota
+2154,55054,387.0,Minnesota
+2155,55054,344.0,Minnesota
+2156,55055,482.0,Minnesota
+2157,55056,491.0,Minnesota
+2158,55057,344.0,Minnesota
+2159,55057,223.0,New Jersey
+2160,55065,223.0,New Jersey
+2161,55071,482.0,Minnesota
+2162,55073,491.0,Minnesota
+2163,55073,466.0,Minnesota
+2164,55074,491.0,Minnesota
+2165,55079,491.0,Minnesota
+2166,55082,203.0,Minnesota
+2167,55082,466.0,Minnesota
+2168,55084,491.0,Minnesota
+2169,55088,387.0,Minnesota
+2170,55088,344.0,Minnesota
+2171,55090,203.0,Minnesota
+2172,55092,491.0,Minnesota
+2173,55110,440.0,Minnesota
+2174,55110,203.0,Minnesota
+2175,55112,286.0,Minnesota
+2176,55115,203.0,Minnesota
+2177,55119,482.0,Minnesota
+2178,55125,482.0,Minnesota
+2179,55125,466.0,Minnesota
+2180,55126,440.0,Minnesota
+2181,55128,203.0,Minnesota
+2182,55129,482.0,Minnesota
+2183,55129,466.0,Minnesota
+2184,55301,408.0,Minnesota
+2185,55305,75.0,Minnesota
+2186,55306,387.0,Minnesota
+2187,55308,17.0,New Jersey
+2188,55309,17.0,New Jersey
+2189,55311,75.0,Minnesota
+2190,55313,345.0,Minnesota
+2191,55313,408.0,Minnesota
+2192,55315,359.0,Minnesota
+2193,55315,195.0,Minnesota
+2194,55317,359.0,Minnesota
+2195,55317,106.0,Minnesota
+2196,55318,359.0,Minnesota
+2197,55318,106.0,Minnesota
+2198,55318,195.0,Minnesota
+2199,55319,17.0,New Jersey
+2200,55322,359.0,Minnesota
+2201,55322,195.0,Minnesota
+2202,55328,345.0,Minnesota
+2203,55330,408.0,Minnesota
+2204,55331,359.0,Minnesota
+2205,55331,106.0,Minnesota
+2206,55331,237.0,Minnesota
+2207,55331,281.0,Minnesota
+2208,55331,195.0,Minnesota
+2209,55340,345.0,Minnesota
+2210,55340,281.0,Minnesota
+2211,55340,75.0,Minnesota
+2212,55341,408.0,Minnesota
+2213,55344,264.0,Minnesota
+2214,55345,106.0,Minnesota
+2215,55346,359.0,Minnesota
+2216,55346,106.0,Minnesota
+2217,55346,264.0,Minnesota
+2218,55347,264.0,Minnesota
+2219,55352,344.0,Minnesota
+2220,55352,287.0,Minnesota
+2221,55352,436.0,Minnesota
+2222,55356,281.0,Minnesota
+2223,55356,75.0,Minnesota
+2224,55357,345.0,Minnesota
+2225,55359,345.0,Minnesota
+2226,55359,237.0,Minnesota
+2227,55359,281.0,Minnesota
+2228,55360,195.0,Minnesota
+2229,55362,408.0,Minnesota
+2230,55363,345.0,Minnesota
+2231,55364,237.0,Minnesota
+2232,55364,281.0,Minnesota
+2233,55364,195.0,Minnesota
+2234,55367,195.0,Minnesota
+2235,55371,17.0,New Jersey
+2236,55372,387.0,Minnesota
+2237,55372,344.0,Minnesota
+2238,55372,287.0,Minnesota
+2239,55372,436.0,Minnesota
+2240,55373,345.0,Minnesota
+2241,55375,195.0,Minnesota
+2242,55376,408.0,Minnesota
+2243,55378,287.0,Minnesota
+2244,55378,436.0,Minnesota
+2245,55379,287.0,Minnesota
+2246,55379,436.0,Minnesota
+2247,55384,237.0,Minnesota
+2248,55386,359.0,Minnesota
+2249,55386,195.0,Minnesota
+2250,55387,359.0,Minnesota
+2251,55387,195.0,Minnesota
+2252,55388,345.0,Minnesota
+2253,55388,195.0,Minnesota
+2254,55391,106.0,Minnesota
+2255,55391,237.0,Minnesota
+2256,55391,281.0,Minnesota
+2257,55391,75.0,Minnesota
+2258,55397,195.0,Minnesota
+2259,55398,17.0,New Jersey
+2260,55410,96.0,Minnesota
+2261,55416,96.0,Minnesota
+2262,55418,286.0,Minnesota
+2263,55421,286.0,Minnesota
+2264,55424,96.0,Minnesota
+2265,55435,96.0,Minnesota
+2266,55436,96.0,Minnesota
+2267,55437,96.0,Minnesota
+2268,55438,96.0,Minnesota
+2269,55438,264.0,Minnesota
+2270,55439,96.0,Minnesota
+2271,55439,264.0,Minnesota
+2272,55441,75.0,Minnesota
+2273,55446,75.0,Minnesota
+2274,55447,75.0,Minnesota
+2275,55449,440.0,Minnesota
+2276,55718,462.0,Minnesota
+2277,55720,462.0,Minnesota
+2278,55733,462.0,Minnesota
+2279,55810,462.0,Minnesota
+2280,55901,244.0,Minnesota
+2281,55901,153.0,Michigan
+2282,55902,244.0,Minnesota
+2283,55902,153.0,Michigan
+2284,55904,153.0,Michigan
+2285,55905,153.0,Michigan
+2286,55906,153.0,Michigan
+2287,55920,244.0,Minnesota
+2288,55920,153.0,Michigan
+2289,55921,362.0,Minnesota
+2290,55925,362.0,Minnesota
+2291,55932,153.0,Michigan
+2292,55934,153.0,Michigan
+2293,55941,362.0,Minnesota
+2294,55943,362.0,Minnesota
+2295,55944,244.0,Minnesota
+2296,55947,362.0,Minnesota
+2297,55955,244.0,Minnesota
+2298,55956,153.0,Michigan
+2299,55956,385.0,Minnesota
+2300,55957,153.0,Michigan
+2301,55960,244.0,Minnesota
+2302,55960,153.0,Michigan
+2303,55960,385.0,Minnesota
+2304,55963,244.0,Minnesota
+2305,55963,153.0,Michigan
+2306,55963,385.0,Minnesota
+2307,55971,362.0,Minnesota
+2308,55974,362.0,Minnesota
+2309,55976,244.0,Minnesota
+2310,55976,153.0,Michigan
+2311,55991,153.0,Michigan
+2312,55991,385.0,Minnesota
+2313,55992,385.0,Minnesota
+2314,56011,344.0,Minnesota
+2315,56019,285.0,Pennsylvania
+2316,56019,471.0,Pennsylvania
+2317,56057,344.0,Minnesota
+2318,56069,344.0,Minnesota
+2319,56071,344.0,Minnesota
+2320,56083,285.0,Pennsylvania
+2321,56083,471.0,Pennsylvania
+2322,56085,285.0,Pennsylvania
+2323,56085,471.0,Pennsylvania
+2324,56087,285.0,Pennsylvania
+2325,56087,471.0,Pennsylvania
+2326,56224,285.0,Pennsylvania
+2327,56224,471.0,Pennsylvania
+2328,56266,285.0,Pennsylvania
+2329,56266,471.0,Pennsylvania
+2330,56303,421.0,Minnesota
+2331,56307,233.0,Massachusetts
+2332,56312,233.0,Massachusetts
+2333,56318,233.0,Massachusetts
+2334,56331,233.0,Massachusetts
+2335,56335,233.0,Massachusetts
+2336,56336,233.0,Massachusetts
+2337,56352,233.0,Massachusetts
+2338,56353,17.0,New Jersey
+2339,56356,233.0,Massachusetts
+2340,56357,17.0,New Jersey
+2341,56362,233.0,Massachusetts
+2342,56367,421.0,Minnesota
+2343,56374,421.0,Minnesota
+2344,56375,421.0,Minnesota
+2345,56377,421.0,Minnesota
+2346,56378,233.0,Massachusetts
+2347,58008,430.0,North Dakota
+2348,58018,430.0,North Dakota
+2349,58041,430.0,North Dakota
+2350,58053,430.0,North Dakota
+2351,58057,430.0,North Dakota
+2352,58058,430.0,North Dakota
+2353,58060,430.0,North Dakota
+2354,58061,430.0,North Dakota
+2355,58077,430.0,North Dakota
+2356,58081,430.0,North Dakota
+2357,58212,294.0,North Dakota
+2358,58214,294.0,North Dakota
+2359,58218,446.0,North Dakota
+2360,58219,446.0,North Dakota
+2361,58223,446.0,North Dakota
+2362,58228,294.0,North Dakota
+2363,58240,446.0,North Dakota
+2364,58240,294.0,North Dakota
+2365,58257,446.0,North Dakota
+2366,58267,294.0,North Dakota
+2367,58275,446.0,North Dakota
+2368,58275,294.0,North Dakota
+2369,58277,294.0,North Dakota
+2370,58278,446.0,North Dakota
+2371,58278,294.0,North Dakota
+2372,58711,412.0,North Dakota
+2373,58725,412.0,North Dakota
+2374,58734,412.0,North Dakota
+2375,58746,412.0,North Dakota
+2376,58750,412.0,North Dakota
+2377,58760,412.0,North Dakota
+2378,58761,412.0,North Dakota
+2379,58782,412.0,North Dakota
+2380,58787,412.0,North Dakota
+2381,58793,412.0,North Dakota
+2382,59444,69.0,California
+2383,59522,69.0,California
+2384,59853,217.0,Michigan
+2385,59923,217.0,Michigan
+2386,59935,217.0,Michigan
+2387,60010,247.0,Illinois
+2388,60010,481.0,Illinois
+2389,60010,7.0,Illinois
+2390,60013,247.0,Illinois
+2391,60013,7.0,Illinois
+2392,60014,7.0,Illinois
+2393,60021,247.0,Illinois
+2394,60030,7.0,Illinois
+2395,60042,7.0,Illinois
+2396,60047,247.0,Illinois
+2397,60047,481.0,Illinois
+2398,60051,7.0,Illinois
+2399,60073,7.0,Illinois
+2400,60074,481.0,Illinois
+2401,60084,481.0,Illinois
+2402,60084,7.0,Illinois
+2403,60101,283.0,Illinois
+2404,60106,283.0,Illinois
+2405,60110,247.0,Illinois
+2406,60119,386.0,Illinois
+2407,60120,247.0,Illinois
+2408,60126,283.0,Illinois
+2409,60134,386.0,Illinois
+2410,60169,247.0,Illinois
+2411,60174,386.0,Illinois
+2412,60181,283.0,Illinois
+2413,60185,386.0,Illinois
+2414,60192,247.0,Illinois
+2415,60440,1.0,Illinois
+2416,60490,342.0,Illinois
+2417,60502,342.0,Illinois
+2418,60504,342.0,Illinois
+2419,60510,386.0,Illinois
+2420,60510,342.0,Illinois
+2421,60517,1.0,Illinois
+2422,60519,342.0,Illinois
+2423,60523,283.0,Illinois
+2424,60532,1.0,Illinois
+2425,60540,1.0,Illinois
+2426,60540,342.0,Illinois
+2427,60555,1.0,Illinois
+2428,60555,342.0,Illinois
+2429,60563,1.0,Illinois
+2430,60563,342.0,Illinois
+2431,60564,342.0,Illinois
+2432,60565,1.0,Illinois
+2433,60565,342.0,Illinois
+2434,60585,342.0,Illinois
+2435,60634,24.0,New Jersey
+2436,60656,24.0,New Jersey
+2437,60706,24.0,New Jersey
+2438,61517,168.0,Illinois
+2439,61525,168.0,Illinois
+2440,61526,168.0,Illinois
+2441,61528,168.0,Illinois
+2442,61535,2.0,Illinois
+2443,61550,2.0,Illinois
+2444,61550,2.0,Illinois
+2445,61552,2.0,Illinois
+2446,61553,2.0,Illinois
+2447,61554,2.0,Illinois
+2448,61554,2.0,Illinois
+2449,61554,2.0,Illinois
+2450,61554,2.0,Illinois
+2451,61554,2.0,Illinois
+2452,61554,2.0,Illinois
+2453,61554,2.0,Illinois
+2454,61554,2.0,Illinois
+2455,61554,2.0,Illinois
+2456,61554,2.0,Illinois
+2457,61554,2.0,Illinois
+2458,61559,2.0,Illinois
+2459,61559,2.0,Illinois
+2460,61559,2.0,Illinois
+2461,61559,2.0,Illinois
+2462,61560,2.0,Illinois
+2463,61560,2.0,Illinois
+2464,61560,2.0,Illinois
+2465,61561,2.0,Illinois
+2466,61561,2.0,Illinois
+2467,61561,2.0,Illinois
+2468,61561,2.0,Illinois
+2469,61561,2.0,Illinois
+2470,61561,2.0,Illinois
+2471,61562,2.0,Illinois
+2472,61563,2.0,Illinois
+2473,61563,2.0,Illinois
+2474,61564,2.0,Illinois
+2475,61564,2.0,Illinois
+2476,61565,2.0,Illinois
+2477,61565,2.0,Illinois
+2478,61565,2.0,Illinois
+2479,61565,2.0,Illinois
+2480,61567,2.0,Illinois
+2481,61567,2.0,Illinois
+2482,61567,2.0,Illinois
+2483,61568,2.0,Illinois
+2484,61568,2.0,Illinois
+2485,61568,2.0,Illinois
+2486,61568,2.0,Illinois
+2487,61568,2.0,Illinois
+2488,61568,2.0,Illinois
+2489,61568,2.0,Illinois
+2490,61569,2.0,Illinois
+2491,61569,2.0,Illinois
+2492,61569,2.0,Illinois
+2493,61570,2.0,Illinois
+2494,61570,2.0,Illinois
+2495,61570,2.0,Illinois
+2496,61570,2.0,Illinois
+2497,61571,2.0,Illinois
+2498,61571,2.0,Illinois
+2499,61571,2.0,Illinois
+2500,61571,2.0,Illinois
+2501,61571,2.0,Illinois
+2502,61571,2.0,Illinois
+2503,61571,2.0,Illinois
+2504,61571,2.0,Illinois
+2505,61572,2.0,Illinois
+2506,61572,2.0,Illinois
+2507,61602,2.0,Illinois
+2508,61603,2.0,Illinois
+2509,61603,2.0,Illinois
+2510,61604,2.0,Illinois
+2511,61604,2.0,Illinois
+2512,61604,2.0,Illinois
+2513,61604,2.0,Illinois
+2514,61604,2.0,Illinois
+2515,61604,2.0,Illinois
+2516,61605,2.0,Illinois
+2517,61605,2.0,Illinois
+2518,61605,2.0,Illinois
+2519,61605,2.0,Illinois
+2520,61605,2.0,Illinois
+2521,61605,2.0,Illinois
+2522,61606,2.0,Illinois
+2523,61607,2.0,Illinois
+2524,61607,2.0,Illinois
+2525,61607,2.0,Illinois
+2526,61607,2.0,Illinois
+2527,61607,2.0,Illinois
+2528,61607,2.0,Illinois
+2529,61607,2.0,Illinois
+2530,61607,2.0,Illinois
+2531,61607,2.0,Illinois
+2532,61607,2.0,Illinois
+2533,61610,2.0,Illinois
+2534,61610,2.0,Illinois
+2535,61610,2.0,Illinois
+2536,61610,2.0,Illinois
+2537,61610,2.0,Illinois
+2538,61611,2.0,Illinois
+2539,61611,2.0,Illinois
+2540,61611,2.0,Illinois
+2541,61611,2.0,Illinois
+2542,61611,2.0,Illinois
+2543,61611,2.0,Illinois
+2544,61611,2.0,Illinois
+2545,61611,2.0,Illinois
+2546,61611,2.0,Illinois
+2547,61611,2.0,Illinois
+2548,61611,2.0,Illinois
+2549,61611,2.0,Illinois
+2550,61611,2.0,Illinois
+2551,61611,2.0,Illinois
+2552,61614,2.0,Illinois
+2553,61614,2.0,Illinois
+2554,61614,2.0,Illinois
+2555,61615,2.0,Illinois
+2556,61615,2.0,Illinois
+2557,61615,2.0,Illinois
+2558,61615,2.0,Illinois
+2559,61615,2.0,Illinois
+2560,61615,2.0,Illinois
+2561,61615,2.0,Illinois
+2562,61615,2.0,Illinois
+2563,61615,2.0,Illinois
+2564,61616,2.0,Illinois
+2565,61616,2.0,Illinois
+2566,61625,2.0,Illinois
+2567,61701,2.0,Illinois
+2568,61701,2.0,Illinois
+2569,61704,2.0,Illinois
+2570,61704,2.0,Illinois
+2571,61704,2.0,Illinois
+2572,61705,2.0,Illinois
+2573,61705,2.0,Illinois
+2574,61705,2.0,Illinois
+2575,61705,2.0,Illinois
+2576,61705,2.0,Illinois
+2577,61720,2.0,Illinois
+2578,61720,2.0,Illinois
+2579,61720,2.0,Illinois
+2580,61721,2.0,Illinois
+2581,61721,2.0,Illinois
+2582,61722,2.0,Illinois
+2583,61722,2.0,Illinois
+2584,61722,2.0,Illinois
+2585,61722,2.0,Illinois
+2586,61723,2.0,Illinois
+2587,61723,2.0,Illinois
+2588,61723,2.0,Illinois
+2589,61723,2.0,Illinois
+2590,61724,2.0,Illinois
+2591,61724,2.0,Illinois
+2592,61725,2.0,Illinois
+2593,61725,2.0,Illinois
+2594,61725,2.0,Illinois
+2595,61725,2.0,Illinois
+2596,61726,2.0,Illinois
+2597,61726,2.0,Illinois
+2598,61726,2.0,Illinois
+2599,61726,2.0,Illinois
+2600,61727,2.0,Illinois
+2601,61727,2.0,Illinois
+2602,61727,2.0,Illinois
+2603,61727,2.0,Illinois
+2604,61727,2.0,Illinois
+2605,61728,2.0,Illinois
+2606,61728,2.0,Illinois
+2607,61728,2.0,Illinois
+2608,61729,2.0,Illinois
+2609,61729,2.0,Illinois
+2610,61730,2.0,Illinois
+2611,61730,2.0,Illinois
+2612,61730,2.0,Illinois
+2613,61731,2.0,Illinois
+2614,61731,2.0,Illinois
+2615,61731,2.0,Illinois
+2616,61732,2.0,Illinois
+2617,61732,2.0,Illinois
+2618,61732,2.0,Illinois
+2619,61733,2.0,Illinois
+2620,61733,2.0,Illinois
+2621,61733,2.0,Illinois
+2622,63026,222.0,Missouri
+2623,63105,162.0,Missouri
+2624,63105,155.0,Missouri
+2625,63114,155.0,Missouri
+2626,63117,443.0,Missouri
+2627,63117,162.0,Missouri
+2628,63117,155.0,Missouri
+2629,63119,443.0,Missouri
+2630,63119,339.0,Missouri
+2631,63119,155.0,Missouri
+2632,63122,339.0,Missouri
+2633,63122,222.0,Missouri
+2634,63123,222.0,Missouri
+2635,63124,162.0,Missouri
+2636,63124,155.0,Missouri
+2637,63126,222.0,Missouri
+2638,63127,339.0,Missouri
+2639,63127,222.0,Missouri
+2640,63128,222.0,Missouri
+2641,63130,162.0,Missouri
+2642,63131,339.0,Missouri
+2643,63131,155.0,Missouri
+2644,63132,155.0,Missouri
+2645,63141,155.0,Missouri
+2646,63144,443.0,Missouri
+2647,63146,155.0,Missouri
+2648,68002,26.0,Massachusetts
+2649,68005,189.0,Washington
+2650,68007,26.0,Massachusetts
+2651,68007,288.0,Nebraska
+2652,68007,311.0,Nebraska
+2653,68008,26.0,Massachusetts
+2654,68008,288.0,Nebraska
+2655,68022,26.0,Massachusetts
+2656,68022,288.0,Nebraska
+2657,68022,311.0,Nebraska
+2658,68025,26.0,Massachusetts
+2659,68029,26.0,Massachusetts
+2660,68034,26.0,Massachusetts
+2661,68034,288.0,Nebraska
+2662,68044,26.0,Massachusetts
+2663,68047,420.0,Massachusetts
+2664,68064,26.0,Massachusetts
+2665,68064,311.0,Nebraska
+2666,68068,288.0,Nebraska
+2667,68113,189.0,Washington
+2668,68116,288.0,Nebraska
+2669,68116,311.0,Nebraska
+2670,68118,311.0,Nebraska
+2671,68123,189.0,Washington
+2672,68130,311.0,Nebraska
+2673,68133,189.0,Washington
+2674,68135,311.0,Nebraska
+2675,68142,288.0,Nebraska
+2676,68147,189.0,Washington
+2677,68313,440.0,Minnesota
+2678,68316,440.0,Minnesota
+2679,68319,144.0,Pennsylvania
+2680,68337,57.0,Texas
+2681,68351,440.0,Minnesota
+2682,68355,57.0,Texas
+2683,68359,440.0,Minnesota
+2684,68365,442.0,Massachusetts
+2685,68367,440.0,Minnesota
+2686,68371,144.0,Pennsylvania
+2687,68371,442.0,Massachusetts
+2688,68405,440.0,Minnesota
+2689,68414,57.0,Texas
+2690,68431,57.0,Texas
+2691,68433,57.0,Texas
+2692,68434,440.0,Minnesota
+2693,68436,442.0,Massachusetts
+2694,68437,57.0,Texas
+2695,68439,440.0,Minnesota
+2696,68452,442.0,Massachusetts
+2697,68456,440.0,Minnesota
+2698,68457,57.0,Texas
+2699,68460,440.0,Minnesota
+2700,68467,440.0,Minnesota
+2701,68631,60.0,New Jersey
+2702,68642,60.0,New Jersey
+2703,68643,60.0,New Jersey
+2704,68644,60.0,New Jersey
+2705,68658,440.0,Minnesota
+2706,68662,440.0,Minnesota
+2707,68667,440.0,Minnesota
+2708,68669,440.0,Minnesota
+2709,68701,60.0,New Jersey
+2710,68710,420.0,Massachusetts
+2711,68715,60.0,New Jersey
+2712,68717,223.0,New Jersey
+2713,68723,223.0,New Jersey
+2714,68727,223.0,New Jersey
+2715,68728,420.0,Massachusetts
+2716,68733,420.0,Massachusetts
+2717,68739,223.0,New Jersey
+2718,68740,223.0,New Jersey
+2719,68745,223.0,New Jersey
+2720,68747,223.0,New Jersey
+2721,68748,60.0,New Jersey
+2722,68752,60.0,New Jersey
+2723,68758,60.0,New Jersey
+2724,68765,223.0,New Jersey
+2725,68771,223.0,New Jersey
+2726,68779,60.0,New Jersey
+2727,68784,420.0,Massachusetts
+2728,68786,223.0,New Jersey
+2729,68787,420.0,Massachusetts
+2730,68791,420.0,Massachusetts
+2731,68818,144.0,Pennsylvania
+2732,68818,51.0,Massachusetts
+2733,68818,442.0,Massachusetts
+2734,68834,3.0,Massachusetts
+2735,68841,51.0,Massachusetts
+2736,68843,144.0,Pennsylvania
+2737,68846,144.0,Pennsylvania
+2738,68850,3.0,Massachusetts
+2739,68854,144.0,Pennsylvania
+2740,68863,3.0,Massachusetts
+2741,68901,51.0,Massachusetts
+2742,68925,274.0,Massachusetts
+2743,68925,490.0,Kansas
+2744,68928,274.0,Massachusetts
+2745,68928,490.0,Kansas
+2746,68929,93.0,Massachusetts
+2747,68929,400.0,Wisconsin
+2748,68930,274.0,Massachusetts
+2749,68930,490.0,Kansas
+2750,68932,274.0,Massachusetts
+2751,68932,490.0,Kansas
+2752,68933,51.0,Massachusetts
+2753,68933,442.0,Massachusetts
+2754,68935,442.0,Massachusetts
+2755,68937,3.0,Massachusetts
+2756,68939,93.0,Massachusetts
+2757,68939,400.0,Wisconsin
+2758,68944,51.0,Massachusetts
+2759,68944,442.0,Massachusetts
+2760,68947,93.0,Massachusetts
+2761,68947,400.0,Wisconsin
+2762,68950,274.0,Massachusetts
+2763,68950,490.0,Kansas
+2764,68952,274.0,Massachusetts
+2765,68952,490.0,Kansas
+2766,68955,274.0,Massachusetts
+2767,68955,490.0,Kansas
+2768,68956,274.0,Massachusetts
+2769,68956,490.0,Kansas
+2770,68959,274.0,Massachusetts
+2771,68959,490.0,Kansas
+2772,68960,93.0,Massachusetts
+2773,68960,400.0,Wisconsin
+2774,68970,274.0,Massachusetts
+2775,68970,490.0,Kansas
+2776,68971,93.0,Massachusetts
+2777,68971,400.0,Wisconsin
+2778,68972,93.0,Massachusetts
+2779,68972,400.0,Wisconsin
+2780,68972,274.0,Massachusetts
+2781,68972,490.0,Kansas
+2782,68973,274.0,Massachusetts
+2783,68973,490.0,Kansas
+2784,68975,442.0,Massachusetts
+2785,68976,3.0,Massachusetts
+2786,68979,442.0,Massachusetts
+2787,68981,93.0,Massachusetts
+2788,68981,400.0,Wisconsin
+2789,68981,274.0,Massachusetts
+2790,68981,490.0,Kansas
+2791,69130,3.0,Massachusetts
+2792,71701,144.0,Pennsylvania
+2793,71711,144.0,Pennsylvania
+2794,71744,144.0,Pennsylvania
+2795,71745,144.0,Pennsylvania
+2796,71766,144.0,Pennsylvania
+2797,71801,269.0,Kansas
+2798,71838,269.0,Kansas
+2799,71901,319.0,Wisconsin
+2800,72011,319.0,Wisconsin
+2801,72015,319.0,Wisconsin
+2802,72019,319.0,Wisconsin
+2803,72087,319.0,Wisconsin
+2804,72104,319.0,Wisconsin
+2805,72927,204.0,Massachusetts
+2806,72936,204.0,Massachusetts
+2807,72938,204.0,Massachusetts
+2808,72940,204.0,Massachusetts
+2809,72944,204.0,Massachusetts
+2810,72958,204.0,Massachusetts
+2811,73051,3.0,Massachusetts
+2812,73401,494.0,Pennsylvania
+2813,73437,437.0,Massachusetts
+2814,73438,437.0,Massachusetts
+2815,73438,494.0,Pennsylvania
+2816,73442,437.0,Massachusetts
+2817,73443,494.0,Pennsylvania
+2818,73444,437.0,Massachusetts
+2819,73458,437.0,Massachusetts
+2820,73463,494.0,Pennsylvania
+2821,73481,437.0,Massachusetts
+2822,73487,437.0,Massachusetts
+2823,73533,437.0,Massachusetts
+2824,73658,149.0,Massachusetts
+2825,73663,149.0,Massachusetts
+2826,73717,495.0,Massachusetts
+2827,73719,495.0,Massachusetts
+2828,73722,495.0,Massachusetts
+2829,73724,149.0,Massachusetts
+2830,73728,495.0,Massachusetts
+2831,73737,149.0,Massachusetts
+2832,73749,495.0,Massachusetts
+2833,73755,149.0,Massachusetts
+2834,73758,495.0,Massachusetts
+2835,73763,149.0,Massachusetts
+2836,73772,149.0,Massachusetts
+2837,74437,494.0,Pennsylvania
+2838,74447,494.0,Pennsylvania
+2839,74531,257.0,Texas
+2840,74536,162.0,Missouri
+2841,74536,116.0,Massachusetts
+2842,74538,257.0,Texas
+2843,74540,162.0,Missouri
+2844,74543,162.0,Missouri
+2845,74543,116.0,Massachusetts
+2846,74549,116.0,Massachusetts
+2847,74557,162.0,Missouri
+2848,74558,162.0,Missouri
+2849,74558,116.0,Massachusetts
+2850,74560,162.0,Missouri
+2851,74567,162.0,Missouri
+2852,74567,116.0,Massachusetts
+2853,74723,288.0,Nebraska
+2854,74727,288.0,Nebraska
+2855,74728,116.0,Massachusetts
+2856,74820,257.0,Texas
+2857,74825,257.0,Texas
+2858,74827,257.0,Texas
+2859,74878,3.0,Massachusetts
+2860,74937,376.0,New Jersey
+2861,74940,376.0,New Jersey
+2862,74953,376.0,New Jersey
+2863,75002,257.0,Texas
+2864,75002,18.0,Texas
+2865,75002,17.0,New Jersey
+2866,75009,129.0,Texas
+2867,75013,257.0,Texas
+2868,75019,299.0,Texas
+2869,75022,370.0,Texas
+2870,75023,257.0,Texas
+2871,75024,90.0,Texas
+2872,75025,257.0,Texas
+2873,75025,90.0,Texas
+2874,75034,90.0,Texas
+2875,75034,129.0,Texas
+2876,75035,90.0,Texas
+2877,75035,129.0,Texas
+2878,75038,299.0,Texas
+2879,75050,26.0,Massachusetts
+2880,75051,26.0,Massachusetts
+2881,75052,26.0,Massachusetts
+2882,75052,204.0,Massachusetts
+2883,75054,204.0,Massachusetts
+2884,75056,90.0,Texas
+2885,75063,299.0,Texas
+2886,75067,299.0,Texas
+2887,75068,90.0,Texas
+2888,75069,18.0,Texas
+2889,75069,17.0,New Jersey
+2890,75070,257.0,Texas
+2891,75070,90.0,Texas
+2892,75070,129.0,Texas
+2893,75071,17.0,New Jersey
+2894,75071,129.0,Texas
+2895,75074,257.0,Texas
+2896,75078,90.0,Texas
+2897,75078,129.0,Texas
+2898,75098,18.0,Texas
+2899,75103,149.0,Massachusetts
+2900,75104,336.0,Kansas
+2901,75115,336.0,Kansas
+2902,75124,149.0,Massachusetts
+2903,75140,149.0,Massachusetts
+2904,75147,149.0,Massachusetts
+2905,75154,336.0,Kansas
+2906,75166,17.0,New Jersey
+2907,75169,149.0,Massachusetts
+2908,75173,17.0,New Jersey
+2909,75407,17.0,New Jersey
+2910,75424,17.0,New Jersey
+2911,75442,17.0,New Jersey
+2912,75604,269.0,Kansas
+2913,75605,269.0,Kansas
+2914,75693,269.0,Kansas
+2915,75754,149.0,Massachusetts
+2916,75801,9.0,Massachusetts
+2917,75803,9.0,Massachusetts
+2918,75861,9.0,Massachusetts
+2919,75928,23.0,Massachusetts
+2920,75932,23.0,Massachusetts
+2921,75933,23.0,Massachusetts
+2922,75939,53.0,New Jersey
+2923,75956,23.0,Massachusetts
+2924,75966,23.0,Massachusetts
+2925,75977,23.0,Massachusetts
+2926,76001,26.0,Massachusetts
+2927,76001,204.0,Massachusetts
+2928,76002,26.0,Massachusetts
+2929,76002,204.0,Massachusetts
+2930,76006,26.0,Massachusetts
+2931,76009,204.0,Massachusetts
+2932,76010,26.0,Massachusetts
+2933,76011,26.0,Massachusetts
+2934,76012,26.0,Massachusetts
+2935,76013,26.0,Massachusetts
+2936,76014,26.0,Massachusetts
+2937,76015,26.0,Massachusetts
+2938,76016,26.0,Massachusetts
+2939,76017,26.0,Massachusetts
+2940,76017,204.0,Massachusetts
+2941,76018,26.0,Massachusetts
+2942,76018,204.0,Massachusetts
+2943,76028,204.0,Massachusetts
+2944,76051,58.0,Texas
+2945,76051,299.0,Texas
+2946,76060,204.0,Massachusetts
+2947,76063,204.0,Massachusetts
+2948,76084,204.0,Massachusetts
+2949,76092,58.0,Texas
+2950,76140,204.0,Massachusetts
+2951,76210,370.0,Texas
+2952,76226,370.0,Texas
+2953,76227,129.0,Texas
+2954,76228,189.0,Washington
+2955,76230,189.0,Washington
+2956,76248,58.0,Texas
+2957,76261,189.0,Washington
+2958,76262,370.0,Texas
+2959,76262,58.0,Texas
+2960,76365,189.0,Washington
+2961,76436,241.0,Wisconsin
+2962,76446,241.0,Wisconsin
+2963,76455,241.0,Wisconsin
+2964,76457,241.0,Wisconsin
+2965,76501,217.0,Michigan
+2966,76502,217.0,Michigan
+2967,76504,217.0,Michigan
+2968,76524,217.0,Michigan
+2969,76525,241.0,Wisconsin
+2970,76527,469.0,Massachusetts
+2971,76530,469.0,Massachusetts
+2972,76531,241.0,Wisconsin
+2973,76537,469.0,Massachusetts
+2974,76538,241.0,Wisconsin
+2975,76557,217.0,Michigan
+2976,76565,241.0,Wisconsin
+2977,76566,241.0,Wisconsin
+2978,76577,3.0,Massachusetts
+2979,76578,3.0,Massachusetts
+2980,76579,217.0,Michigan
+2981,76621,70.0,Massachusetts
+2982,76624,70.0,Massachusetts
+2983,76629,93.0,Massachusetts
+2984,76629,400.0,Wisconsin
+2985,76637,241.0,Wisconsin
+2986,76640,70.0,Massachusetts
+2987,76653,93.0,Massachusetts
+2988,76653,400.0,Wisconsin
+2989,76654,70.0,Massachusetts
+2990,76656,217.0,Michigan
+2991,76673,70.0,Massachusetts
+2992,76691,70.0,Massachusetts
+2993,76705,70.0,Massachusetts
+2994,76844,241.0,Wisconsin
+2995,76861,366.0,New Jersey
+2996,76904,366.0,New Jersey
+2997,76905,366.0,New Jersey
+2998,76935,366.0,New Jersey
+2999,76937,366.0,New Jersey
+3000,76940,366.0,New Jersey
+3001,76955,366.0,New Jersey
+3002,76957,366.0,New Jersey
+3003,77002,362.0,Minnesota
+3004,77003,362.0,Minnesota
+3005,77004,362.0,Minnesota
+3006,77005,362.0,Minnesota
+3007,77006,362.0,Minnesota
+3008,77007,362.0,Minnesota
+3009,77008,362.0,Minnesota
+3010,77009,362.0,Minnesota
+3011,77010,362.0,Minnesota
+3012,77011,362.0,Minnesota
+3013,77012,362.0,Minnesota
+3014,77013,362.0,Minnesota
+3015,77015,362.0,Minnesota
+3016,77016,362.0,Minnesota
+3017,77017,362.0,Minnesota
+3018,77018,362.0,Minnesota
+3019,77019,362.0,Minnesota
+3020,77020,362.0,Minnesota
+3021,77021,362.0,Minnesota
+3022,77022,362.0,Minnesota
+3023,77023,362.0,Minnesota
+3024,77024,362.0,Minnesota
+3025,77025,362.0,Minnesota
+3026,77026,362.0,Minnesota
+3027,77027,362.0,Minnesota
+3028,77028,362.0,Minnesota
+3029,77029,362.0,Minnesota
+3030,77030,362.0,Minnesota
+3031,77031,362.0,Minnesota
+3032,77033,362.0,Minnesota
+3033,77035,362.0,Minnesota
+3034,77036,362.0,Minnesota
+3035,77037,362.0,Minnesota
+3036,77042,362.0,Minnesota
+3037,77044,362.0,Minnesota
+3038,77045,362.0,Minnesota
+3039,77046,362.0,Minnesota
+3040,77047,362.0,Minnesota
+3041,77048,362.0,Minnesota
+3042,77049,362.0,Minnesota
+3043,77050,362.0,Minnesota
+3044,77051,362.0,Minnesota
+3045,77053,362.0,Minnesota
+3046,77054,362.0,Minnesota
+3047,77055,362.0,Minnesota
+3048,77056,362.0,Minnesota
+3049,77057,362.0,Minnesota
+3050,77061,362.0,Minnesota
+3051,77063,362.0,Minnesota
+3052,77071,362.0,Minnesota
+3053,77074,362.0,Minnesota
+3054,77075,362.0,Minnesota
+3055,77076,362.0,Minnesota
+3056,77077,362.0,Minnesota
+3057,77078,362.0,Minnesota
+3058,77079,362.0,Minnesota
+3059,77081,362.0,Minnesota
+3060,77085,362.0,Minnesota
+3061,77087,362.0,Minnesota
+3062,77088,362.0,Minnesota
+3063,77089,362.0,Minnesota
+3064,77091,362.0,Minnesota
+3065,77092,362.0,Minnesota
+3066,77093,362.0,Minnesota
+3067,77096,362.0,Minnesota
+3068,77098,362.0,Minnesota
+3069,77099,362.0,Minnesota
+3070,77201,362.0,Minnesota
+3071,77316,52.0,New Jersey
+3072,77318,52.0,New Jersey
+3073,77326,53.0,New Jersey
+3074,77335,53.0,New Jersey
+3075,77351,53.0,New Jersey
+3076,77354,52.0,New Jersey
+3077,77356,52.0,New Jersey
+3078,77360,53.0,New Jersey
+3079,77396,362.0,Minnesota
+3080,77401,362.0,Minnesota
+3081,77477,362.0,Minnesota
+3082,77489,362.0,Minnesota
+3083,77506,362.0,Minnesota
+3084,77511,419.0,Texas
+3085,77546,419.0,Texas
+3086,77547,362.0,Minnesota
+3087,77573,419.0,Texas
+3088,77581,419.0,Texas
+3089,77612,23.0,Massachusetts
+3090,77808,93.0,Massachusetts
+3091,77808,400.0,Wisconsin
+3092,77853,3.0,Massachusetts
+3093,77856,93.0,Massachusetts
+3094,77856,400.0,Wisconsin
+3095,77859,93.0,Massachusetts
+3096,77859,400.0,Wisconsin
+3097,77873,52.0,New Jersey
+3098,78113,57.0,Texas
+3099,78116,57.0,Texas
+3100,78117,57.0,Texas
+3101,78118,57.0,Texas
+3102,78335,445.0,Texas
+3103,78373,445.0,Texas
+3104,78418,445.0,Texas
+3105,78620,136.0,Texas
+3106,78621,3.0,Massachusetts
+3107,78626,469.0,Massachusetts
+3108,78628,469.0,Massachusetts
+3109,78633,469.0,Massachusetts
+3110,78634,469.0,Massachusetts
+3111,78641,136.0,Texas
+3112,78642,469.0,Massachusetts
+3113,78645,136.0,Texas
+3114,78650,3.0,Massachusetts
+3115,78654,136.0,Texas
+3116,78659,3.0,Massachusetts
+3117,78669,136.0,Texas
+3118,78681,469.0,Massachusetts
+3119,78703,83.0,Texas
+3120,78704,83.0,Texas
+3121,78730,83.0,Texas
+3122,78732,83.0,Texas
+3123,78732,136.0,Texas
+3124,78733,83.0,Texas
+3125,78733,136.0,Texas
+3126,78734,136.0,Texas
+3127,78735,136.0,Texas
+3128,78736,136.0,Texas
+3129,78738,83.0,Texas
+3130,78738,136.0,Texas
+3131,78746,83.0,Texas
+3132,78947,3.0,Massachusetts
+3133,78948,3.0,Massachusetts
+3134,79331,78.0,Texas
+3135,79356,494.0,Pennsylvania
+3136,79364,494.0,Pennsylvania
+3137,79373,494.0,Pennsylvania
+3138,79381,494.0,Pennsylvania
+3139,79423,494.0,Pennsylvania
+3140,79713,78.0,Texas
+3141,79748,78.0,Texas
+3142,79749,263.0,Texas
+3143,79749,78.0,Texas
+3144,79782,263.0,Texas
+3145,79782,78.0,Texas
+3146,79783,263.0,Texas
+3147,79783,78.0,Texas
+3148,83805,217.0,Michigan
+3149,83845,217.0,Michigan
+3150,85204,4.0,Arizona
+3151,85206,4.0,Arizona
+3152,85208,4.0,Arizona
+3153,85209,4.0,Arizona
+3154,85210,4.0,Arizona
+3155,85212,4.0,Arizona
+3156,85225,4.0,Arizona
+3157,85233,4.0,Arizona
+3158,85234,4.0,Arizona
+3159,85295,4.0,Arizona
+3160,85296,4.0,Arizona
+3161,85297,4.0,Arizona
+3162,85307,74.0,Arizona
+3163,85309,74.0,Arizona
+3164,85326,69.0,California
+3165,85335,74.0,Arizona
+3166,85338,69.0,California
+3167,85340,69.0,California
+3168,85351,74.0,Arizona
+3169,85355,74.0,Arizona
+3170,85361,74.0,Arizona
+3171,85363,74.0,Arizona
+3172,85373,74.0,Arizona
+3173,85374,74.0,Arizona
+3174,85375,74.0,Arizona
+3175,85379,74.0,Arizona
+3176,85387,74.0,Arizona
+3177,85388,74.0,Arizona
+3178,85395,69.0,California
+3179,85396,69.0,California
+3180,85641,120.0,Arizona
+3181,85718,485.0,Arizona
+3182,85730,120.0,Arizona
+3183,85748,120.0,Arizona
+3184,85749,485.0,Arizona
+3185,85749,120.0,Arizona
+3186,85750,485.0,Arizona
+3187,85920,358.0,Arizona
+3188,85924,358.0,Arizona
+3189,85925,358.0,Arizona
+3190,85927,358.0,Arizona
+3191,85930,358.0,Arizona
+3192,85932,358.0,Arizona
+3193,85936,358.0,Arizona
+3194,85938,358.0,Arizona
+3195,85941,358.0,Arizona
+3196,87544,309.0,New Mexico
+3197,88101,233.0,Massachusetts
+3198,88120,233.0,Massachusetts
+3199,88124,233.0,Massachusetts
+3200,88410,162.0,Missouri
+3201,88415,162.0,Missouri
+3202,88418,162.0,Missouri
+3203,88419,162.0,Missouri
+3204,88422,162.0,Missouri
+3205,88424,162.0,Missouri
+3206,88427,233.0,Massachusetts
+3207,88436,162.0,Missouri
+3208,90042,390.0,California
+3209,90254,176.0,California
+3210,90254,76.0,California
+3211,90266,176.0,California
+3212,90274,360.0,California
+3213,90275,360.0,California
+3214,90505,360.0,California
+3215,90630,414.0,California
+3216,90720,414.0,California
+3217,90732,360.0,California
+3218,90740,414.0,California
+3219,90742,414.0,California
+3220,90743,414.0,California
+3221,90808,414.0,California
+3222,90815,414.0,California
+3223,91006,177.0,California
+3224,91007,177.0,California
+3225,91016,177.0,California
+3226,91024,177.0,California
+3227,91030,390.0,California
+3228,91105,390.0,California
+3229,91106,123.0,California
+3230,91106,390.0,California
+3231,91107,123.0,California
+3232,91108,123.0,California
+3233,91775,123.0,California
+3234,91780,177.0,California
+3235,91801,390.0,California
+3236,92602,289.0,California
+3237,92603,289.0,California
+3238,92604,289.0,California
+3239,92606,289.0,California
+3240,92610,289.0,California
+3241,92612,289.0,California
+3242,92614,289.0,California
+3243,92617,289.0,California
+3244,92618,289.0,California
+3245,92620,289.0,California
+3246,92630,289.0,California
+3247,92649,414.0,California
+3248,92657,289.0,California
+3249,92660,289.0,California
+3250,92780,289.0,California
+3251,92782,289.0,California
+3252,93274,69.0,California
+3253,93277,69.0,California
+3254,93292,69.0,California
+3255,93908,363.0,California
+3256,93920,363.0,California
+3257,93921,363.0,California
+3258,93923,363.0,California
+3259,93924,363.0,California
+3260,93927,363.0,California
+3261,93953,363.0,California
+3262,93960,363.0,California
+3263,94022,48.0,California
+3264,94028,48.0,California
+3265,94043,48.0,California
+3266,94301,48.0,California
+3267,94303,48.0,California
+3268,94304,48.0,California
+3269,94305,48.0,California
+3270,94306,48.0,California
+3271,94506,250.0,California
+3272,94507,250.0,California
+3273,94517,250.0,California
+3274,94526,250.0,California
+3275,94528,250.0,California
+3276,94536,316.0,California
+3277,94538,316.0,California
+3278,94539,316.0,California
+3279,94550,335.0,California
+3280,94551,335.0,California
+3281,94551,250.0,California
+3282,94552,335.0,California
+3283,94555,316.0,California
+3284,94560,316.0,California
+3285,94566,335.0,California
+3286,94568,335.0,California
+3287,94582,250.0,California
+3288,94583,250.0,California
+3289,94586,335.0,California
+3290,94587,316.0,California
+3291,94588,335.0,California
+3292,94588,250.0,California
+3293,94596,250.0,California
+3294,94598,250.0,California
+3295,94602,111.0,California
+3296,94610,111.0,California
+3297,94611,111.0,California
+3298,94618,111.0,California
+3299,94931,69.0,California
+3300,94951,69.0,California
+3301,94952,69.0,California
+3302,95035,316.0,California
+3303,95428,358.0,Arizona
+3304,95429,358.0,Arizona
+3305,95454,358.0,Arizona
+3306,95469,358.0,Arizona
+3307,95490,358.0,Arizona
+3308,97034,108.0,Oregon
+3309,97034,87.0,Oregon
+3310,97035,108.0,Oregon
+3311,97062,486.0,Oregon
+3312,97068,108.0,Oregon
+3313,97070,486.0,Oregon
+3314,97132,486.0,Oregon
+3315,97140,486.0,Oregon
+3316,97219,108.0,Oregon
+3317,97219,87.0,Oregon
+3318,98004,189.0,Washington
+3319,98004,164.0,Washington
+3320,98004,54.0,Washington
+3321,98005,189.0,Washington
+3322,98005,164.0,Washington
+3323,98006,189.0,Washington
+3324,98006,202.0,Washington
+3325,98006,54.0,Washington
+3326,98007,189.0,Washington
+3327,98007,164.0,Washington
+3328,98008,189.0,Washington
+3329,98008,202.0,Washington
+3330,98008,164.0,Washington
+3331,98010,373.0,Washington
+3332,98011,164.0,Washington
+3333,98011,330.0,Washington
+3334,98012,330.0,Washington
+3335,98014,182.0,Washington
+3336,98021,330.0,Washington
+3337,98024,202.0,Washington
+3338,98024,182.0,Washington
+3339,98027,189.0,Washington
+3340,98027,202.0,Washington
+3341,98027,182.0,Washington
+3342,98027,373.0,Washington
+3343,98028,330.0,Washington
+3344,98029,202.0,Washington
+3345,98033,189.0,Washington
+3346,98033,164.0,Washington
+3347,98034,164.0,Washington
+3348,98034,330.0,Washington
+3349,98036,330.0,Washington
+3350,98038,202.0,Washington
+3351,98038,182.0,Washington
+3352,98038,373.0,Washington
+3353,98039,189.0,Washington
+3354,98039,164.0,Washington
+3355,98040,54.0,Washington
+3356,98042,373.0,Washington
+3357,98045,182.0,Washington
+3358,98045,373.0,Washington
+3359,98050,202.0,Washington
+3360,98051,373.0,Washington
+3361,98052,189.0,Washington
+3362,98052,164.0,Washington
+3363,98052,330.0,Washington
+3364,98053,164.0,Washington
+3365,98053,182.0,Washington
+3366,98056,189.0,Washington
+3367,98056,202.0,Washington
+3368,98058,202.0,Washington
+3369,98058,373.0,Washington
+3370,98059,189.0,Washington
+3371,98059,202.0,Washington
+3372,98059,373.0,Washington
+3373,98065,202.0,Washington
+3374,98065,182.0,Washington
+3375,98065,373.0,Washington
+3376,98068,251.0,Massachusetts
+3377,98068,182.0,Washington
+3378,98072,164.0,Washington
+3379,98072,376.0,New Jersey
+3380,98072,330.0,Washington
+3381,98074,202.0,Washington
+3382,98074,164.0,Washington
+3383,98074,182.0,Washington
+3384,98075,202.0,Washington
+3385,98075,164.0,Washington
+3386,98075,182.0,Washington
+3387,98077,164.0,Washington
+3388,98077,376.0,New Jersey
+3389,98077,330.0,Washington
+3390,98110,290.0,Washington
+3391,98155,330.0,Washington
+3392,98223,26.0,Massachusetts
+3393,98224,182.0,Washington
+3394,98258,26.0,Massachusetts
+3395,98271,26.0,Massachusetts
+3396,98272,376.0,New Jersey
+3397,98290,376.0,New Jersey
+3398,98292,26.0,Massachusetts
+3399,98296,376.0,New Jersey
+3400,98296,330.0,Washington
+3401,98366,290.0,Washington
+3402,98501,452.0,Washington
+3403,98502,452.0,Washington
+3404,98512,153.0,Michigan
+3405,98512,452.0,Washington
+3406,98513,452.0,Washington
+3407,98531,153.0,Michigan
+3408,98568,153.0,Michigan
+3409,98579,153.0,Michigan
+3410,98579,452.0,Washington
+3411,98589,153.0,Michigan
+3412,98589,452.0,Washington
+3413,98606,193.0,Washington
+3414,98607,193.0,Washington
+3415,98671,193.0,Washington
+3416,98675,193.0,Washington
+3417,98682,193.0,Washington
+3418,98812,204.0,Massachusetts
+3419,98813,204.0,Massachusetts
+3420,98816,204.0,Massachusetts
+3421,98830,204.0,Massachusetts
+3422,98843,204.0,Massachusetts
+3423,98858,204.0,Massachusetts
+3424,98922,251.0,Massachusetts
+3425,98925,251.0,Massachusetts
+3426,98940,251.0,Massachusetts
+3427,99115,204.0,Massachusetts
